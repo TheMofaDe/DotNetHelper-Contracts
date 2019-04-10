@@ -8,12 +8,12 @@
     <AssemblyTitle>DotNetHelper-Contracts</AssemblyTitle>
     <Version>$(FileVersion)</Version>
     <Authors>Joseph McNeal Jr</Authors>
-    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net45;netstandard2.0;net452</TargetFrameworks>
     <AssemblyName>DotNetHelper-Contracts</AssemblyName>
     <PackageTags>Dotnethelper,Contract,Interface</PackageTags>
     <PackageReleaseNotes>inital release</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts</PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/LICENSE.md</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts</RepositoryUrl>
   </PropertyGroup>
