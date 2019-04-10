@@ -1,0 +1,1029 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Business/TheMoFaDe/Code/DotNetHelper/Contracts/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html",
+          "hash": "SgNXRC32Hujo4tVxHCW9eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "ON4ekwZysNc2jNQAi9xxFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../RELEASENOTES.md",
+      "output": {
+        ".html": {
+          "relative_path": "RELEASENOTES.html",
+          "hash": "zeexfcjWvFAo9CjIqcLKhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/seed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/seed.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Attribute.DataValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Attribute.DataValidationAttribute.html",
+          "hash": "Q8+gIXWr2exU6Lyzg0WIiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.html",
+          "hash": "jkLDgmVTGBgD+EVWYvqfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Attribute.html",
+          "hash": "WBOL5xGBXzy3FQxOvDZCIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Comparer.EqualityComparerString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Comparer.EqualityComparerString.html",
+          "hash": "5Q+vc8julFSPQzWgIR7ZoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer.html",
+          "hash": "THE3oSf03/HlygpbUxOKdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Comparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Comparer.html",
+          "hash": "x4Q1oBicK6dfbjrTg7qggw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.CustomException.BadCodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.CustomException.BadCodeException.html",
+          "hash": "RqBM1UHG0K4Mn/dEeda2nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.CustomException.SerializableException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.CustomException.SerializableException.html",
+          "hash": "0lZIaF0YEihniaDb6i+h+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.CustomException.UserSerializableException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.CustomException.UserSerializableException.html",
+          "hash": "kxjQwJnoZzmMqYx46lTT+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.CustomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.CustomException.html",
+          "hash": "F+NzmPeltX7L4yBbNbNKRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.DataSource.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.DataSource.ActionType.html",
+          "hash": "St5cWm/8VJPxt+2AyglTcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.DataSource.DataBaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.DataSource.DataBaseType.html",
+          "hash": "opzcx7BkgSi8xSuJxPc9+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.DataSource.ScriptType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.DataSource.ScriptType.html",
+          "hash": "MuszNvCGQaalyaZQFxHNBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.DataSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.DataSource.html",
+          "hash": "rHu8JkI1SDFQo1GFUeT8fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.DataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.DataType.html",
+          "hash": "yIEHYrbJJFT7S5DOgLsmkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.Encryption.SymmetricProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.Encryption.SymmetricProvider.html",
+          "hash": "EHCAsE+p8kq8rcu35zWK5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.Encryption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.Encryption.html",
+          "hash": "idmfXuQZBl9MZk0f4wVv9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.FileRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.FileRepo.html",
+          "hash": "OGu6j1iR3So8imqQ2ZPloQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum.html",
+          "hash": "ZvzLx+1bax7ybtVIG85dQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.IO.FileOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.IO.FileOption.html",
+          "hash": "2l+KCAg1hd9hrhWWP1D11g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.IO.FileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.IO.FileType.html",
+          "hash": "25cL97AWEgGVj1zMuxFGmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.IO.IOType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.IO.IOType.html",
+          "hash": "kXCW9nbHmd+1quS4jn+x4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.IO.html",
+          "hash": "a6njA4zkwzMHKAg2kDWVqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.LogSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.LogSeverity.html",
+          "hash": "4jXLq8oivv+aaL6+p+F9bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.MyEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.MyEnvironment.html",
+          "hash": "S1eUhpBgFWDTVkg1HB2JHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.SQLType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.SQLType.html",
+          "hash": "Gx7JJpUjqAr9i0pTTfDf2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.SerializableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.SerializableType.html",
+          "hash": "Z0klLfIgUFLs5hELJnUdAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Enum.html",
+          "hash": "qBP6JE4fP/IU7oViFJ7iZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtCollection.html",
+          "hash": "VOq8OLO1HTgXNoDtxgbqmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtDateTime.html",
+          "hash": "mlONTIrHNaDGu62GVCY7pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtDictionary.html",
+          "hash": "ip8+OQaJ+LEX1ruq9XYuUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtIEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtIEnumerable.html",
+          "hash": "nRbbLmnyURQKFkpeG+rT0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtList.html",
+          "hash": "sJRieOTWVWsz0K//W37U7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtMemberInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html",
+          "hash": "sf9dOnoM90AE0YHfp5VofA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtObject.html",
+          "hash": "YB/cWnCW+iJiMDI7KGBjWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtProgress.html",
+          "hash": "z7UOGzK/MmteyfQU9RBkEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtStack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtStack.html",
+          "hash": "w7MpX/3qinSjo2lRYiLA7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtStream.html",
+          "hash": "xO9dRZkoXOIADLiJYvjTlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtString.html",
+          "hash": "cBowRxHEU+0ri3Bww0F1uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ExtStringBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html",
+          "hash": "GcV36s83VgtgjagaTfNecw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.html",
+          "hash": "BNgw/4F8nQzHoxcfL0DPYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.Linq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.Linq.html",
+          "hash": "MylNoiPLJ51+6uK4A4moKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ProgressStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ProgressStream.html",
+          "hash": "JTfnFVbVfdRiLpqUNDrN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.ReflectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.ReflectionExtensions.html",
+          "hash": "0X8ZPYXDoU23ca3/qmgCzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.TimeSpanExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.TimeSpanExtension.html",
+          "hash": "Yig0hOeSaCQNj/s4WjwczQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Extension.html",
+          "hash": "5+gPS17NB3ufJbV85qtaQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.BytesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.BytesHelper.html",
+          "hash": "EVU6qVvvHqPzakxP0rD5WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.html",
+          "hash": "s7UQXxMp8sSC8x7T3Hbp0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse.html",
+          "hash": "m63tu1eeEsEXDWXz9os0CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.DateTimeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.DateTimeHelper.html",
+          "hash": "G3jonn9D7Se0WmlkjVFbig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html",
+          "hash": "g2JaKG1e8rc2bkTY+p7EQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.ExpressionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.ExpressionHelper.html",
+          "hash": "oSXMxk5tTmmzrqQSi6v73A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html",
+          "hash": "KSjq3UL2nar8UDwH1gnMLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.html",
+          "hash": "PXafcJbg2opQ7jbCd7ohhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.html",
+          "hash": "caY9nptg7HKIxmG4pMU3LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.LinqToSQL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.LinqToSQL.html",
+          "hash": "+DupOBWQVhM/62bl6pDvOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.MathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.MathHelper.html",
+          "hash": "NGdJ3ftJL1e+6edyZYv1wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.html",
+          "hash": "e7/3xbbgFaydtJor5XZV5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.html",
+          "hash": "tUiAV+LNRjCRxaXGke3p5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.OneOffs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.OneOffs.html",
+          "hash": "pqNyKAmKXy9CbBVfHPUvmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html",
+          "hash": "wEZqsAz20cvvjdxg4XFutw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.RandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.RandomHelper.html",
+          "hash": "tOXlwyw6Inh59qFICAh4zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.Reflect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.Reflect.html",
+          "hash": "+LKjbrIdlLZnFaCn8HZUOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.RegexHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.RegexHelper.html",
+          "hash": "OZ7kFjllKuwhS7pTKmRGHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.WildCardHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.WildCardHelper.html",
+          "hash": "V+eGN/bOqiiN95lRz0zxaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Helpers.html",
+          "hash": "c9htrrgdtoVVnYXh9wS25g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.OAuth.AuthFacebook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.OAuth.AuthFacebook.html",
+          "hash": "qV6YSe3h5xlakErw+PQCLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.OAuth.AuthGoogle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.OAuth.AuthGoogle.html",
+          "hash": "zuxLBcpacJWP6K5TVPXQ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.OAuth.html",
+          "hash": "Aff5fnhQlnEJyVvUEaRzdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.Web.ApiResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.Web.ApiResponse.html",
+          "hash": "UrZtz/TqRAjh8fTsUTneYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.Web.ApiResponseExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.Web.ApiResponseExtension.html",
+          "hash": "LoI8yRzvM6JoaB74GQ3kNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Models.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Models.Web.html",
+          "hash": "iXUMBci5YBqtoc7xmVV9jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Tools.CommandPrompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Tools.CommandPrompt.html",
+          "hash": "vhOjy4VmMWUjyRHhHl0JNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Tools.UnixCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Tools.UnixCommands.html",
+          "hash": "VRLek36wAeEhtzBEfWbWjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DotNetHelper_Contracts.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Contracts.Tools.html",
+          "hash": "VbmLh1ZW31eJ3L0MKSOQtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "qbytH8lMDqiuDgweFfV4Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 83,
+          "skipped_file_count": 83
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

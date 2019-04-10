@@ -3,17 +3,12 @@
     {
       "src": [
         {
-          "files": [
-            "src/**.cs"
-          ],
+          "files": [ "src/**.cs" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
           "src": "src",
           "cwd": "../"
         }
       ],
-      "properties": {
-        "TargetFramework": "net452"
-      },
       "dest": "obj/api"
     }
   ],
@@ -25,17 +20,17 @@
         "dest": "api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
+        "files": [ "articles/**/*.md", "*.md", "../toc.yml", "restapi/**" ],
       }
     ],
     "resource": [
       {
-        "files": [ "articles/images/**"]
+        "files": [ "articles/images/**" ]
       }
     ],
     "overwrite": "specs/*.md",
     "globalMetadata": {
-      "_appTitle": ".NET-Helper Contracts website",
+      "_appTitle": "docfx seed website",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
