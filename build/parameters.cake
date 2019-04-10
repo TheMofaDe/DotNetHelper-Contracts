@@ -10,14 +10,14 @@ public class BuildParameters
 
     public string StandardFxVersion { get; private set; } = "netstandard2.0"; // TODO ::  Configurable per project. Enter the framwork your targeting
     public string CoreFxVersion { get; private set; } = "netcoreapp2.1"; // TODO ::  Configurable per project. Enter the framwork your targeting
-    public string FullFxVersion { get; private set; } = "net461"; // TODO ::  Configurable per project. Enter the framwork your targeting
+    public string FullFxVersion { get; private set; } = "net452"; // TODO ::  Configurable per project. Enter the framwork your targeting
     public string RepositoryOwner {get; private set;} = "TheMoFaDe";
     public string RepositoryName {get; private set;} // leave null if same as project name
 
     public string SolutionDir  {get; private set;} = "./";
     public string ProjectDir   {get; private set;}
-    public string ProjectName  {get; private set;} = "DotNet-Project-Template"; // TODO ::  Configurable per project
-    public string SolutionFileName {get; private set;} = "DotNet-Project-Template.sln"; // TODO ::  Configurable per project
+    public string ProjectName  {get; private set;} = "DotNetHelper-Contracts"; // TODO ::  Configurable per project
+    public string SolutionFileName {get; private set;} = "DotNetHelper-Contracts.sln"; // TODO ::  Configurable per project
 
     public bool EnabledUnitTests { get; private set; }
     public bool EnabledPublishGem { get; private set; }
