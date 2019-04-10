@@ -3,9 +3,9 @@
     {
       "src": [
         {
-          "files": [ "src/**.cs" ],
+          "files": [ "*.sln", "**/*.sln", "src/**.cs" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "src",
+         // "src": "../src",
           "cwd": "../"
         }
       ],
@@ -20,21 +20,20 @@
         "dest": "api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "../toc.yml", "restapi/**" ],
+        "files": [ "articles/**/*.md", "*.md", "toc.yml" ]
       }
     ],
     "resource": [
       {
-        "files": [ "articles/images/**" ]
+        "files": [ "articles/images/**"]
       }
     ],
-    "overwrite": "specs/*.md",
     "globalMetadata": {
-      "_appTitle": "docfx seed website",
+      "_appTitle": "DotNetHelper-Contracts",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
-    "dest": "",
+    "dest": "_site",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
