@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  commentId: T:DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  id: ApiResponseExtension
+  parent: DotNetHelper_Contracts.Models.Web
+  children:
+  - DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment)
+  - DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ApiResponseExtension
+  nameWithType: ApiResponseExtension
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  type: Class
+  source:
+    id: ApiResponseExtension
+    path: ''
+    startLine: 4289
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Models.Web
+  syntax:
+    content: public static class ApiResponseExtension
+    content.vb: Public Module ApiResponseExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment)
+  commentId: M:DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment)
+  id: GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  langs:
+  - csharp
+  - vb
+  name: GetExceptionApiResponse(ApiResponse, Exception, MyEnvironment)
+  nameWithType: ApiResponseExtension.GetExceptionApiResponse(ApiResponse, Exception, MyEnvironment)
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse, System.Exception, DotNetHelper_Contracts.Enum.MyEnvironment)
+  type: Method
+  source:
+    id: GetExceptionApiResponse
+    path: ''
+    startLine: 4295
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Models.Web
+  syntax:
+    content: public static ApiResponse GetExceptionApiResponse(this ApiResponse response, Exception error, MyEnvironment enviroment)
+    parameters:
+    - id: response
+      type: DotNetHelper_Contracts.Models.Web.ApiResponse
+    - id: error
+      type: System.Exception
+    - id: enviroment
+      type: DotNetHelper_Contracts.Enum.MyEnvironment
+    return:
+      type: DotNetHelper_Contracts.Models.Web.ApiResponse
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetExceptionApiResponse(response As ApiResponse, error As Exception, enviroment As MyEnvironment) As ApiResponse
+  overload: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment,System.String)
+  commentId: M:DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment,System.String)
+  id: GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse,System.Exception,DotNetHelper_Contracts.Enum.MyEnvironment,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  langs:
+  - csharp
+  - vb
+  name: GetExceptionApiResponse(ApiResponse, Exception, MyEnvironment, String)
+  nameWithType: ApiResponseExtension.GetExceptionApiResponse(ApiResponse, Exception, MyEnvironment, String)
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse(DotNetHelper_Contracts.Models.Web.ApiResponse, System.Exception, DotNetHelper_Contracts.Enum.MyEnvironment, System.String)
+  type: Method
+  source:
+    id: GetExceptionApiResponse
+    path: ''
+    startLine: 4315
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Models.Web
+  syntax:
+    content: public static ApiResponse GetExceptionApiResponse(this ApiResponse response, Exception error, MyEnvironment enviroment, string fromBody)
+    parameters:
+    - id: response
+      type: DotNetHelper_Contracts.Models.Web.ApiResponse
+    - id: error
+      type: System.Exception
+    - id: enviroment
+      type: DotNetHelper_Contracts.Enum.MyEnvironment
+    - id: fromBody
+      type: System.String
+    return:
+      type: DotNetHelper_Contracts.Models.Web.ApiResponse
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetExceptionApiResponse(response As ApiResponse, error As Exception, enviroment As MyEnvironment, fromBody As String) As ApiResponse
+  overload: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Models.Web
+  commentId: N:DotNetHelper_Contracts.Models.Web
+  name: DotNetHelper_Contracts.Models.Web
+  nameWithType: DotNetHelper_Contracts.Models.Web
+  fullName: DotNetHelper_Contracts.Models.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse*
+  commentId: Overload:DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse
+  name: GetExceptionApiResponse
+  nameWithType: ApiResponseExtension.GetExceptionApiResponse
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponseExtension.GetExceptionApiResponse
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponse
+  commentId: T:DotNetHelper_Contracts.Models.Web.ApiResponse
+  parent: DotNetHelper_Contracts.Models.Web
+  name: ApiResponse
+  nameWithType: ApiResponse
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponse
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment
+  commentId: T:DotNetHelper_Contracts.Enum.MyEnvironment
+  parent: DotNetHelper_Contracts.Enum
+  name: MyEnvironment
+  nameWithType: MyEnvironment
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  id: DynamicObjectHelper
+  parent: DotNetHelper_Contracts.Helpers
+  children:
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject,System.String,System.Object)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject,System.String,System.Boolean)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject,System.String)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+  langs:
+  - csharp
+  - vb
+  name: DynamicObjectHelper
+  nameWithType: DynamicObjectHelper
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  type: Class
+  source:
+    id: DynamicObjectHelper
+    path: ''
+    startLine: 2868
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static class DynamicObjectHelper
+    content.vb: Public Module DynamicObjectHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject,System.String,System.Object)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject,System.String,System.Object)
+  id: AddProperty(ExpandoObject,System.String,System.Object)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: AddProperty(ExpandoObject, String, Object)
+  nameWithType: DynamicObjectHelper.AddProperty(ExpandoObject, String, Object)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject, System.String, System.Object)
+  type: Method
+  source:
+    id: AddProperty
+    path: ''
+    startLine: 2871
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static void AddProperty(ExpandoObject expandoObject, string propertyName, object value)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    - id: propertyName
+      type: System.String
+    - id: value
+      type: System.Object
+    content.vb: Public Shared Sub AddProperty(expandoObject As ExpandoObject, propertyName As String, value As Object)
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject,System.String)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject,System.String)
+  id: RemoveProperty(ExpandoObject,System.String)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveProperty(ExpandoObject, String)
+  nameWithType: DynamicObjectHelper.RemoveProperty(ExpandoObject, String)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject, System.String)
+  type: Method
+  source:
+    id: RemoveProperty
+    path: ''
+    startLine: 2881
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static void RemoveProperty(ExpandoObject expandoObject, string propertyName)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    - id: propertyName
+      type: System.String
+    content.vb: Public Shared Sub RemoveProperty(expandoObject As ExpandoObject, propertyName As String)
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
+  id: AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
+  nameWithType: DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
+  type: Method
+  source:
+    id: AddPropertyChangedHandler
+    path: ''
+    startLine: 2890
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static void AddPropertyChangedHandler(ExpandoObject expandoObject, PropertyChangedEventHandler action)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    - id: action
+      type: PropertyChangedEventHandler
+    content.vb: Public Shared Sub AddPropertyChangedHandler(expandoObject As ExpandoObject, action As PropertyChangedEventHandler)
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+  id: ToDataReader(ExpandoObject)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ToDataReader(ExpandoObject)
+  nameWithType: DynamicObjectHelper.ToDataReader(ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+  type: Method
+  source:
+    id: ToDataReader
+    path: ''
+    startLine: 2895
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static IDataReader ToDataReader(ExpandoObject expandoObject)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    return:
+      type: IDataReader
+    content.vb: Public Shared Function ToDataReader(expandoObject As ExpandoObject) As IDataReader
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+  id: ToDataTable(ExpandoObject)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ToDataTable(ExpandoObject)
+  nameWithType: DynamicObjectHelper.ToDataTable(ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+  type: Method
+  source:
+    id: ToDataTable
+    path: ''
+    startLine: 2902
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static DataTable ToDataTable(ExpandoObject expandoObject)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    return:
+      type: DataTable
+    content.vb: Public Shared Function ToDataTable(expandoObject As ExpandoObject) As DataTable
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+  id: GetProperties(ExpandoObject)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProperties(ExpandoObject)
+  nameWithType: DynamicObjectHelper.GetProperties(ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+  type: Method
+  source:
+    id: GetProperties
+    path: ''
+    startLine: 2913
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  summary: "\nreturn a dictionary of properties and values\n"
+  example: []
+  syntax:
+    content: public static IDictionary<string, object> GetProperties(ExpandoObject expandoObject)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+      description: ''
+    return:
+      type: IDictionary{System.String,System.Object}
+      description: ''
+    content.vb: Public Shared Function GetProperties(expandoObject As ExpandoObject) As IDictionary(Of String, Object)
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject,System.String,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject,System.String,System.Boolean)
+  id: GetPropertyValue(ExpandoObject,System.String,System.Boolean)
+  parent: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyValue(ExpandoObject, String, Boolean)
+  nameWithType: DynamicObjectHelper.GetPropertyValue(ExpandoObject, String, Boolean)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject, System.String, System.Boolean)
+  type: Method
+  source:
+    id: GetPropertyValue
+    path: ''
+    startLine: 2920
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static object GetPropertyValue(ExpandoObject expandoObject, string propertyName, bool searchAllChildrens = true)
+    parameters:
+    - id: expandoObject
+      type: ExpandoObject
+    - id: propertyName
+      type: System.String
+    - id: searchAllChildrens
+      type: System.Boolean
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetPropertyValue(expandoObject As ExpandoObject, propertyName As String, searchAllChildrens As Boolean = True) As Object
+  overload: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty
+  name: AddProperty
+  nameWithType: DynamicObjectHelper.AddProperty
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty
+- uid: ExpandoObject
+  isExternal: true
+  name: ExpandoObject
+  nameWithType: ExpandoObject
+  fullName: ExpandoObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty
+  name: RemoveProperty
+  nameWithType: DynamicObjectHelper.RemoveProperty
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler
+  name: AddPropertyChangedHandler
+  nameWithType: DynamicObjectHelper.AddPropertyChangedHandler
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler
+- uid: PropertyChangedEventHandler
+  commentId: '!:PropertyChangedEventHandler'
+  isExternal: true
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: PropertyChangedEventHandler
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader
+  name: ToDataReader
+  nameWithType: DynamicObjectHelper.ToDataReader
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader
+- uid: IDataReader
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: IDataReader
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable
+  name: ToDataTable
+  nameWithType: DynamicObjectHelper.ToDataTable
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable
+- uid: DataTable
+  isExternal: true
+  name: DataTable
+  nameWithType: DataTable
+  fullName: DataTable
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties
+  name: GetProperties
+  nameWithType: DynamicObjectHelper.GetProperties
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties
+- uid: IDictionary{System.String,System.Object}
+  commentId: '!:IDictionary{System.String,System.Object}'
+  definition: IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue
+  name: GetPropertyValue
+  nameWithType: DynamicObjectHelper.GetPropertyValue
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

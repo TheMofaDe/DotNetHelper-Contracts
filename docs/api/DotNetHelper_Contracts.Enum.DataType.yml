@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.DataType
+  commentId: T:DotNetHelper_Contracts.Enum.DataType
+  id: DataType
+  parent: DotNetHelper_Contracts.Enum
+  children:
+  - DotNetHelper_Contracts.Enum.DataType.CreditCard
+  - DotNetHelper_Contracts.Enum.DataType.Currency
+  - DotNetHelper_Contracts.Enum.DataType.Custom
+  - DotNetHelper_Contracts.Enum.DataType.Date
+  - DotNetHelper_Contracts.Enum.DataType.DateTime
+  - DotNetHelper_Contracts.Enum.DataType.Duration
+  - DotNetHelper_Contracts.Enum.DataType.EmailAddress
+  - DotNetHelper_Contracts.Enum.DataType.Html
+  - DotNetHelper_Contracts.Enum.DataType.ImageUrl
+  - DotNetHelper_Contracts.Enum.DataType.MultilineText
+  - DotNetHelper_Contracts.Enum.DataType.Password
+  - DotNetHelper_Contracts.Enum.DataType.PhoneNumber
+  - DotNetHelper_Contracts.Enum.DataType.PostalCode
+  - DotNetHelper_Contracts.Enum.DataType.Text
+  - DotNetHelper_Contracts.Enum.DataType.Time
+  - DotNetHelper_Contracts.Enum.DataType.Unknown
+  - DotNetHelper_Contracts.Enum.DataType.Upload
+  - DotNetHelper_Contracts.Enum.DataType.Url
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Contracts.Enum.DataType
+  type: Enum
+  source:
+    id: DataType
+    path: ''
+    startLine: 456
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nEnumeration of logical data types that may appear in <see cref=\"!:DataValidationAttribute\"></see>\n"
+  example: []
+  syntax:
+    content: public enum DataType
+    content.vb: Public Enum DataType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.DataType.Custom
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Custom
+  id: Custom
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DataType.Custom
+  fullName: DotNetHelper_Contracts.Enum.DataType.Custom
+  type: Field
+  source:
+    id: Custom
+    path: ''
+    startLine: 461
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nCustom data type, not one of the static data types we know\n"
+  example: []
+  syntax:
+    content: Custom = 0
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.DateTime
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.DateTime
+  id: DateTime
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: DataType.DateTime
+  fullName: DotNetHelper_Contracts.Enum.DataType.DateTime
+  type: Field
+  source:
+    id: DateTime
+    path: ''
+    startLine: 466
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nDateTime data type\n"
+  example: []
+  syntax:
+    content: DateTime = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Date
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Date
+  id: Date
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DataType.Date
+  fullName: DotNetHelper_Contracts.Enum.DataType.Date
+  type: Field
+  source:
+    id: Date
+    path: ''
+    startLine: 471
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nDate data type\n"
+  example: []
+  syntax:
+    content: Date = 2
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Time
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Time
+  id: Time
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: DataType.Time
+  fullName: DotNetHelper_Contracts.Enum.DataType.Time
+  type: Field
+  source:
+    id: Time
+    path: ''
+    startLine: 476
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nTime data type\n"
+  example: []
+  syntax:
+    content: Time = 3
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Duration
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Duration
+  id: Duration
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: DataType.Duration
+  fullName: DotNetHelper_Contracts.Enum.DataType.Duration
+  type: Field
+  source:
+    id: Duration
+    path: ''
+    startLine: 481
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nDuration data type\n"
+  example: []
+  syntax:
+    content: Duration = 4
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.PhoneNumber
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.PhoneNumber
+  id: PhoneNumber
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: DataType.PhoneNumber
+  fullName: DotNetHelper_Contracts.Enum.DataType.PhoneNumber
+  type: Field
+  source:
+    id: PhoneNumber
+    path: ''
+    startLine: 486
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nPhone number data type\n"
+  example: []
+  syntax:
+    content: PhoneNumber = 5
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Currency
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Currency
+  id: Currency
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: DataType.Currency
+  fullName: DotNetHelper_Contracts.Enum.DataType.Currency
+  type: Field
+  source:
+    id: Currency
+    path: ''
+    startLine: 491
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nCurrency data type\n"
+  example: []
+  syntax:
+    content: Currency = 6
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Text
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Text
+  id: Text
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DataType.Text
+  fullName: DotNetHelper_Contracts.Enum.DataType.Text
+  type: Field
+  source:
+    id: Text
+    path: ''
+    startLine: 496
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nPlain text data type\n"
+  example: []
+  syntax:
+    content: Text = 7
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Html
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Html
+  id: Html
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: DataType.Html
+  fullName: DotNetHelper_Contracts.Enum.DataType.Html
+  type: Field
+  source:
+    id: Html
+    path: ''
+    startLine: 501
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nHtml data type\n"
+  example: []
+  syntax:
+    content: Html = 8
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.MultilineText
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.MultilineText
+  id: MultilineText
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: MultilineText
+  nameWithType: DataType.MultilineText
+  fullName: DotNetHelper_Contracts.Enum.DataType.MultilineText
+  type: Field
+  source:
+    id: MultilineText
+    path: ''
+    startLine: 506
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nMultiline text data type\n"
+  example: []
+  syntax:
+    content: MultilineText = 9
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.EmailAddress
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.EmailAddress
+  id: EmailAddress
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: DataType.EmailAddress
+  fullName: DotNetHelper_Contracts.Enum.DataType.EmailAddress
+  type: Field
+  source:
+    id: EmailAddress
+    path: ''
+    startLine: 511
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nEmail address data type\n"
+  example: []
+  syntax:
+    content: EmailAddress = 10
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Password
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Password
+  id: Password
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: DataType.Password
+  fullName: DotNetHelper_Contracts.Enum.DataType.Password
+  type: Field
+  source:
+    id: Password
+    path: ''
+    startLine: 516
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nPassword data type -- do not echo in UI\n"
+  example: []
+  syntax:
+    content: Password = 11
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Url
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Url
+  id: Url
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DataType.Url
+  fullName: DotNetHelper_Contracts.Enum.DataType.Url
+  type: Field
+  source:
+    id: Url
+    path: ''
+    startLine: 521
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nURL data type\n"
+  example: []
+  syntax:
+    content: Url = 12
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.ImageUrl
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.ImageUrl
+  id: ImageUrl
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: DataType.ImageUrl
+  fullName: DotNetHelper_Contracts.Enum.DataType.ImageUrl
+  type: Field
+  source:
+    id: ImageUrl
+    path: ''
+    startLine: 526
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nURL to an Image -- to be displayed as an image instead of text\n"
+  example: []
+  syntax:
+    content: ImageUrl = 13
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.CreditCard
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.CreditCard
+  id: CreditCard
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: CreditCard
+  nameWithType: DataType.CreditCard
+  fullName: DotNetHelper_Contracts.Enum.DataType.CreditCard
+  type: Field
+  source:
+    id: CreditCard
+    path: ''
+    startLine: 531
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nCredit card data type\n"
+  example: []
+  syntax:
+    content: CreditCard = 14
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.PostalCode
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.PostalCode
+  id: PostalCode
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: PostalCode
+  nameWithType: DataType.PostalCode
+  fullName: DotNetHelper_Contracts.Enum.DataType.PostalCode
+  type: Field
+  source:
+    id: PostalCode
+    path: ''
+    startLine: 536
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nPostal code data type\n"
+  example: []
+  syntax:
+    content: PostalCode = 15
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Upload
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Upload
+  id: Upload
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Upload
+  nameWithType: DataType.Upload
+  fullName: DotNetHelper_Contracts.Enum.DataType.Upload
+  type: Field
+  source:
+    id: Upload
+    path: ''
+    startLine: 541
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nFile upload data type\n"
+  example: []
+  syntax:
+    content: Upload = 16
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataType.Unknown
+  commentId: F:DotNetHelper_Contracts.Enum.DataType.Unknown
+  id: Unknown
+  parent: DotNetHelper_Contracts.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DataType.Unknown
+  fullName: DotNetHelper_Contracts.Enum.DataType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 546
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  summary: "\nUnknown data type\n"
+  example: []
+  syntax:
+    content: Unknown = 17
+    return:
+      type: DotNetHelper_Contracts.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
+- uid: DotNetHelper_Contracts.Enum.DataType
+  commentId: T:DotNetHelper_Contracts.Enum.DataType
+  parent: DotNetHelper_Contracts.Enum
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Contracts.Enum.DataType

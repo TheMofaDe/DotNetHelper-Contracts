@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.Linq
+  commentId: N:DotNetHelper_Contracts.Extension.Linq
+  id: DotNetHelper_Contracts.Extension.Linq
+  children:
+  - DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Extension.Linq
+  nameWithType: DotNetHelper_Contracts.Extension.Linq
+  fullName: DotNetHelper_Contracts.Extension.Linq
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  commentId: T:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  name: LikeExpressionExtension
+  nameWithType: LikeExpressionExtension
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension

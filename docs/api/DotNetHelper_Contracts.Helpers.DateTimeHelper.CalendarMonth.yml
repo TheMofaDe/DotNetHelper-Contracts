@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  commentId: T:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  id: DateTimeHelper.CalendarMonth
+  parent: DotNetHelper_Contracts.Helpers
+  children:
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.April
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.August
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.December
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.February
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.January
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.July
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.June
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.March
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.May
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.November
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.October
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.September
+  langs:
+  - csharp
+  - vb
+  name: DateTimeHelper.CalendarMonth
+  nameWithType: DateTimeHelper.CalendarMonth
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  type: Enum
+  source:
+    id: CalendarMonth
+    path: ''
+    startLine: 2731
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: 'public enum CalendarMonth : byte'
+    content.vb: Public Enum CalendarMonth As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.April
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.April
+  id: April
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: April
+  nameWithType: DateTimeHelper.CalendarMonth.April
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.April
+  type: Field
+  source:
+    id: April
+    path: ''
+    startLine: 2733
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: April = 4
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.August
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.August
+  id: August
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: August
+  nameWithType: DateTimeHelper.CalendarMonth.August
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.August
+  type: Field
+  source:
+    id: August
+    path: ''
+    startLine: 2734
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: August = 8
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.December
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.December
+  id: December
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: December
+  nameWithType: DateTimeHelper.CalendarMonth.December
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.December
+  type: Field
+  source:
+    id: December
+    path: ''
+    startLine: 2735
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: December = 12
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.February
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.February
+  id: February
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: February
+  nameWithType: DateTimeHelper.CalendarMonth.February
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.February
+  type: Field
+  source:
+    id: February
+    path: ''
+    startLine: 2736
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: February = 2
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.January
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.January
+  id: January
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: January
+  nameWithType: DateTimeHelper.CalendarMonth.January
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.January
+  type: Field
+  source:
+    id: January
+    path: ''
+    startLine: 2737
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: January = 1
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.July
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.July
+  id: July
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: July
+  nameWithType: DateTimeHelper.CalendarMonth.July
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.July
+  type: Field
+  source:
+    id: July
+    path: ''
+    startLine: 2738
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: July = 7
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.June
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.June
+  id: June
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: June
+  nameWithType: DateTimeHelper.CalendarMonth.June
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.June
+  type: Field
+  source:
+    id: June
+    path: ''
+    startLine: 2739
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: June = 6
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.March
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.March
+  id: March
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: March
+  nameWithType: DateTimeHelper.CalendarMonth.March
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.March
+  type: Field
+  source:
+    id: March
+    path: ''
+    startLine: 2740
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: March = 3
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.May
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.May
+  id: May
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: May
+  nameWithType: DateTimeHelper.CalendarMonth.May
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.May
+  type: Field
+  source:
+    id: May
+    path: ''
+    startLine: 2741
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: May = 5
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.November
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.November
+  id: November
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: November
+  nameWithType: DateTimeHelper.CalendarMonth.November
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.November
+  type: Field
+  source:
+    id: November
+    path: ''
+    startLine: 2742
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: November = 11
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.October
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.October
+  id: October
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: October
+  nameWithType: DateTimeHelper.CalendarMonth.October
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.October
+  type: Field
+  source:
+    id: October
+    path: ''
+    startLine: 2743
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: October = 10
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.September
+  commentId: F:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.September
+  id: September
+  parent: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  langs:
+  - csharp
+  - vb
+  name: September
+  nameWithType: DateTimeHelper.CalendarMonth.September
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth.September
+  type: Field
+  source:
+    id: September
+    path: ''
+    startLine: 2744
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: September = 9
+    return:
+      type: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  commentId: T:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  parent: DotNetHelper_Contracts.Helpers
+  name: DateTimeHelper.CalendarMonth
+  nameWithType: DateTimeHelper.CalendarMonth
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth

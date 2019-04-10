@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.CustomException
+  commentId: N:DotNetHelper_Contracts.CustomException
+  id: DotNetHelper_Contracts.CustomException
+  children:
+  - DotNetHelper_Contracts.CustomException.BadCodeException
+  - DotNetHelper_Contracts.CustomException.SerializableException
+  - DotNetHelper_Contracts.CustomException.UserSerializableException
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.CustomException
+  nameWithType: DotNetHelper_Contracts.CustomException
+  fullName: DotNetHelper_Contracts.CustomException
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DotNetHelper_Contracts.CustomException.BadCodeException
+  commentId: T:DotNetHelper_Contracts.CustomException.BadCodeException
+  name: BadCodeException
+  nameWithType: BadCodeException
+  fullName: DotNetHelper_Contracts.CustomException.BadCodeException
+- uid: DotNetHelper_Contracts.CustomException.SerializableException
+  commentId: T:DotNetHelper_Contracts.CustomException.SerializableException
+  parent: DotNetHelper_Contracts.CustomException
+  name: SerializableException
+  nameWithType: SerializableException
+  fullName: DotNetHelper_Contracts.CustomException.SerializableException
+- uid: DotNetHelper_Contracts.CustomException.UserSerializableException
+  commentId: T:DotNetHelper_Contracts.CustomException.UserSerializableException
+  name: UserSerializableException
+  nameWithType: UserSerializableException
+  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException
+- uid: DotNetHelper_Contracts.CustomException
+  commentId: N:DotNetHelper_Contracts.CustomException
+  name: DotNetHelper_Contracts.CustomException
+  nameWithType: DotNetHelper_Contracts.CustomException
+  fullName: DotNetHelper_Contracts.CustomException

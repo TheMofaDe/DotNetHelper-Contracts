@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  commentId: T:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  id: WherePart
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL
+  children:
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart,System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,IEnumerable)
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter(System.Int32,System.Object)
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql(System.String)
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+  langs:
+  - csharp
+  - vb
+  name: WherePart
+  nameWithType: WherePart
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  type: Class
+  source:
+    id: WherePart
+    path: ''
+    startLine: 4039
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public class WherePart
+    content.vb: Public Class WherePart
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+  commentId: P:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+  id: Sql
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: Sql
+  nameWithType: WherePart.Sql
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+  type: Property
+  source:
+    id: Sql
+    path: ''
+    startLine: 4041
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public string Sql { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sql As String
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+  commentId: P:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+  id: Parameters
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: WherePart.Parameters
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+  type: Property
+  source:
+    id: Parameters
+    path: ''
+    startLine: 4042
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public Dictionary<string, object> Parameters { get; set; }
+    parameters: []
+    return:
+      type: Dictionary{System.String,System.Object}
+    content.vb: Public Property Parameters As Dictionary(Of String, Object)
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql(System.String)
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql(System.String)
+  id: IsSql(System.String)
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: IsSql(String)
+  nameWithType: WherePart.IsSql(String)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql(System.String)
+  type: Method
+  source:
+    id: IsSql
+    path: ''
+    startLine: 4044
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart IsSql(string sql)
+    parameters:
+    - id: sql
+      type: System.String
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function IsSql(sql As String) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter(System.Int32,System.Object)
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter(System.Int32,System.Object)
+  id: IsParameter(System.Int32,System.Object)
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: IsParameter(Int32, Object)
+  nameWithType: WherePart.IsParameter(Int32, Object)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter(System.Int32, System.Object)
+  type: Method
+  source:
+    id: IsParameter
+    path: ''
+    startLine: 4053
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart IsParameter(int count, object value)
+    parameters:
+    - id: count
+      type: System.Int32
+    - id: value
+      type: System.Object
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function IsParameter(count As Integer, value As Object) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,IEnumerable)
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,IEnumerable)
+  id: IsCollection(System.Int32@,IEnumerable)
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: IsCollection(ref Int32, IEnumerable)
+  nameWithType: WherePart.IsCollection(ref Int32, IEnumerable)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ref System.Int32, IEnumerable)
+  type: Method
+  source:
+    id: IsCollection
+    path: ''
+    startLine: 4062
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart IsCollection(ref int countStart, IEnumerable values)
+    parameters:
+    - id: countStart
+      type: System.Int32
+    - id: values
+      type: IEnumerable
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function IsCollection(ByRef countStart As Integer, values As IEnumerable) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection*
+  nameWithType.vb: WherePart.IsCollection(ByRef Int32, IEnumerable)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ByRef System.Int32, IEnumerable)
+  name.vb: IsCollection(ByRef Int32, IEnumerable)
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  id: Concat(System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: Concat(String, WherePart)
+  nameWithType: WherePart.Concat(String, WherePart)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(System.String, DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  type: Method
+  source:
+    id: Concat
+    path: ''
+    startLine: 4084
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart Concat(string operator, WherePart operand)
+    parameters:
+    - id: operator
+      type: System.String
+    - id: operand
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function Concat(operator As String, operand As WherePart) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart,System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart,System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  id: Concat(DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart,System.String,DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  langs:
+  - csharp
+  - vb
+  name: Concat(WherePart, String, WherePart)
+  nameWithType: WherePart.Concat(WherePart, String, WherePart)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat(DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart, System.String, DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart)
+  type: Method
+  source:
+    id: Concat
+    path: ''
+    startLine: 4093
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart Concat(WherePart left, string operator, WherePart right)
+    parameters:
+    - id: left
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    - id: operator
+      type: System.String
+    - id: right
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function Concat(left As WherePart, operator As String, right As WherePart) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL
+  commentId: N:DotNetHelper_Contracts.Helpers.LinqToSQL
+  name: DotNetHelper_Contracts.Helpers.LinqToSQL
+  nameWithType: DotNetHelper_Contracts.Helpers.LinqToSQL
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+  name: Sql
+  nameWithType: WherePart.Sql
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Sql
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+  name: Parameters
+  nameWithType: WherePart.Parameters
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Parameters
+- uid: Dictionary{System.String,System.Object}
+  commentId: '!:Dictionary{System.String,System.Object}'
+  definition: Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql
+  name: IsSql
+  nameWithType: WherePart.IsSql
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsSql
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  commentId: T:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL
+  name: WherePart
+  nameWithType: WherePart
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter
+  name: IsParameter
+  nameWithType: WherePart.IsParameter
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsParameter
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection
+  name: IsCollection
+  nameWithType: WherePart.IsCollection
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection
+- uid: IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: IEnumerable
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat
+  name: Concat
+  nameWithType: WherePart.Concat
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat

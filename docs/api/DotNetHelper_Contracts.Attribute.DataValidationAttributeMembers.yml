@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  commentId: T:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  id: DataValidationAttributeMembers
+  parent: DotNetHelper_Contracts.Attribute
+  children:
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainLetter
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainNumbers
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetDataType
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetIgnore
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetMaxLengthSize
+  - DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetRequireValue
+  langs:
+  - csharp
+  - vb
+  name: DataValidationAttributeMembers
+  nameWithType: DataValidationAttributeMembers
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  type: Enum
+  source:
+    id: DataValidationAttributeMembers
+    path: ''
+    startLine: 145
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  summary: "\nEnum DataValidationAttributeMembers\n"
+  example: []
+  syntax:
+    content: public enum DataValidationAttributeMembers
+    content.vb: Public Enum DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetMaxLengthSize
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetMaxLengthSize
+  id: SetMaxLengthSize
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetMaxLengthSize
+  nameWithType: DataValidationAttributeMembers.SetMaxLengthSize
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetMaxLengthSize
+  type: Field
+  source:
+    id: SetMaxLengthSize
+    path: ''
+    startLine: 150
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  summary: "\nThe set maximum length size\n"
+  example: []
+  syntax:
+    content: SetMaxLengthSize = 0
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetRequireValue
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetRequireValue
+  id: SetRequireValue
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetRequireValue
+  nameWithType: DataValidationAttributeMembers.SetRequireValue
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetRequireValue
+  type: Field
+  source:
+    id: SetRequireValue
+    path: ''
+    startLine: 154
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  syntax:
+    content: SetRequireValue = 1
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetDataType
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetDataType
+  id: SetDataType
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetDataType
+  nameWithType: DataValidationAttributeMembers.SetDataType
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetDataType
+  type: Field
+  source:
+    id: SetDataType
+    path: ''
+    startLine: 158
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  syntax:
+    content: SetDataType = 2
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainNumbers
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainNumbers
+  id: SetCanContainNumbers
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetCanContainNumbers
+  nameWithType: DataValidationAttributeMembers.SetCanContainNumbers
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainNumbers
+  type: Field
+  source:
+    id: SetCanContainNumbers
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  syntax:
+    content: SetCanContainNumbers = 3
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainLetter
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainLetter
+  id: SetCanContainLetter
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetCanContainLetter
+  nameWithType: DataValidationAttributeMembers.SetCanContainLetter
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetCanContainLetter
+  type: Field
+  source:
+    id: SetCanContainLetter
+    path: ''
+    startLine: 166
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  syntax:
+    content: SetCanContainLetter = 4
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetIgnore
+  commentId: F:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetIgnore
+  id: SetIgnore
+  parent: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetIgnore
+  nameWithType: DataValidationAttributeMembers.SetIgnore
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers.SetIgnore
+  type: Field
+  source:
+    id: SetIgnore
+    path: ''
+    startLine: 170
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Attribute
+  syntax:
+    content: SetIgnore = 5
+    return:
+      type: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Attribute
+  commentId: N:DotNetHelper_Contracts.Attribute
+  name: DotNetHelper_Contracts.Attribute
+  nameWithType: DotNetHelper_Contracts.Attribute
+  fullName: DotNetHelper_Contracts.Attribute
+- uid: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  commentId: T:DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers
+  parent: DotNetHelper_Contracts.Attribute
+  name: DataValidationAttributeMembers
+  nameWithType: DataValidationAttributeMembers
+  fullName: DotNetHelper_Contracts.Attribute.DataValidationAttributeMembers

@@ -1,0 +1,1237 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary
+  commentId: T:DotNetHelper_Contracts.Extension.ExtDictionary
+  id: ExtDictionary
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(IDictionary{``0,``1})
+  - DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(IOrderedDictionary,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(IOrderedDictionary,``0)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  - DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary{System.String,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: ExtDictionary
+  nameWithType: ExtDictionary
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary
+  type: Class
+  source:
+    id: ExtDictionary
+    path: ''
+    startLine: 826
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static class ExtDictionary
+    content.vb: Public Module ExtDictionary
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+  id: AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
+  nameWithType: ExtDictionary.AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
+  type: Method
+  source:
+    id: AddOrUpdate
+    path: ''
+    startLine: 841
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\ncreate key with value if not exist otherwise update value for key\n"
+  example: []
+  syntax:
+    content: public static V AddOrUpdate<K, V>(this IDictionary<K, V> dictionary, K key, V value)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},{V}}
+      description: ''
+    - id: key
+      type: '{K}'
+      description: ''
+    - id: value
+      type: '{V}'
+      description: ''
+    typeParameters:
+    - id: K
+      description: ''
+    - id: V
+      description: ''
+    return:
+      type: '{V}'
+      description: 'return  new value '
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddOrUpdate(Of K, V)(dictionary As IDictionary(Of K, V), key As K, value As V) As V
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate*
+  nameWithType.vb: ExtDictionary.AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
+  name.vb: AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
+  id: GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
+  nameWithType: ExtDictionary.GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
+  type: Method
+  source:
+    id: GetValueOrDefaultValue
+    path: ''
+    startLine: 866
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static V GetValueOrDefaultValue<K, V>(this IDictionary<K, V> dictionary, K key, V defaultValue = null)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},{V}}
+    - id: key
+      type: '{K}'
+    - id: defaultValue
+      type: '{V}'
+    typeParameters:
+    - id: K
+    - id: V
+    return:
+      type: '{V}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueOrDefaultValue(Of K, V)(dictionary As IDictionary(Of K, V), key As K, defaultValue As V = Nothing) As V
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue*
+  nameWithType.vb: ExtDictionary.GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
+  name.vb: GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  id: AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddOrUpdateHighestValue<K>(IDictionary<K, Int32>, K, Int32)
+  nameWithType: ExtDictionary.AddOrUpdateHighestValue<K>(IDictionary<K, Int32>, K, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue<K>(IDictionary<K, System.Int32>, K, System.Int32)
+  type: Method
+  source:
+    id: AddOrUpdateHighestValue
+    path: ''
+    startLine: 877
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static void AddOrUpdateHighestValue<K>(this IDictionary<K, int> dictionary, K key, int value)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},System.Int32}
+    - id: key
+      type: '{K}'
+    - id: value
+      type: System.Int32
+    typeParameters:
+    - id: K
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddOrUpdateHighestValue(Of K)(dictionary As IDictionary(Of K, Integer), key As K, value As Integer)
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue*
+  nameWithType.vb: ExtDictionary.AddOrUpdateHighestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue(Of K)(IDictionary(Of K, System.Int32), K, System.Int32)
+  name.vb: AddOrUpdateHighestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  id: AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddOrUpdateLowestValue<K>(IDictionary<K, Int32>, K, Int32)
+  nameWithType: ExtDictionary.AddOrUpdateLowestValue<K>(IDictionary<K, Int32>, K, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue<K>(IDictionary<K, System.Int32>, K, System.Int32)
+  type: Method
+  source:
+    id: AddOrUpdateLowestValue
+    path: ''
+    startLine: 890
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static void AddOrUpdateLowestValue<K>(this IDictionary<K, int> dictionary, K key, int value)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},System.Int32}
+    - id: key
+      type: '{K}'
+    - id: value
+      type: System.Int32
+    typeParameters:
+    - id: K
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddOrUpdateLowestValue(Of K)(dictionary As IDictionary(Of K, Integer), key As K, value As Integer)
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue*
+  nameWithType.vb: ExtDictionary.AddOrUpdateLowestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue(Of K)(IDictionary(Of K, System.Int32), K, System.Int32)
+  name.vb: AddOrUpdateLowestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(IDictionary{``0,``1})
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(IDictionary{``0,``1})
+  id: Clone``2(IDictionary{``0,``1})
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: Clone<K, V>(IDictionary<K, V>)
+  nameWithType: ExtDictionary.Clone<K, V>(IDictionary<K, V>)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.Clone<K, V>(IDictionary<K, V>)
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 905
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static Dictionary<K, V> Clone<K, V>(this IDictionary<K, V> dictionary)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},{V}}
+    typeParameters:
+    - id: K
+    - id: V
+    return:
+      type: Dictionary{{K},{V}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clone(Of K, V)(dictionary As IDictionary(Of K, V)) As Dictionary(Of K, V)
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.Clone*
+  nameWithType.vb: ExtDictionary.Clone(Of K, V)(IDictionary(Of K, V))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.Clone(Of K, V)(IDictionary(Of K, V))
+  name.vb: Clone(Of K, V)(IDictionary(Of K, V))
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary{System.String,System.Object})
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary{System.String,System.Object})
+  id: ToDataReader(IDictionary{System.String,System.Object})
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToDataReader(IDictionary<String, Object>)
+  nameWithType: ExtDictionary.ToDataReader(IDictionary<String, Object>)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    id: ToDataReader
+    path: ''
+    startLine: 911
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static IDataReader ToDataReader(this IDictionary<string, object> dictionary)
+    parameters:
+    - id: dictionary
+      type: IDictionary{System.String,System.Object}
+    return:
+      type: IDataReader
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDataReader(dictionary As IDictionary(Of String, Object)) As IDataReader
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader*
+  nameWithType.vb: ExtDictionary.ToDataReader(IDictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary(Of System.String, System.Object))
+  name.vb: ToDataReader(IDictionary(Of String, Object))
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  id: MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: MapToDataTable(IDictionary<String, Object>, String)
+  nameWithType: ExtDictionary.MapToDataTable(IDictionary<String, Object>, String)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary<System.String, System.Object>, System.String)
+  type: Method
+  source:
+    id: MapToDataTable
+    path: ''
+    startLine: 916
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static DataTable MapToDataTable(this IDictionary<string, object> dictionary, string tableName = null)
+    parameters:
+    - id: dictionary
+      type: IDictionary{System.String,System.Object}
+    - id: tableName
+      type: System.String
+    return:
+      type: DataTable
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MapToDataTable(dictionary As IDictionary(Of String, Object), tableName As String = Nothing) As DataTable
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable*
+  nameWithType.vb: ExtDictionary.MapToDataTable(IDictionary(Of String, Object), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary(Of System.String, System.Object), System.String)
+  name.vb: MapToDataTable(IDictionary(Of String, Object), String)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(IOrderedDictionary,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(IOrderedDictionary,System.Int32)
+  id: GetKey``1(IOrderedDictionary,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetKey<T>(IOrderedDictionary, Int32)
+  nameWithType: ExtDictionary.GetKey<T>(IOrderedDictionary, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey<T>(IOrderedDictionary, System.Int32)
+  type: Method
+  source:
+    id: GetKey
+    path: ''
+    startLine: 932
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  example: []
+  syntax:
+    content: public static T GetKey<T>(this IOrderedDictionary dictionary, int index)
+    parameters:
+    - id: dictionary
+      type: IOrderedDictionary
+    - id: index
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetKey(Of T)(dictionary As IOrderedDictionary, index As Integer) As T
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey*
+  nameWithType.vb: ExtDictionary.GetKey(Of T)(IOrderedDictionary, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey(Of T)(IOrderedDictionary, System.Int32)
+  name.vb: GetKey(Of T)(IOrderedDictionary, Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(IOrderedDictionary,``0)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(IOrderedDictionary,``0)
+  id: GetValue``2(IOrderedDictionary,``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T, U>(IOrderedDictionary, T)
+  nameWithType: ExtDictionary.GetValue<T, U>(IOrderedDictionary, T)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue<T, U>(IOrderedDictionary, T)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 949
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static U GetValue<T, U>(this IOrderedDictionary dictionary, T key)
+    parameters:
+    - id: dictionary
+      type: IOrderedDictionary
+    - id: key
+      type: '{T}'
+    typeParameters:
+    - id: T
+    - id: U
+    return:
+      type: '{U}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValue(Of T, U)(dictionary As IOrderedDictionary, key As T) As U
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue*
+  nameWithType.vb: ExtDictionary.GetValue(Of T, U)(IOrderedDictionary, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue(Of T, U)(IOrderedDictionary, T)
+  name.vb: GetValue(Of T, U)(IOrderedDictionary, T)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+  id: AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
+  nameWithType: ExtDictionary.AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
+  type: Method
+  source:
+    id: AddIfNotExist
+    path: ''
+    startLine: 969
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static V AddIfNotExist<K, V>(this IDictionary<K, V> dictionary, K key, V value)
+    parameters:
+    - id: dictionary
+      type: IDictionary{{K},{V}}
+    - id: key
+      type: '{K}'
+    - id: value
+      type: '{V}'
+    typeParameters:
+    - id: K
+    - id: V
+    return:
+      type: '{V}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddIfNotExist(Of K, V)(dictionary As IDictionary(Of K, V), key As K, value As V) As V
+  overload: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist*
+  nameWithType.vb: ExtDictionary.AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
+  name.vb: AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate
+  name: AddOrUpdate
+  nameWithType: ExtDictionary.AddOrUpdate
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate
+- uid: IDictionary{{K},{V}}
+  commentId: '!:IDictionary{``0,``1}'
+  definition: IDictionary`2
+  name: IDictionary<K, V>
+  nameWithType: IDictionary<K, V>
+  fullName: IDictionary<K, V>
+  nameWithType.vb: IDictionary(Of K, V)
+  fullName.vb: IDictionary(Of K, V)
+  name.vb: IDictionary(Of K, V)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue
+  name: GetValueOrDefaultValue
+  nameWithType: ExtDictionary.GetValueOrDefaultValue
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue
+  name: AddOrUpdateHighestValue
+  nameWithType: ExtDictionary.AddOrUpdateHighestValue
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue
+- uid: IDictionary{{K},System.Int32}
+  commentId: '!:IDictionary{``0,System.Int32}'
+  definition: IDictionary`2
+  name: IDictionary<K, Int32>
+  nameWithType: IDictionary<K, Int32>
+  fullName: IDictionary<K, System.Int32>
+  nameWithType.vb: IDictionary(Of K, Int32)
+  fullName.vb: IDictionary(Of K, System.Int32)
+  name.vb: IDictionary(Of K, Int32)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue
+  name: AddOrUpdateLowestValue
+  nameWithType: ExtDictionary.AddOrUpdateLowestValue
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.Clone*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.Clone
+  name: Clone
+  nameWithType: ExtDictionary.Clone
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.Clone
+- uid: Dictionary{{K},{V}}
+  commentId: '!:Dictionary{``0,``1}'
+  definition: Dictionary`2
+  name: Dictionary<K, V>
+  nameWithType: Dictionary<K, V>
+  fullName: Dictionary<K, V>
+  nameWithType.vb: Dictionary(Of K, V)
+  fullName.vb: Dictionary(Of K, V)
+  name.vb: Dictionary(Of K, V)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader
+  name: ToDataReader
+  nameWithType: ExtDictionary.ToDataReader
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader
+- uid: IDictionary{System.String,System.Object}
+  commentId: '!:IDictionary{System.String,System.Object}'
+  definition: IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDataReader
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: IDataReader
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable
+  name: MapToDataTable
+  nameWithType: ExtDictionary.MapToDataTable
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DataTable
+  isExternal: true
+  name: DataTable
+  nameWithType: DataTable
+  fullName: DataTable
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.GetKey
+  name: GetKey
+  nameWithType: ExtDictionary.GetKey
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey
+- uid: IOrderedDictionary
+  isExternal: true
+  name: IOrderedDictionary
+  nameWithType: IOrderedDictionary
+  fullName: IOrderedDictionary
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.GetValue
+  name: GetValue
+  nameWithType: ExtDictionary.GetValue
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue
+- uid: '{U}'
+  commentId: '!:U'
+  definition: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: U
+  commentId: '!:U'
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist
+  name: AddIfNotExist
+  nameWithType: ExtDictionary.AddIfNotExist
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist

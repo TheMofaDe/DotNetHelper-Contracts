@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Models.OAuth
+  commentId: N:DotNetHelper_Contracts.Models.OAuth
+  id: DotNetHelper_Contracts.Models.OAuth
+  children:
+  - DotNetHelper_Contracts.Models.OAuth.AuthFacebook
+  - DotNetHelper_Contracts.Models.OAuth.AuthGoogle
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Models.OAuth
+  nameWithType: DotNetHelper_Contracts.Models.OAuth
+  fullName: DotNetHelper_Contracts.Models.OAuth
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DotNetHelper_Contracts.Models.OAuth.AuthFacebook
+  commentId: T:DotNetHelper_Contracts.Models.OAuth.AuthFacebook
+  name: AuthFacebook
+  nameWithType: AuthFacebook
+  fullName: DotNetHelper_Contracts.Models.OAuth.AuthFacebook
+- uid: DotNetHelper_Contracts.Models.OAuth.AuthGoogle
+  commentId: T:DotNetHelper_Contracts.Models.OAuth.AuthGoogle
+  name: AuthGoogle
+  nameWithType: AuthGoogle
+  fullName: DotNetHelper_Contracts.Models.OAuth.AuthGoogle

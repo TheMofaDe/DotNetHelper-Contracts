@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.SerializableType
+  commentId: T:DotNetHelper_Contracts.Enum.SerializableType
+  id: SerializableType
+  parent: DotNetHelper_Contracts.Enum
+  children:
+  - DotNetHelper_Contracts.Enum.SerializableType.CSV
+  - DotNetHelper_Contracts.Enum.SerializableType.JSON
+  - DotNetHelper_Contracts.Enum.SerializableType.NONE
+  - DotNetHelper_Contracts.Enum.SerializableType.XML
+  langs:
+  - csharp
+  - vb
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Contracts.Enum.SerializableType
+  type: Enum
+  source:
+    id: SerializableType
+    path: ''
+    startLine: 623
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: public enum SerializableType
+    content.vb: Public Enum SerializableType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.SerializableType.NONE
+  commentId: F:DotNetHelper_Contracts.Enum.SerializableType.NONE
+  id: NONE
+  parent: DotNetHelper_Contracts.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: SerializableType.NONE
+  fullName: DotNetHelper_Contracts.Enum.SerializableType.NONE
+  type: Field
+  source:
+    id: NONE
+    path: ''
+    startLine: 626
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: NONE = 0
+    return:
+      type: DotNetHelper_Contracts.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.SerializableType.XML
+  commentId: F:DotNetHelper_Contracts.Enum.SerializableType.XML
+  id: XML
+  parent: DotNetHelper_Contracts.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: XML
+  nameWithType: SerializableType.XML
+  fullName: DotNetHelper_Contracts.Enum.SerializableType.XML
+  type: Field
+  source:
+    id: XML
+    path: ''
+    startLine: 627
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: XML = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.SerializableType.JSON
+  commentId: F:DotNetHelper_Contracts.Enum.SerializableType.JSON
+  id: JSON
+  parent: DotNetHelper_Contracts.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: SerializableType.JSON
+  fullName: DotNetHelper_Contracts.Enum.SerializableType.JSON
+  type: Field
+  source:
+    id: JSON
+    path: ''
+    startLine: 628
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: JSON = 2
+    return:
+      type: DotNetHelper_Contracts.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.SerializableType.CSV
+  commentId: F:DotNetHelper_Contracts.Enum.SerializableType.CSV
+  id: CSV
+  parent: DotNetHelper_Contracts.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: CSV
+  nameWithType: SerializableType.CSV
+  fullName: DotNetHelper_Contracts.Enum.SerializableType.CSV
+  type: Field
+  source:
+    id: CSV
+    path: ''
+    startLine: 629
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: CSV = 3
+    return:
+      type: DotNetHelper_Contracts.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
+- uid: DotNetHelper_Contracts.Enum.SerializableType
+  commentId: T:DotNetHelper_Contracts.Enum.SerializableType
+  parent: DotNetHelper_Contracts.Enum
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Contracts.Enum.SerializableType

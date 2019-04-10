@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment
+  commentId: T:DotNetHelper_Contracts.Enum.MyEnvironment
+  id: MyEnvironment
+  parent: DotNetHelper_Contracts.Enum
+  children:
+  - DotNetHelper_Contracts.Enum.MyEnvironment.Development
+  - DotNetHelper_Contracts.Enum.MyEnvironment.Production
+  - DotNetHelper_Contracts.Enum.MyEnvironment.Staging
+  langs:
+  - csharp
+  - vb
+  name: MyEnvironment
+  nameWithType: MyEnvironment
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment
+  type: Enum
+  source:
+    id: MyEnvironment
+    path: ''
+    startLine: 613
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: public enum MyEnvironment
+    content.vb: Public Enum MyEnvironment
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment.Development
+  commentId: F:DotNetHelper_Contracts.Enum.MyEnvironment.Development
+  id: Development
+  parent: DotNetHelper_Contracts.Enum.MyEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Development
+  nameWithType: MyEnvironment.Development
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment.Development
+  type: Field
+  source:
+    id: Development
+    path: ''
+    startLine: 615
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: Development = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.MyEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment.Staging
+  commentId: F:DotNetHelper_Contracts.Enum.MyEnvironment.Staging
+  id: Staging
+  parent: DotNetHelper_Contracts.Enum.MyEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Staging
+  nameWithType: MyEnvironment.Staging
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment.Staging
+  type: Field
+  source:
+    id: Staging
+    path: ''
+    startLine: 616
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: Staging = 2
+    return:
+      type: DotNetHelper_Contracts.Enum.MyEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment.Production
+  commentId: F:DotNetHelper_Contracts.Enum.MyEnvironment.Production
+  id: Production
+  parent: DotNetHelper_Contracts.Enum.MyEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Production
+  nameWithType: MyEnvironment.Production
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment.Production
+  type: Field
+  source:
+    id: Production
+    path: ''
+    startLine: 617
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum
+  syntax:
+    content: Production = 3
+    return:
+      type: DotNetHelper_Contracts.Enum.MyEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment
+  commentId: T:DotNetHelper_Contracts.Enum.MyEnvironment
+  parent: DotNetHelper_Contracts.Enum
+  name: MyEnvironment
+  nameWithType: MyEnvironment
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment

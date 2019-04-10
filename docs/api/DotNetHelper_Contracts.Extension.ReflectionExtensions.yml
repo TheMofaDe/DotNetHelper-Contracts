@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  commentId: T:DotNetHelper_Contracts.Extension.ReflectionExtensions
+  id: ReflectionExtensions
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters(System.Type)
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo,Expression)
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor(System.Type)
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous(System.Type)
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct(System.Type)
+  - DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+  langs:
+  - csharp
+  - vb
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  type: Class
+  source:
+    id: ReflectionExtensions
+    path: ''
+    startLine: 2351
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nExtensions to help with reflection.\n"
+  example: []
+  syntax:
+    content: public static class ReflectionExtensions
+    content.vb: Public Module ReflectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+  id: MemberType(MemberInfo)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: MemberType(MemberInfo)
+  nameWithType: ReflectionExtensions.MemberType(MemberInfo)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+  type: Method
+  source:
+    id: MemberType
+    path: ''
+    startLine: 2358
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets the type from the member.\n"
+  example: []
+  syntax:
+    content: public static Type MemberType(this MemberInfo member)
+    parameters:
+    - id: member
+      type: MemberInfo
+      description: The member to get the type from.
+    return:
+      type: System.Type
+      description: The type.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MemberType(member As MemberInfo) As Type
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo,Expression)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo,Expression)
+  id: GetMemberExpression(MemberInfo,Expression)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetMemberExpression(MemberInfo, Expression)
+  nameWithType: ReflectionExtensions.GetMemberExpression(MemberInfo, Expression)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo, Expression)
+  type: Method
+  source:
+    id: GetMemberExpression
+    path: ''
+    startLine: 2381
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets a member expression for the member.\n"
+  example: []
+  syntax:
+    content: public static MemberExpression GetMemberExpression(this MemberInfo member, Expression expression)
+    parameters:
+    - id: member
+      type: MemberInfo
+      description: The member to get the expression for.
+    - id: expression
+      type: Expression
+      description: The member expression.
+    return:
+      type: MemberExpression
+      description: The member expression.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetMemberExpression(member As MemberInfo, expression As Expression) As MemberExpression
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous(System.Type)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous(System.Type)
+  id: IsAnonymous(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsAnonymous(Type)
+  nameWithType: ReflectionExtensions.IsAnonymous(Type)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous(System.Type)
+  type: Method
+  source:
+    id: IsAnonymous
+    path: ''
+    startLine: 2403
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets a value indicating if the given type is anonymous.\nTrue for anonymous, otherwise false.\n"
+  example: []
+  syntax:
+    content: public static bool IsAnonymous(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsAnonymous(type As Type) As Boolean
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor(System.Type)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor(System.Type)
+  id: HasParameterlessConstructor(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasParameterlessConstructor(Type)
+  nameWithType: ReflectionExtensions.HasParameterlessConstructor(Type)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor(System.Type)
+  type: Method
+  source:
+    id: HasParameterlessConstructor
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets a value indicating if the given type has a parameterless constructor.\nTrue if it has a parameterless constructor, otherwise false.\n"
+  example: []
+  syntax:
+    content: public static bool HasParameterlessConstructor(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasParameterlessConstructor(type As Type) As Boolean
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters(System.Type)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters(System.Type)
+  id: GetConstructorWithMostParameters(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetConstructorWithMostParameters(Type)
+  nameWithType: ReflectionExtensions.GetConstructorWithMostParameters(Type)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters(System.Type)
+  type: Method
+  source:
+    id: GetConstructorWithMostParameters
+    path: ''
+    startLine: 2434
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets the constructor that contains the most parameters.\n"
+  example: []
+  syntax:
+    content: public static ConstructorInfo GetConstructorWithMostParameters(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: ConstructorInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetConstructorWithMostParameters(type As Type) As ConstructorInfo
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct(System.Type)
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct(System.Type)
+  id: IsUserDefinedStruct(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ReflectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsUserDefinedStruct(Type)
+  nameWithType: ReflectionExtensions.IsUserDefinedStruct(Type)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct(System.Type)
+  type: Method
+  source:
+    id: IsUserDefinedStruct
+    path: ''
+    startLine: 2444
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nGets a value indicating if the type is a user defined struct.\nTrue if it is a user defined struct, otherwise false.\n"
+  example: []
+  syntax:
+    content: public static bool IsUserDefinedStruct(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsUserDefinedStruct(type As Type) As Boolean
+  overload: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType
+  name: MemberType
+  nameWithType: ReflectionExtensions.MemberType
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType
+- uid: MemberInfo
+  isExternal: true
+  name: MemberInfo
+  nameWithType: MemberInfo
+  fullName: MemberInfo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression
+  name: GetMemberExpression
+  nameWithType: ReflectionExtensions.GetMemberExpression
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression
+- uid: Expression
+  isExternal: true
+  name: Expression
+  nameWithType: Expression
+  fullName: Expression
+- uid: MemberExpression
+  isExternal: true
+  name: MemberExpression
+  nameWithType: MemberExpression
+  fullName: MemberExpression
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous
+  name: IsAnonymous
+  nameWithType: ReflectionExtensions.IsAnonymous
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsAnonymous
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor
+  name: HasParameterlessConstructor
+  nameWithType: ReflectionExtensions.HasParameterlessConstructor
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.HasParameterlessConstructor
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters
+  name: GetConstructorWithMostParameters
+  nameWithType: ReflectionExtensions.GetConstructorWithMostParameters
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters
+- uid: ConstructorInfo
+  commentId: '!:ConstructorInfo'
+  isExternal: true
+  name: ConstructorInfo
+  nameWithType: ConstructorInfo
+  fullName: ConstructorInfo
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct
+  name: IsUserDefinedStruct
+  nameWithType: ReflectionExtensions.IsUserDefinedStruct
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct
