@@ -1,18 +1,8 @@
-# DotNet-Starter-Template
-##### this is intended to be the best practice for defining your .NET solution directory
-          
-##
-##
-# Directory Structure
-| Folder Name | Description |
-| ------ | ------ |
-| src | Main projects (the product code) |
-| tests | Test projects |
-| docs | Documentation stuff, markdown files, help files etc. |
-| samples | (optional) - Sample projects |
-| lib | Things that can NEVER exist in a nuget package |
-| artifacts | Build outputs go here. Doing a build.cmd/build.sh generates artifacts here (nupkgs, dlls, pdbs, etc.) |
-| packages | NuGet packages |
-| build | Build customizations scripts|
+# DotNetHelper-Contracts
+##### A base common library that contains interfaces,enums,helper methods used across other DotNetHelper Libraries
 
-CREDITS TO [https://gist.github.com/davidfowl/ed7564297c61fe9ab814] 
+[![Build status](https://ci.appveyor.com/api/projects/status/s0pohwrx6clu0aif?svg=true)](https://ci.appveyor.com/project/TheMofaDe/dotnethelper-contracts)
+
+##
+##
+# Created Using DotNet-Starter-Template 
