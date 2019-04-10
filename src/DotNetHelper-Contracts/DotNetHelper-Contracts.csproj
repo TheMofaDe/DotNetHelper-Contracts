@@ -2,20 +2,20 @@
 
   
 <PropertyGroup>
-    <FileVersion>2019.1.30.1</FileVersion>
-    <Description>Library that contains interfaces used but other DotNetHelper Libraries</Description>
-    <Copyright>Copyright © Joseph McNeal Jr 2017-2018</Copyright>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Description>A base common library that contains interfaces,enums,helper methods used across other DotNetHelper Libraries</Description>
+    <Copyright>Copyright © Joseph McNeal Jr 2017-2019</Copyright>
     <AssemblyTitle>DotNetHelper-Contracts</AssemblyTitle>
     <Version>$(FileVersion)</Version>
     <Authors>Joseph McNeal Jr</Authors>
-    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net45;netstandard2.0;net452</TargetFrameworks>
     <AssemblyName>DotNetHelper-Contracts</AssemblyName>
     <PackageTags>Dotnethelper,Contract,Interface</PackageTags>
-    <PackageReleaseNotes></PackageReleaseNotes>
-    <PackageProjectUrl></PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageReleaseNotes>inital release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/LICENSE.md</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/TheMofaDe/DotNetHelper-Contracts</RepositoryUrl>
   </PropertyGroup>
       
 
@@ -33,6 +33,8 @@
     <UpdatePackageVersion>False</UpdatePackageVersion>
     <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
     <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 

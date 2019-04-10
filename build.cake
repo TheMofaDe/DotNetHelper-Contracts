@@ -204,7 +204,7 @@ Task("Copy-Files")
     });
 
     // Copy license & Copy XML (since publish does not do this anymore)
-    var licenseFile = "./LICENSE";
+    var licenseFile = "./LICENSE.md";
     if (FileExists($"{licenseFile}"))
     {
       CopyFileToDirectory($"{licenseFile}",  parameters.Paths.Directories.ArtifactsBinCoreFx);
