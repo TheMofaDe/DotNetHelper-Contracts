@@ -11,4 +11,4 @@
 
 ## Documentation
 
-For more information, please refer to the [official documentation][docs-url].
+For more information, please refer to the [Officials Docs](http://themofade.github.io/DotNetHelper-Contracts) 
