@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+<PropertyGroup>
+    <FileVersion>2019.1.30.1</FileVersion>
+    <Description>Library that contains interfaces used but other DotNetHelper Libraries</Description>
+    <Copyright>Copyright © Joseph McNeal Jr 2017-2018</Copyright>
+    <AssemblyTitle>DotNetHelper-Contracts</AssemblyTitle>
+    <Version>$(FileVersion)</Version>
+    <Authors>Joseph McNeal Jr</Authors>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <AssemblyName>DotNetHelper-Contracts</AssemblyName>
+    <PackageTags>Dotnethelper,Contract,Interface</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl></RepositoryUrl>
+  </PropertyGroup>
+      
+
+
+    
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RootNamespace>DotNetHelper_Contracts</RootNamespace>
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DefineConstants>$(DefineConstants);RELEASE</DefineConstants>
+  </PropertyGroup>
+
+  
+  
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net45' ">
+    <DefineConstants>$(DefineConstants);NETFRAMEWORK</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <DefineConstants>$(DefineConstants);NETSTANDARD</DefineConstants>
+  </PropertyGroup>
+  
+  
+    <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+  
+  </ItemGroup>
+  
+  
+
+
+
+  <ItemGroup>
+    <Compile Remove="Helpers\Linq2SqlGenerator.cs" />
+  </ItemGroup>
+
+
+</Project>
