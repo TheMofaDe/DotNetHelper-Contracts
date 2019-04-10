@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.IO.IOType
+  commentId: T:DotNetHelper_Contracts.Enum.IO.IOType
+  id: IOType
+  parent: DotNetHelper_Contracts.Enum.IO
+  children:
+  - DotNetHelper_Contracts.Enum.IO.IOType.Both
+  - DotNetHelper_Contracts.Enum.IO.IOType.File
+  - DotNetHelper_Contracts.Enum.IO.IOType.Folder
+  langs:
+  - csharp
+  - vb
+  name: IOType
+  nameWithType: IOType
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType
+  type: Enum
+  source:
+    id: IOType
+    path: ''
+    startLine: 747
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  syntax:
+    content: public enum IOType
+    content.vb: Public Enum IOType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.IO.IOType.File
+  commentId: F:DotNetHelper_Contracts.Enum.IO.IOType.File
+  id: File
+  parent: DotNetHelper_Contracts.Enum.IO.IOType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: IOType.File
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType.File
+  type: Field
+  source:
+    id: File
+    path: ''
+    startLine: 749
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  syntax:
+    content: File = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.IOType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.IOType.Folder
+  commentId: F:DotNetHelper_Contracts.Enum.IO.IOType.Folder
+  id: Folder
+  parent: DotNetHelper_Contracts.Enum.IO.IOType
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: IOType.Folder
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType.Folder
+  type: Field
+  source:
+    id: Folder
+    path: ''
+    startLine: 750
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  syntax:
+    content: Folder = 2
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.IOType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.IOType.Both
+  commentId: F:DotNetHelper_Contracts.Enum.IO.IOType.Both
+  id: Both
+  parent: DotNetHelper_Contracts.Enum.IO.IOType
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: IOType.Both
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType.Both
+  type: Field
+  source:
+    id: Both
+    path: ''
+    startLine: 751
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  syntax:
+    content: Both = 3
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.IOType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum.IO
+  commentId: N:DotNetHelper_Contracts.Enum.IO
+  name: DotNetHelper_Contracts.Enum.IO
+  nameWithType: DotNetHelper_Contracts.Enum.IO
+  fullName: DotNetHelper_Contracts.Enum.IO
+- uid: DotNetHelper_Contracts.Enum.IO.IOType
+  commentId: T:DotNetHelper_Contracts.Enum.IO.IOType
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: IOType
+  nameWithType: IOType
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType

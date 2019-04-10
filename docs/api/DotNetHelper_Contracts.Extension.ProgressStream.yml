@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ProgressStream
+  commentId: T:DotNetHelper_Contracts.Extension.ProgressStream
+  id: ProgressStream
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ProgressStream.#ctor(Stream)
+  - DotNetHelper_Contracts.Extension.ProgressStream.BytesMoved
+  - DotNetHelper_Contracts.Extension.ProgressStream.BytesRead
+  - DotNetHelper_Contracts.Extension.ProgressStream.BytesWritten
+  - DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+  - DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+  - DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+  - DotNetHelper_Contracts.Extension.ProgressStream.Close
+  - DotNetHelper_Contracts.Extension.ProgressStream.Flush
+  - DotNetHelper_Contracts.Extension.ProgressStream.Length
+  - DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved(System.Int32,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead(System.Int32)
+  - DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten(System.Int32)
+  - DotNetHelper_Contracts.Extension.ProgressStream.Position
+  - DotNetHelper_Contracts.Extension.ProgressStream.Read(System.Byte[],System.Int32,System.Int32)
+  - DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,SeekOrigin)
+  - DotNetHelper_Contracts.Extension.ProgressStream.SetLength(System.Int64)
+  - DotNetHelper_Contracts.Extension.ProgressStream.Write(System.Byte[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ProgressStream
+  nameWithType: ProgressStream
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream
+  type: Class
+  source:
+    id: ProgressStream
+    path: ''
+    startLine: 2232
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  example: []
+  syntax:
+    content: 'public class ProgressStream : Stream'
+    content.vb: >-
+      Public Class ProgressStream
+          Inherits Stream
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.#ctor(Stream)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.#ctor(Stream)
+  id: '#ctor(Stream)'
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: ProgressStream(Stream)
+  nameWithType: ProgressStream.ProgressStream(Stream)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.ProgressStream(Stream)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2240
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nCreates a new ProgressStream supplying the stream for it to report on.\n"
+  example: []
+  syntax:
+    content: public ProgressStream(Stream stream)
+    parameters:
+    - id: stream
+      type: Stream
+      description: The underlying stream that will be reported on when bytes are read or written.
+    content.vb: Public Sub New(stream As Stream)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+  commentId: P:DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+  id: CanRead
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: CanRead
+  nameWithType: ProgressStream.CanRead
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+  type: Property
+  source:
+    id: CanRead
+    path: ''
+    startLine: 2245
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override bool CanRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanRead As Boolean
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.CanRead*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+  commentId: P:DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+  id: CanSeek
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: CanSeek
+  nameWithType: ProgressStream.CanSeek
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+  type: Property
+  source:
+    id: CanSeek
+    path: ''
+    startLine: 2247
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override bool CanSeek { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanSeek As Boolean
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.CanSeek*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+  commentId: P:DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+  id: CanWrite
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: CanWrite
+  nameWithType: ProgressStream.CanWrite
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+  type: Property
+  source:
+    id: CanWrite
+    path: ''
+    startLine: 2249
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override bool CanWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanWrite As Boolean
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.CanWrite*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Length
+  commentId: P:DotNetHelper_Contracts.Extension.ProgressStream.Length
+  id: Length
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: ProgressStream.Length
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Length
+  type: Property
+  source:
+    id: Length
+    path: ''
+    startLine: 2251
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides ReadOnly Property Length As Long
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Length*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Position
+  commentId: P:DotNetHelper_Contracts.Extension.ProgressStream.Position
+  id: Position
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ProgressStream.Position
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Position
+  type: Property
+  source:
+    id: Position
+    path: ''
+    startLine: 2253
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override long Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Property Position As Long
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Position*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.BytesRead
+  commentId: E:DotNetHelper_Contracts.Extension.ProgressStream.BytesRead
+  id: BytesRead
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: BytesRead
+  nameWithType: ProgressStream.BytesRead
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.BytesRead
+  type: Event
+  source:
+    id: BytesRead
+    path: ''
+    startLine: 2262
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nRaised when bytes are read from the stream.\n"
+  example: []
+  syntax:
+    content: public event ProgressChangedEventHandler BytesRead
+    return:
+      type: ProgressChangedEventHandler
+    content.vb: Public Event BytesRead As ProgressChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.BytesWritten
+  commentId: E:DotNetHelper_Contracts.Extension.ProgressStream.BytesWritten
+  id: BytesWritten
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: BytesWritten
+  nameWithType: ProgressStream.BytesWritten
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.BytesWritten
+  type: Event
+  source:
+    id: BytesWritten
+    path: ''
+    startLine: 2267
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nRaised when bytes are written to the stream.\n"
+  example: []
+  syntax:
+    content: public event ProgressChangedEventHandler BytesWritten
+    return:
+      type: ProgressChangedEventHandler
+    content.vb: Public Event BytesWritten As ProgressChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.BytesMoved
+  commentId: E:DotNetHelper_Contracts.Extension.ProgressStream.BytesMoved
+  id: BytesMoved
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: BytesMoved
+  nameWithType: ProgressStream.BytesMoved
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.BytesMoved
+  type: Event
+  source:
+    id: BytesMoved
+    path: ''
+    startLine: 2272
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nRaised when bytes are either read or written to the stream.\n"
+  example: []
+  syntax:
+    content: public event ProgressChangedEventHandler BytesMoved
+    return:
+      type: ProgressChangedEventHandler
+    content.vb: Public Event BytesMoved As ProgressChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead(System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead(System.Int32)
+  id: OnBytesRead(System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: OnBytesRead(Int32)
+  nameWithType: ProgressStream.OnBytesRead(Int32)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead(System.Int32)
+  type: Method
+  source:
+    id: OnBytesRead
+    path: ''
+    startLine: 2274
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: protected virtual void OnBytesRead(int bytesMoved)
+    parameters:
+    - id: bytesMoved
+      type: System.Int32
+    content.vb: Protected Overridable Sub OnBytesRead(bytesMoved As Integer)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten(System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten(System.Int32)
+  id: OnBytesWritten(System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: OnBytesWritten(Int32)
+  nameWithType: ProgressStream.OnBytesWritten(Int32)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten(System.Int32)
+  type: Method
+  source:
+    id: OnBytesWritten
+    path: ''
+    startLine: 2282
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: protected virtual void OnBytesWritten(int bytesMoved)
+    parameters:
+    - id: bytesMoved
+      type: System.Int32
+    content.vb: Protected Overridable Sub OnBytesWritten(bytesMoved As Integer)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved(System.Int32,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved(System.Int32,System.Boolean)
+  id: OnBytesMoved(System.Int32,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: OnBytesMoved(Int32, Boolean)
+  nameWithType: ProgressStream.OnBytesMoved(Int32, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved(System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: OnBytesMoved
+    path: ''
+    startLine: 2290
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: protected virtual void OnBytesMoved(int bytesMoved, bool isRead)
+    parameters:
+    - id: bytesMoved
+      type: System.Int32
+    - id: isRead
+      type: System.Boolean
+    content.vb: Protected Overridable Sub OnBytesMoved(bytesMoved As Integer, isRead As Boolean)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Flush
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Flush
+  id: Flush
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ProgressStream.Flush()
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Flush()
+  type: Method
+  source:
+    id: Flush
+    path: ''
+    startLine: 2298
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override void Flush()
+    content.vb: Public Overrides Sub Flush
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Flush*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Read(System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Byte[],System.Int32,System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: ProgressStream.Read(Byte[], Int32, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Read(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Read
+    path: ''
+    startLine: 2304
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override int Read(byte[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function Read(buffer As Byte(), offset As Integer, count As Integer) As Integer
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Read*
+  nameWithType.vb: ProgressStream.Read(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: DotNetHelper_Contracts.Extension.ProgressStream.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Write(System.Byte[],System.Int32,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Write(System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Byte[],System.Int32,System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: ProgressStream.Write(Byte[], Int32, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Write(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 2314
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override void Write(byte[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    content.vb: Public Overrides Sub Write(buffer As Byte(), offset As Integer, count As Integer)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Write*
+  nameWithType.vb: ProgressStream.Write(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: DotNetHelper_Contracts.Extension.ProgressStream.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.SetLength(System.Int64)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.SetLength(System.Int64)
+  id: SetLength(System.Int64)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: SetLength(Int64)
+  nameWithType: ProgressStream.SetLength(Int64)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.SetLength(System.Int64)
+  type: Method
+  source:
+    id: SetLength
+    path: ''
+    startLine: 2322
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override void SetLength(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    content.vb: Public Overrides Sub SetLength(value As Long)
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.SetLength*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,SeekOrigin)
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,SeekOrigin)
+  id: Seek(System.Int64,SeekOrigin)
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: ProgressStream.Seek(Int64, SeekOrigin)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64, SeekOrigin)
+  type: Method
+  source:
+    id: Seek
+    path: ''
+    startLine: 2327
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override long Seek(long offset, SeekOrigin origin)
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: origin
+      type: SeekOrigin
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Seek*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Close
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Close
+  id: Close
+  parent: DotNetHelper_Contracts.Extension.ProgressStream
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: ProgressStream.Close()
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Close()
+  type: Method
+  source:
+    id: Close
+    path: ''
+    startLine: 2332
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public override void Close()
+    content.vb: Public Overrides Sub Close
+  overload: DotNetHelper_Contracts.Extension.ProgressStream.Close*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.#ctor*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.#ctor
+  name: ProgressStream
+  nameWithType: ProgressStream.ProgressStream
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.ProgressStream
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanRead*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+  name: CanRead
+  nameWithType: ProgressStream.CanRead
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanRead
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanSeek*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+  name: CanSeek
+  nameWithType: ProgressStream.CanSeek
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanSeek
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.CanWrite*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+  name: CanWrite
+  nameWithType: ProgressStream.CanWrite
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.CanWrite
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Length*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Length
+  name: Length
+  nameWithType: ProgressStream.Length
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Length
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Position*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Position
+  name: Position
+  nameWithType: ProgressStream.Position
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Position
+- uid: ProgressChangedEventHandler
+  isExternal: true
+  name: ProgressChangedEventHandler
+  nameWithType: ProgressChangedEventHandler
+  fullName: ProgressChangedEventHandler
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead
+  name: OnBytesRead
+  nameWithType: ProgressStream.OnBytesRead
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesRead
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten
+  name: OnBytesWritten
+  nameWithType: ProgressStream.OnBytesWritten
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesWritten
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved
+  name: OnBytesMoved
+  nameWithType: ProgressStream.OnBytesMoved
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.OnBytesMoved
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Flush*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Flush
+  name: Flush
+  nameWithType: ProgressStream.Flush
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Flush
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Read*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Read
+  name: Read
+  nameWithType: ProgressStream.Read
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Read
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Write*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Write
+  name: Write
+  nameWithType: ProgressStream.Write
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Write
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.SetLength*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.SetLength
+  name: SetLength
+  nameWithType: ProgressStream.SetLength
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.SetLength
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Seek*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Seek
+  name: Seek
+  nameWithType: ProgressStream.Seek
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Seek
+- uid: SeekOrigin
+  commentId: '!:SeekOrigin'
+  isExternal: true
+  name: SeekOrigin
+  nameWithType: SeekOrigin
+  fullName: SeekOrigin
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Close*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ProgressStream.Close
+  name: Close
+  nameWithType: ProgressStream.Close
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Close

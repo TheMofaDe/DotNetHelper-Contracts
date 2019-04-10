@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  commentId: T:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  id: Linq2SqlGenerator
+  parent: DotNetHelper_Contracts.Helpers
+  children:
+  - DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor(StringBuilder)
+  - DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
+  - DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
+  - DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
+  langs:
+  - csharp
+  - vb
+  name: Linq2SqlGenerator
+  nameWithType: Linq2SqlGenerator
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  type: Class
+  source:
+    id: Linq2SqlGenerator
+    path: ''
+    startLine: 3117
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: 'public class Linq2SqlGenerator : ExpressionVisitor'
+    content.vb: >-
+      Public Class Linq2SqlGenerator
+          Inherits ExpressionVisitor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor(StringBuilder)
+  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor(StringBuilder)
+  id: '#ctor(StringBuilder)'
+  parent: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  langs:
+  - csharp
+  - vb
+  name: Linq2SqlGenerator(StringBuilder)
+  nameWithType: Linq2SqlGenerator.Linq2SqlGenerator(StringBuilder)
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.Linq2SqlGenerator(StringBuilder)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3125
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public Linq2SqlGenerator(StringBuilder sqlBuilder)
+    parameters:
+    - id: sqlBuilder
+      type: StringBuilder
+    content.vb: Public Sub New(sqlBuilder As StringBuilder)
+  overload: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
+  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
+  id: LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
+  parent: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  langs:
+  - csharp
+  - vb
+  name: LinqToSqlWhereClause<T>(Expression<Func<T, Boolean>>, DataBaseType)
+  nameWithType: Linq2SqlGenerator.LinqToSqlWhereClause<T>(Expression<Func<T, Boolean>>, DataBaseType)
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause<T>(Expression<System.Func<T, System.Boolean>>, DataBaseType)
+  type: Method
+  source:
+    id: LinqToSqlWhereClause
+    path: ''
+    startLine: 3165
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: >-
+      public string LinqToSqlWhereClause<T>(Expression<Func<T, bool>> expression, DataBaseType type)
+          where T : class
+    parameters:
+    - id: expression
+      type: Expression{System.Func{{T},System.Boolean}}
+    - id: type
+      type: DataBaseType
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Function LinqToSqlWhereClause(Of T As Class)(expression As Expression(Of Func(Of T, Boolean)), type As DataBaseType) As String
+  overload: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause*
+  nameWithType.vb: Linq2SqlGenerator.LinqToSqlWhereClause(Of T)(Expression(Of Func(Of T, Boolean)), DataBaseType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause(Of T)(Expression(Of System.Func(Of T, System.Boolean)), DataBaseType)
+  name.vb: LinqToSqlWhereClause(Of T)(Expression(Of Func(Of T, Boolean)), DataBaseType)
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
+  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
+  id: ResolveMemberExpression(Expression)
+  parent: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  langs:
+  - csharp
+  - vb
+  name: ResolveMemberExpression(Expression)
+  nameWithType: Linq2SqlGenerator.ResolveMemberExpression(Expression)
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
+  type: Method
+  source:
+    id: ResolveMemberExpression
+    path: ''
+    startLine: 3330
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static MemberExpression ResolveMemberExpression(Expression expression)
+    parameters:
+    - id: expression
+      type: Expression
+    return:
+      type: MemberExpression
+    content.vb: Public Shared Function ResolveMemberExpression(expression As Expression) As MemberExpression
+  overload: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
+  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
+  id: GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
+  parent: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
+  langs:
+  - csharp
+  - vb
+  name: GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
+  nameWithType: Linq2SqlGenerator.GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
+  type: Method
+  source:
+    id: GetSQLFromMember
+    path: ''
+    startLine: 3372
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public void GetSQLFromMember(MemberExpression left, MemberExpression right, BinaryExpression rightValue)
+    parameters:
+    - id: left
+      type: MemberExpression
+    - id: right
+      type: MemberExpression
+    - id: rightValue
+      type: BinaryExpression
+    content.vb: Public Sub GetSQLFromMember(left As MemberExpression, right As MemberExpression, rightValue As BinaryExpression)
+  overload: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor
+  name: Linq2SqlGenerator
+  nameWithType: Linq2SqlGenerator.Linq2SqlGenerator
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.Linq2SqlGenerator
+- uid: StringBuilder
+  isExternal: true
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: StringBuilder
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause
+  name: LinqToSqlWhereClause
+  nameWithType: Linq2SqlGenerator.LinqToSqlWhereClause
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause
+- uid: Expression{System.Func{{T},System.Boolean}}
+  commentId: '!:Expression{System.Func{``0,System.Boolean}}'
+  definition: Expression`1
+  name: Expression<Func<T, Boolean>>
+  nameWithType: Expression<Func<T, Boolean>>
+  fullName: Expression<System.Func<T, System.Boolean>>
+  nameWithType.vb: Expression(Of Func(Of T, Boolean))
+  fullName.vb: Expression(Of System.Func(Of T, System.Boolean))
+  name.vb: Expression(Of Func(Of T, Boolean))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DataBaseType
+  commentId: '!:DataBaseType'
+  isExternal: true
+  name: DataBaseType
+  nameWithType: DataBaseType
+  fullName: DataBaseType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression
+  name: ResolveMemberExpression
+  nameWithType: Linq2SqlGenerator.ResolveMemberExpression
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression
+- uid: Expression
+  isExternal: true
+  name: Expression
+  nameWithType: Expression
+  fullName: Expression
+- uid: MemberExpression
+  isExternal: true
+  name: MemberExpression
+  nameWithType: MemberExpression
+  fullName: MemberExpression
+- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember
+  name: GetSQLFromMember
+  nameWithType: Linq2SqlGenerator.GetSQLFromMember
+  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember
+- uid: BinaryExpression
+  commentId: '!:BinaryExpression'
+  isExternal: true
+  name: BinaryExpression
+  nameWithType: BinaryExpression
+  fullName: BinaryExpression

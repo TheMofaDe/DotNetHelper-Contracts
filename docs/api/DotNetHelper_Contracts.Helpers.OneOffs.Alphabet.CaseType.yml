@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  commentId: T:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  id: Alphabet.CaseType
+  parent: DotNetHelper_Contracts.Helpers.OneOffs
+  children:
+  - DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Lower
+  - DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Upper
+  langs:
+  - csharp
+  - vb
+  name: Alphabet.CaseType
+  nameWithType: Alphabet.CaseType
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  type: Enum
+  source:
+    id: CaseType
+    path: ''
+    startLine: 4108
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: public enum CaseType
+    content.vb: Public Enum CaseType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Upper
+  commentId: F:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Upper
+  id: Upper
+  parent: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  langs:
+  - csharp
+  - vb
+  name: Upper
+  nameWithType: Alphabet.CaseType.Upper
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Upper
+  type: Field
+  source:
+    id: Upper
+    path: ''
+    startLine: 4110
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: Upper = 0
+    return:
+      type: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Lower
+  commentId: F:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Lower
+  id: Lower
+  parent: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  langs:
+  - csharp
+  - vb
+  name: Lower
+  nameWithType: Alphabet.CaseType.Lower
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType.Lower
+  type: Field
+  source:
+    id: Lower
+    path: ''
+    startLine: 4111
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: Lower = 1
+    return:
+      type: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Helpers.OneOffs
+  commentId: N:DotNetHelper_Contracts.Helpers.OneOffs
+  name: DotNetHelper_Contracts.Helpers.OneOffs
+  nameWithType: DotNetHelper_Contracts.Helpers.OneOffs
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  commentId: T:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  parent: DotNetHelper_Contracts.Helpers.OneOffs
+  name: Alphabet.CaseType
+  nameWithType: Alphabet.CaseType
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType

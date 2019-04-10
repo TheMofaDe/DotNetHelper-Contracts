@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  commentId: T:DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  id: PredicateBuilder`1
+  parent: DotNetHelper_Contracts.Helpers
+  children:
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(Expression{System.Func{`0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(Expression{System.Func{`0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(Expression{System.Func{`0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate
+  langs:
+  - csharp
+  - vb
+  name: PredicateBuilder<T>
+  nameWithType: PredicateBuilder<T>
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>
+  type: Class
+  source:
+    id: PredicateBuilder
+    path: ''
+    startLine: 3516
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public class PredicateBuilder<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Class PredicateBuilder(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: PredicateBuilder(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T)
+  name.vb: PredicateBuilder(Of T)
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New
+  id: New
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: New()
+  nameWithType: PredicateBuilder<T>.New()
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.New()
+  type: Method
+  source:
+    id: New
+    path: ''
+    startLine: 3518
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public static PredicateBuilder<T> New()
+    return:
+      type: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    content.vb: Public Shared Function New As PredicateBuilder(Of T)
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New*
+  nameWithType.vb: PredicateBuilder(Of T).New()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).New()
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate
+  commentId: P:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate
+  id: Predicate
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Predicate
+  nameWithType: PredicateBuilder<T>.Predicate
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Predicate
+  type: Property
+  source:
+    id: Predicate
+    path: ''
+    startLine: 3523
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public Expression<Func<T, bool>> Predicate { get; set; }
+    parameters: []
+    return:
+      type: Expression{System.Func{{T},System.Boolean}}
+    content.vb: Public Property Predicate As Expression(Of Func(Of T, Boolean))
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate*
+  nameWithType.vb: PredicateBuilder(Of T).Predicate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Predicate
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(Expression{System.Func{`0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(Expression{System.Func{`0,System.Boolean}})
+  id: Or(Expression{System.Func{`0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Or(Expression<Func<T, Boolean>>)
+  nameWithType: PredicateBuilder<T>.Or(Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: Or
+    path: ''
+    startLine: 3525
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public PredicateBuilder<T> Or(Expression<Func<T, bool>> or)
+    parameters:
+    - id: or
+      type: Expression{System.Func{{T},System.Boolean}}
+    return:
+      type: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    content.vb: Public Function Or(or As Expression(Of Func(Of T, Boolean))) As PredicateBuilder(Of T)
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or*
+  nameWithType.vb: PredicateBuilder(Of T).Or(Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: Or(Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(Expression{System.Func{`0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(Expression{System.Func{`0,System.Boolean}})
+  id: And(Expression{System.Func{`0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: And(Expression<Func<T, Boolean>>)
+  nameWithType: PredicateBuilder<T>.And(Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: And
+    path: ''
+    startLine: 3539
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public PredicateBuilder<T> And(Expression<Func<T, bool>> and)
+    parameters:
+    - id: and
+      type: Expression{System.Func{{T},System.Boolean}}
+    return:
+      type: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    content.vb: Public Function And(and As Expression(Of Func(Of T, Boolean))) As PredicateBuilder(Of T)
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And*
+  nameWithType.vb: PredicateBuilder(Of T).And(Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: And(Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(Expression{System.Func{`0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(Expression{System.Func{`0,System.Boolean}})
+  id: Not(Expression{System.Func{`0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Not(Expression<Func<T, Boolean>>)
+  nameWithType: PredicateBuilder<T>.Not(Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Not(Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: Not
+    path: ''
+    startLine: 3555
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  summary: "\nNegates the predicate.\n"
+  example: []
+  syntax:
+    content: public Expression<Func<T, bool>> Not(Expression<Func<T, bool>> expression)
+    parameters:
+    - id: expression
+      type: Expression{System.Func{{T},System.Boolean}}
+    return:
+      type: Expression{System.Func{{T},System.Boolean}}
+    content.vb: Public Function Not(expression As Expression(Of Func(Of T, Boolean))) As Expression(Of Func(Of T, Boolean))
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not*
+  nameWithType.vb: PredicateBuilder(Of T).Not(Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Not(Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: Not(Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  id: Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Or(Boolean, Expression<Func<T, Boolean>>)
+  nameWithType: PredicateBuilder<T>.Or(Boolean, Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(System.Boolean, Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: Or
+    path: ''
+    startLine: 3561
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public PredicateBuilder<T> Or(bool apply, Expression<Func<T, bool>> or)
+    parameters:
+    - id: apply
+      type: System.Boolean
+    - id: or
+      type: Expression{System.Func{{T},System.Boolean}}
+    return:
+      type: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    content.vb: Public Function Or(apply As Boolean, or As Expression(Of Func(Of T, Boolean))) As PredicateBuilder(Of T)
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or*
+  nameWithType.vb: PredicateBuilder(Of T).Or(Boolean, Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(System.Boolean, Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: Or(Boolean, Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  id: And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: And(Boolean, Expression<Func<T, Boolean>>)
+  nameWithType: PredicateBuilder<T>.And(Boolean, Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(System.Boolean, Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: And
+    path: ''
+    startLine: 3566
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers
+  syntax:
+    content: public PredicateBuilder<T> And(bool apply, Expression<Func<T, bool>> and)
+    parameters:
+    - id: apply
+      type: System.Boolean
+    - id: and
+      type: Expression{System.Func{{T},System.Boolean}}
+    return:
+      type: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    content.vb: Public Function And(apply As Boolean, and As Expression(Of Func(Of T, Boolean))) As PredicateBuilder(Of T)
+  overload: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And*
+  nameWithType.vb: PredicateBuilder(Of T).And(Boolean, Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(System.Boolean, Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: And(Boolean, Expression(Of Func(Of T, Boolean)))
+references:
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.New
+  name: New
+  nameWithType: PredicateBuilder<T>.New
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.New
+  nameWithType.vb: PredicateBuilder(Of T).New
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).New
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  commentId: T:DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  parent: DotNetHelper_Contracts.Helpers
+  name: PredicateBuilder<T>
+  nameWithType: PredicateBuilder<T>
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>
+  nameWithType.vb: PredicateBuilder(Of T)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T)
+  name.vb: PredicateBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    name: PredicateBuilder
+    nameWithType: PredicateBuilder
+    fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    name: PredicateBuilder
+    nameWithType: PredicateBuilder
+    fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Predicate
+  name: Predicate
+  nameWithType: PredicateBuilder<T>.Predicate
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Predicate
+  nameWithType.vb: PredicateBuilder(Of T).Predicate
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Predicate
+- uid: Expression{System.Func{{T},System.Boolean}}
+  commentId: '!:Expression{System.Func{``0,System.Boolean}}'
+  definition: Expression`1
+  name: Expression<Func<T, Boolean>>
+  nameWithType: Expression<Func<T, Boolean>>
+  fullName: Expression<System.Func<T, System.Boolean>>
+  nameWithType.vb: Expression(Of Func(Of T, Boolean))
+  fullName.vb: Expression(Of System.Func(Of T, System.Boolean))
+  name.vb: Expression(Of Func(Of T, Boolean))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or
+  name: Or
+  nameWithType: PredicateBuilder<T>.Or
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or
+  nameWithType.vb: PredicateBuilder(Of T).Or
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And
+  name: And
+  nameWithType: PredicateBuilder<T>.And
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And
+  nameWithType.vb: PredicateBuilder(Of T).And
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not
+  name: Not
+  nameWithType: PredicateBuilder<T>.Not
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Not
+  nameWithType.vb: PredicateBuilder(Of T).Not
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Not
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

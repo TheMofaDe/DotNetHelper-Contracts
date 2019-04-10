@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  commentId: T:DotNetHelper_Contracts.Enum.IO.FileOption
+  id: FileOption
+  parent: DotNetHelper_Contracts.Enum.IO
+  children:
+  - DotNetHelper_Contracts.Enum.IO.FileOption.Append
+  - DotNetHelper_Contracts.Enum.IO.FileOption.DoNothingIfExist
+  - DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileExtensionIfExist
+  - DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileNameIfExist
+  - DotNetHelper_Contracts.Enum.IO.FileOption.Overwrite
+  langs:
+  - csharp
+  - vb
+  name: FileOption
+  nameWithType: FileOption
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+  type: Enum
+  source:
+    id: FileOption
+    path: ''
+    startLine: 705
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nEnum FileOption\n"
+  example: []
+  syntax:
+    content: public enum FileOption
+    content.vb: Public Enum FileOption
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption.Append
+  commentId: F:DotNetHelper_Contracts.Enum.IO.FileOption.Append
+  id: Append
+  parent: DotNetHelper_Contracts.Enum.IO.FileOption
+  langs:
+  - csharp
+  - vb
+  name: Append
+  nameWithType: FileOption.Append
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption.Append
+  type: Field
+  source:
+    id: Append
+    path: ''
+    startLine: 710
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nThe append\n"
+  example: []
+  syntax:
+    content: Append = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.FileOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption.Overwrite
+  commentId: F:DotNetHelper_Contracts.Enum.IO.FileOption.Overwrite
+  id: Overwrite
+  parent: DotNetHelper_Contracts.Enum.IO.FileOption
+  langs:
+  - csharp
+  - vb
+  name: Overwrite
+  nameWithType: FileOption.Overwrite
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption.Overwrite
+  type: Field
+  source:
+    id: Overwrite
+    path: ''
+    startLine: 714
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nThe overwrite\n"
+  example: []
+  syntax:
+    content: Overwrite = 2
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.FileOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption.DoNothingIfExist
+  commentId: F:DotNetHelper_Contracts.Enum.IO.FileOption.DoNothingIfExist
+  id: DoNothingIfExist
+  parent: DotNetHelper_Contracts.Enum.IO.FileOption
+  langs:
+  - csharp
+  - vb
+  name: DoNothingIfExist
+  nameWithType: FileOption.DoNothingIfExist
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption.DoNothingIfExist
+  type: Field
+  source:
+    id: DoNothingIfExist
+    path: ''
+    startLine: 718
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nThe do nothing if exist\n"
+  example: []
+  syntax:
+    content: DoNothingIfExist = 3
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.FileOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileNameIfExist
+  commentId: F:DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileNameIfExist
+  id: IncrementFileNameIfExist
+  parent: DotNetHelper_Contracts.Enum.IO.FileOption
+  langs:
+  - csharp
+  - vb
+  name: IncrementFileNameIfExist
+  nameWithType: FileOption.IncrementFileNameIfExist
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileNameIfExist
+  type: Field
+  source:
+    id: IncrementFileNameIfExist
+    path: ''
+    startLine: 722
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nIncrement the file name +1\n"
+  example: []
+  syntax:
+    content: IncrementFileNameIfExist = 4
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.FileOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileExtensionIfExist
+  commentId: F:DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileExtensionIfExist
+  id: IncrementFileExtensionIfExist
+  parent: DotNetHelper_Contracts.Enum.IO.FileOption
+  langs:
+  - csharp
+  - vb
+  name: IncrementFileExtensionIfExist
+  nameWithType: FileOption.IncrementFileExtensionIfExist
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption.IncrementFileExtensionIfExist
+  type: Field
+  source:
+    id: IncrementFileExtensionIfExist
+    path: ''
+    startLine: 726
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.IO
+  summary: "\nIncrements the file extension +1\n"
+  example: []
+  syntax:
+    content: IncrementFileExtensionIfExist = 5
+    return:
+      type: DotNetHelper_Contracts.Enum.IO.FileOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum.IO
+  commentId: N:DotNetHelper_Contracts.Enum.IO
+  name: DotNetHelper_Contracts.Enum.IO
+  nameWithType: DotNetHelper_Contracts.Enum.IO
+  fullName: DotNetHelper_Contracts.Enum.IO
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  commentId: T:DotNetHelper_Contracts.Enum.IO.FileOption
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: FileOption
+  nameWithType: FileOption
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption

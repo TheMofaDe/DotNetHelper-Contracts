@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  commentId: T:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  id: LikeExpressionExtension
+  parent: DotNetHelper_Contracts.Extension.Linq
+  children:
+  - DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+  - DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+  langs:
+  - csharp
+  - vb
+  name: LikeExpressionExtension
+  nameWithType: LikeExpressionExtension
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  type: Class
+  source:
+    id: LikeExpressionExtension
+    path: ''
+    startLine: 2638
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension.Linq
+  syntax:
+    content: public static class LikeExpressionExtension
+    content.vb: Public Module LikeExpressionExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+  id: WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  langs:
+  - csharp
+  - vb
+  name: WhereLike<TSource>(IQueryable<TSource>, Expression<Func<TSource, String>>, String, Char)
+  nameWithType: LikeExpressionExtension.WhereLike<TSource>(IQueryable<TSource>, Expression<Func<TSource, String>>, String, Char)
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike<TSource>(IQueryable<TSource>, Expression<System.Func<TSource, System.String>>, System.String, System.Char)
+  type: Method
+  source:
+    id: WhereLike
+    path: ''
+    startLine: 2640
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension.Linq
+  syntax:
+    content: public static IQueryable<TSource> WhereLike<TSource>(this IQueryable<TSource> source, Expression<Func<TSource, string>> valueSelector, string value, char wildcard)
+    parameters:
+    - id: source
+      type: IQueryable{{TSource}}
+    - id: valueSelector
+      type: Expression{System.Func{{TSource},System.String}}
+    - id: value
+      type: System.String
+    - id: wildcard
+      type: System.Char
+    typeParameters:
+    - id: TSource
+    return:
+      type: IQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WhereLike(Of TSource)(source As IQueryable(Of TSource), valueSelector As Expression(Of Func(Of TSource, String)), value As String, wildcard As Char) As IQueryable(Of TSource)
+  overload: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike*
+  nameWithType.vb: LikeExpressionExtension.WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, String)), String, Char)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of System.Func(Of TSource, System.String)), System.String, System.Char)
+  name.vb: WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, String)), String, Char)
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+  id: BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+  parent: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension
+  langs:
+  - csharp
+  - vb
+  name: BuildLikeExpression<TElement>(Expression<Func<TElement, String>>, String, Char)
+  nameWithType: LikeExpressionExtension.BuildLikeExpression<TElement>(Expression<Func<TElement, String>>, String, Char)
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression<TElement>(Expression<System.Func<TElement, System.String>>, System.String, System.Char)
+  type: Method
+  source:
+    id: BuildLikeExpression
+    path: ''
+    startLine: 2645
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Extension.Linq
+  syntax:
+    content: public static Expression<Func<TElement, bool>> BuildLikeExpression<TElement>(Expression<Func<TElement, string>> valueSelector, string value, char wildcard)
+    parameters:
+    - id: valueSelector
+      type: Expression{System.Func{{TElement},System.String}}
+    - id: value
+      type: System.String
+    - id: wildcard
+      type: System.Char
+    typeParameters:
+    - id: TElement
+    return:
+      type: Expression{System.Func{{TElement},System.Boolean}}
+    content.vb: Public Shared Function BuildLikeExpression(Of TElement)(valueSelector As Expression(Of Func(Of TElement, String)), value As String, wildcard As Char) As Expression(Of Func(Of TElement, Boolean))
+  overload: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression*
+  nameWithType.vb: LikeExpressionExtension.BuildLikeExpression(Of TElement)(Expression(Of Func(Of TElement, String)), String, Char)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression(Of TElement)(Expression(Of System.Func(Of TElement, System.String)), System.String, System.Char)
+  name.vb: BuildLikeExpression(Of TElement)(Expression(Of Func(Of TElement, String)), String, Char)
+references:
+- uid: DotNetHelper_Contracts.Extension.Linq
+  commentId: N:DotNetHelper_Contracts.Extension.Linq
+  name: DotNetHelper_Contracts.Extension.Linq
+  nameWithType: DotNetHelper_Contracts.Extension.Linq
+  fullName: DotNetHelper_Contracts.Extension.Linq
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike*
+  commentId: Overload:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike
+  name: WhereLike
+  nameWithType: LikeExpressionExtension.WhereLike
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike
+- uid: IQueryable{{TSource}}
+  commentId: '!:IQueryable{``0}'
+  definition: IQueryable`1
+  name: IQueryable<TSource>
+  nameWithType: IQueryable<TSource>
+  fullName: IQueryable<TSource>
+  nameWithType.vb: IQueryable(Of TSource)
+  fullName.vb: IQueryable(Of TSource)
+  name.vb: IQueryable(Of TSource)
+  spec.csharp:
+  - uid: IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Expression{System.Func{{TSource},System.String}}
+  commentId: '!:Expression{System.Func{``0,System.String}}'
+  definition: Expression`1
+  name: Expression<Func<TSource, String>>
+  nameWithType: Expression<Func<TSource, String>>
+  fullName: Expression<System.Func<TSource, System.String>>
+  nameWithType.vb: Expression(Of Func(Of TSource, String))
+  fullName.vb: Expression(Of System.Func(Of TSource, System.String))
+  name.vb: Expression(Of Func(Of TSource, String))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: IQueryable`1
+  isExternal: true
+  name: IQueryable<>
+  nameWithType: IQueryable<>
+  fullName: IQueryable<>
+  nameWithType.vb: IQueryable(Of )
+  fullName.vb: IQueryable(Of )
+  name.vb: IQueryable(Of )
+  spec.csharp:
+  - uid: IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression*
+  commentId: Overload:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression
+  name: BuildLikeExpression
+  nameWithType: LikeExpressionExtension.BuildLikeExpression
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression
+- uid: Expression{System.Func{{TElement},System.String}}
+  commentId: '!:Expression{System.Func{``0,System.String}}'
+  definition: Expression`1
+  name: Expression<Func<TElement, String>>
+  nameWithType: Expression<Func<TElement, String>>
+  fullName: Expression<System.Func<TElement, System.String>>
+  nameWithType.vb: Expression(Of Func(Of TElement, String))
+  fullName.vb: Expression(Of System.Func(Of TElement, System.String))
+  name.vb: Expression(Of Func(Of TElement, String))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Expression{System.Func{{TElement},System.Boolean}}
+  commentId: '!:Expression{System.Func{``0,System.Boolean}}'
+  definition: Expression`1
+  name: Expression<Func<TElement, Boolean>>
+  nameWithType: Expression<Func<TElement, Boolean>>
+  fullName: Expression<System.Func<TElement, System.Boolean>>
+  nameWithType.vb: Expression(Of Func(Of TElement, Boolean))
+  fullName.vb: Expression(Of System.Func(Of TElement, System.Boolean))
+  name.vb: Expression(Of Func(Of TElement, Boolean))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

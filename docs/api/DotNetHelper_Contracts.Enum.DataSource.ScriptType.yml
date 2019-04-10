@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  id: ScriptType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  children:
+  - DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  - DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  langs:
+  - csharp
+  - vb
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  type: Enum
+  source:
+    id: ScriptType
+    path: ''
+    startLine: 646
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: public enum ScriptType
+    content.vb: Public Enum ScriptType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  commentId: F:DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  id: Parameterized
+  parent: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: Parameterized
+  nameWithType: ScriptType.Parameterized
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  type: Field
+  source:
+    id: Parameterized
+    path: ''
+    startLine: 648
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: Parameterized = 0
+    return:
+      type: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  commentId: F:DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  id: HumanReadable
+  parent: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: ScriptType.HumanReadable
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  type: Field
+  source:
+    id: HumanReadable
+    path: ''
+    startLine: 649
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: HumanReadable = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum.DataSource
+  commentId: N:DotNetHelper_Contracts.Enum.DataSource
+  name: DotNetHelper_Contracts.Enum.DataSource
+  nameWithType: DotNetHelper_Contracts.Enum.DataSource
+  fullName: DotNetHelper_Contracts.Enum.DataSource
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType

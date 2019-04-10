@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Models.Web
+  commentId: N:DotNetHelper_Contracts.Models.Web
+  id: DotNetHelper_Contracts.Models.Web
+  children:
+  - DotNetHelper_Contracts.Models.Web.ApiResponse
+  - DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Models.Web
+  nameWithType: DotNetHelper_Contracts.Models.Web
+  fullName: DotNetHelper_Contracts.Models.Web
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponse
+  commentId: T:DotNetHelper_Contracts.Models.Web.ApiResponse
+  parent: DotNetHelper_Contracts.Models.Web
+  name: ApiResponse
+  nameWithType: ApiResponse
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponse
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  commentId: T:DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+  name: ApiResponseExtension
+  nameWithType: ApiResponseExtension
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponseExtension
+- uid: DotNetHelper_Contracts.Models.Web
+  commentId: N:DotNetHelper_Contracts.Models.Web
+  name: DotNetHelper_Contracts.Models.Web
+  nameWithType: DotNetHelper_Contracts.Models.Web
+  fullName: DotNetHelper_Contracts.Models.Web

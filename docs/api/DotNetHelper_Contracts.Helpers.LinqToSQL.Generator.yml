@@ -1,0 +1,547 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator
+  commentId: T:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator
+  id: Generator
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL
+  children:
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(Expression{System.Func{``0,System.Boolean}})
+  - DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+  langs:
+  - csharp
+  - vb
+  name: Generator
+  nameWithType: Generator
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator
+  type: Class
+  source:
+    id: Generator
+    path: ''
+    startLine: 3845
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public class Generator
+    content.vb: Public Class Generator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+  id: WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator
+  langs:
+  - csharp
+  - vb
+  name: WhereSql<T>(Expression<Func<T, Boolean>>)
+  nameWithType: Generator.WhereSql<T>(Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql<T>(Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: WhereSql
+    path: ''
+    startLine: 3850
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart WhereSql<T>(Expression<Func<T, bool>> expression)
+    parameters:
+    - id: expression
+      type: Expression{System.Func{{T},System.Boolean}}
+    typeParameters:
+    - id: T
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function WhereSql(Of T)(expression As Expression(Of Func(Of T, Boolean))) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql*
+  nameWithType.vb: Generator.WhereSql(Of T)(Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql(Of T)(Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: WhereSql(Of T)(Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(Expression{System.Func{``0,System.Boolean}})
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(Expression{System.Func{``0,System.Boolean}})
+  id: ToSql``1(Expression{System.Func{``0,System.Boolean}})
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator
+  langs:
+  - csharp
+  - vb
+  name: ToSql<T>(Expression<Func<T, Boolean>>)
+  nameWithType: Generator.ToSql<T>(Expression<Func<T, Boolean>>)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql<T>(Expression<System.Func<T, System.Boolean>>)
+  type: Method
+  source:
+    id: ToSql
+    path: ''
+    startLine: 3858
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Helpers.LinqToSQL
+  syntax:
+    content: public static WherePart ToSql<T>(Expression<Func<T, bool>> expression)
+    parameters:
+    - id: expression
+      type: Expression{System.Func{{T},System.Boolean}}
+    typeParameters:
+    - id: T
+    return:
+      type: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+    content.vb: Public Shared Function ToSql(Of T)(expression As Expression(Of Func(Of T, Boolean))) As WherePart
+  overload: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql*
+  nameWithType.vb: Generator.ToSql(Of T)(Expression(Of Func(Of T, Boolean)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql(Of T)(Expression(Of System.Func(Of T, System.Boolean)))
+  name.vb: ToSql(Of T)(Expression(Of Func(Of T, Boolean)))
+references:
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL
+  commentId: N:DotNetHelper_Contracts.Helpers.LinqToSQL
+  name: DotNetHelper_Contracts.Helpers.LinqToSQL
+  nameWithType: DotNetHelper_Contracts.Helpers.LinqToSQL
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql
+  name: WhereSql
+  nameWithType: Generator.WhereSql
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql
+- uid: Expression{System.Func{{T},System.Boolean}}
+  commentId: '!:Expression{System.Func{``0,System.Boolean}}'
+  definition: Expression`1
+  name: Expression<Func<T, Boolean>>
+  nameWithType: Expression<Func<T, Boolean>>
+  fullName: Expression<System.Func<T, System.Boolean>>
+  nameWithType.vb: Expression(Of Func(Of T, Boolean))
+  fullName.vb: Expression(Of System.Func(Of T, System.Boolean))
+  name.vb: Expression(Of Func(Of T, Boolean))
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  commentId: T:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+  parent: DotNetHelper_Contracts.Helpers.LinqToSQL
+  name: WherePart
+  nameWithType: WherePart
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
+- uid: Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql
+  name: ToSql
+  nameWithType: Generator.ToSql
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql

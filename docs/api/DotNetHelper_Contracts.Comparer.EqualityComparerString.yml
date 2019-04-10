@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  commentId: T:DotNetHelper_Contracts.Comparer.EqualityComparerString
+  id: EqualityComparerString
+  parent: DotNetHelper_Contracts.Comparer
+  children:
+  - DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor(System.StringComparison)
+  - DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals(System.String,System.String)
+  - DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EqualityComparerString
+  nameWithType: EqualityComparerString
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  type: Class
+  source:
+    id: EqualityComparerString
+    path: ''
+    startLine: 182
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Comparer
+  syntax:
+    content: 'public class EqualityComparerString : IEqualityComparer<string>'
+    content.vb: >-
+      Public Class EqualityComparerString
+          Inherits IEqualityComparer(Of String)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor(System.StringComparison)
+  commentId: M:DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor(System.StringComparison)
+  id: '#ctor(System.StringComparison)'
+  parent: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  langs:
+  - csharp
+  - vb
+  name: EqualityComparerString(StringComparison)
+  nameWithType: EqualityComparerString.EqualityComparerString(StringComparison)
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.EqualityComparerString(System.StringComparison)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 185
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Comparer
+  syntax:
+    content: public EqualityComparerString(StringComparison comparer)
+    parameters:
+    - id: comparer
+      type: System.StringComparison
+    content.vb: Public Sub New(comparer As StringComparison)
+  overload: DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals(System.String,System.String)
+  commentId: M:DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals(System.String,System.String)
+  id: Equals(System.String,System.String)
+  parent: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  langs:
+  - csharp
+  - vb
+  name: Equals(String, String)
+  nameWithType: EqualityComparerString.Equals(String, String)
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals(System.String, System.String)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 190
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Comparer
+  syntax:
+    content: public bool Equals(string x, string y)
+    parameters:
+    - id: x
+      type: System.String
+    - id: y
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(x As String, y As String) As Boolean
+  overload: DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode(System.String)
+  commentId: M:DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode(System.String)
+  id: GetHashCode(System.String)
+  parent: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode(String)
+  nameWithType: EqualityComparerString.GetHashCode(String)
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode(System.String)
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 195
+  assemblies:
+  - cs.temp.dll
+  namespace: DotNetHelper_Contracts.Comparer
+  syntax:
+    content: public int GetHashCode(string obj)
+    parameters:
+    - id: obj
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetHashCode(obj As String) As Integer
+  overload: DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Contracts.Comparer
+  commentId: N:DotNetHelper_Contracts.Comparer
+  name: DotNetHelper_Contracts.Comparer
+  nameWithType: DotNetHelper_Contracts.Comparer
+  fullName: DotNetHelper_Contracts.Comparer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor*
+  commentId: Overload:DotNetHelper_Contracts.Comparer.EqualityComparerString.#ctor
+  name: EqualityComparerString
+  nameWithType: EqualityComparerString.EqualityComparerString
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.EqualityComparerString
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals*
+  commentId: Overload:DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals
+  name: Equals
+  nameWithType: EqualityComparerString.Equals
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.Equals
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode*
+  commentId: Overload:DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode
+  name: GetHashCode
+  nameWithType: EqualityComparerString.GetHashCode
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
