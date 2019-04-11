@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  id: DotNetHelper_Contracts.Helpers
+  children:
+  - DotNetHelper_Contracts.Helpers.BytesHelper
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  - DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse
+  - DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  - DotNetHelper_Contracts.Helpers.ExpressionHelper
+  - DotNetHelper_Contracts.Helpers.MathHelper
+  - DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  - DotNetHelper_Contracts.Helpers.RandomHelper
+  - DotNetHelper_Contracts.Helpers.Reflect
+  - DotNetHelper_Contracts.Helpers.RegexHelper
+  - DotNetHelper_Contracts.Helpers.WildCardHelper
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Contracts
+references:
+- uid: DotNetHelper_Contracts.Helpers.BytesHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.BytesHelper
+  name: BytesHelper
+  nameWithType: BytesHelper
+  fullName: DotNetHelper_Contracts.Helpers.BytesHelper
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.DateTimeHelper
+  name: DateTimeHelper
+  nameWithType: DateTimeHelper
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  commentId: T:DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+  parent: DotNetHelper_Contracts.Helpers
+  name: DateTimeHelper.CalendarMonth
+  nameWithType: DateTimeHelper.CalendarMonth
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.CalendarMonth
+- uid: DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse
+  commentId: T:DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse
+  parent: DotNetHelper_Contracts.Helpers
+  name: DateTimeHelper.TimeElapse
+  nameWithType: DateTimeHelper.TimeElapse
+  fullName: DotNetHelper_Contracts.Helpers.DateTimeHelper.TimeElapse
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+  name: DynamicObjectHelper
+  nameWithType: DynamicObjectHelper
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
+- uid: DotNetHelper_Contracts.Helpers.Reflect
+  commentId: T:DotNetHelper_Contracts.Helpers.Reflect
+  name: Reflect
+  nameWithType: Reflect
+  fullName: DotNetHelper_Contracts.Helpers.Reflect
+- uid: DotNetHelper_Contracts.Helpers.ExpressionHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.ExpressionHelper
+  name: ExpressionHelper
+  nameWithType: ExpressionHelper
+  fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper
+- uid: DotNetHelper_Contracts.Helpers.MathHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.MathHelper
+  name: MathHelper
+  nameWithType: MathHelper
+  fullName: DotNetHelper_Contracts.Helpers.MathHelper
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  commentId: T:DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+  parent: DotNetHelper_Contracts.Helpers
+  name: PredicateBuilder<T>
+  nameWithType: PredicateBuilder<T>
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>
+  nameWithType.vb: PredicateBuilder(Of T)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T)
+  name.vb: PredicateBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    name: PredicateBuilder
+    nameWithType: PredicateBuilder
+    fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1
+    name: PredicateBuilder
+    nameWithType: PredicateBuilder
+    fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Helpers.RandomHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.RandomHelper
+  name: RandomHelper
+  nameWithType: RandomHelper
+  fullName: DotNetHelper_Contracts.Helpers.RandomHelper
+- uid: DotNetHelper_Contracts.Helpers.RegexHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.RegexHelper
+  name: RegexHelper
+  nameWithType: RegexHelper
+  fullName: DotNetHelper_Contracts.Helpers.RegexHelper
+- uid: DotNetHelper_Contracts.Helpers.WildCardHelper
+  commentId: T:DotNetHelper_Contracts.Helpers.WildCardHelper
+  name: WildCardHelper
+  nameWithType: WildCardHelper
+  fullName: DotNetHelper_Contracts.Helpers.WildCardHelper
+- uid: DotNetHelper_Contracts.Helpers
+  commentId: N:DotNetHelper_Contracts.Helpers
+  name: DotNetHelper_Contracts.Helpers
+  nameWithType: DotNetHelper_Contracts.Helpers
+  fullName: DotNetHelper_Contracts.Helpers

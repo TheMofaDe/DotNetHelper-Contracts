@@ -1,0 +1,2085 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ExtObject
+  commentId: T:DotNetHelper_Contracts.Extension.ExtObject
+  id: ExtObject
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToComparer``1(System.Comparison{``0})
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  - DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ExtObject
+  nameWithType: ExtObject
+  fullName: DotNetHelper_Contracts.Extension.ExtObject
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ExtObject
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static class ExtObject
+    content.vb: Public Module ExtObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  id: IsNullThrow(System.Object,System.String,System.Exception)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: IsNullThrow(Object, String, Exception)
+  nameWithType: ExtObject.IsNullThrow(Object, String, Exception)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object, System.String, System.Exception)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: IsNullThrow
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static void IsNullThrow(this object obj, string name, Exception error = null)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: name
+      type: System.String
+    - id: error
+      type: System.Exception
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub IsNullThrow(obj As Object, name As String, error As Exception = Nothing)
+  overload: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  id: ToBoolEx(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToBoolEx(Object)
+  nameWithType: ExtObject.ToBoolEx(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToBoolEx
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 26
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nThe value passed as the first parameter is converted to a boolean\nvalue. If value is 0, null, false, NaN, DBNull, char &apos;\\0&apos;, char &apos;0&apos;,\nthe empty string (&quot;&quot;), the string &quot;false&quot;(ignore case) or the string\n&quot;0&quot; will return false. All other values, including any object, will\nreturn true.\n"
+  example: []
+  syntax:
+    content: public static bool ToBoolEx(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+      description: input value
+    return:
+      type: System.Boolean
+      description: bool
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToBoolEx(o As Object) As Boolean
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  id: ToByte(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToByte(Object)
+  nameWithType: ExtObject.ToByte(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToByte
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 94
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static byte ToByte(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Byte
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToByte(o As Object) As Byte
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  id: ToByte(System.Object,System.Boolean,System.Byte)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToByte(Object, Boolean, Byte)
+  nameWithType: ExtObject.ToByte(Object, Boolean, Byte)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object, System.Boolean, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToByte
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 99
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static byte ToByte(this object o, bool throwEx, byte returnValueOnError = 0)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.Byte
+    return:
+      type: System.Byte
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToByte(o As Object, throwEx As Boolean, returnValueOnError As Byte = 0) As Byte
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  id: ToChar(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToChar(Object)
+  nameWithType: ExtObject.ToChar(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToChar
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 130
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static char ToChar(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Char
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToChar(o As Object) As Char
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToChar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  id: ToChar(System.Object,System.Boolean,System.Char)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToChar(Object, Boolean, Char)
+  nameWithType: ExtObject.ToChar(Object, Boolean, Char)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object, System.Boolean, System.Char)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToChar
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 135
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static char ToChar(this object o, bool throwEx, char returnValueOnError = '\0')
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.Char
+    return:
+      type: System.Char
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToChar(o As Object, throwEx As Boolean, returnValueOnError As Char = vbNullChar) As Char
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToChar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  id: ToDateTime(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(Object)
+  nameWithType: ExtObject.ToDateTime(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDateTime
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 166
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static DateTime ToDateTime(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(o As Object) As Date
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  id: ToDateTime(System.Object,System.Boolean,System.DateTime)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(Object, Boolean, DateTime)
+  nameWithType: ExtObject.ToDateTime(Object, Boolean, DateTime)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object, System.Boolean, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDateTime
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 171
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static DateTime ToDateTime(this object o, bool throwEx, DateTime returnValueOnError = default(DateTime))
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(o As Object, throwEx As Boolean, returnValueOnError As Date = Nothing) As Date
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  id: ToDecimal(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDecimal(Object)
+  nameWithType: ExtObject.ToDecimal(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDecimal
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 203
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static decimal ToDecimal(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Decimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDecimal(o As Object) As Decimal
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  id: ToDecimal(System.Object,System.Boolean,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDecimal(Object, Boolean, Int32)
+  nameWithType: ExtObject.ToDecimal(Object, Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object, System.Boolean, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDecimal
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 208
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static decimal ToDecimal(this object o, bool throwEx, int returnValueOnError = 0)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.Int32
+    return:
+      type: System.Decimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDecimal(o As Object, throwEx As Boolean, returnValueOnError As Integer = 0) As Decimal
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  id: ToDouble(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Object)
+  nameWithType: ExtObject.ToDouble(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDouble
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 240
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static double ToDouble(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Double
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDouble(o As Object) As Double
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  id: ToDouble(System.Object,System.Boolean,System.Double)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Object, Boolean, Double)
+  nameWithType: ExtObject.ToDouble(Object, Boolean, Double)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object, System.Boolean, System.Double)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToDouble
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 245
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static double ToDouble(this object o, bool throwEx, double returnValueOnError = 0)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDouble(o As Object, throwEx As Boolean, returnValueOnError As Double = 0) As Double
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  id: ToEnum``1(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToEnum<T>(Object)
+  nameWithType: ExtObject.ToEnum<T>(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToEnum
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 279
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: >-
+      public static T ToEnum<T>(this object o)
+          where T : struct
+    parameters:
+    - id: o
+      type: System.Object
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToEnum(Of T As Structure)(o As Object) As T
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToEnum*
+  nameWithType.vb: ExtObject.ToEnum(Of T)(Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)(System.Object)
+  name.vb: ToEnum(Of T)(Object)
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  id: ToEnum``1(System.Object,System.Boolean,``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToEnum<T>(Object, Boolean, T)
+  nameWithType: ExtObject.ToEnum<T>(Object, Boolean, T)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>(System.Object, System.Boolean, T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToEnum
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 285
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: >-
+      public static T ToEnum<T>(this object o, bool throwEx, T returnValueOnError = default(T))
+          where T : struct
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToEnum(Of T As Structure)(o As Object, throwEx As Boolean, returnValueOnError As T = Nothing) As T
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToEnum*
+  nameWithType.vb: ExtObject.ToEnum(Of T)(Object, Boolean, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)(System.Object, System.Boolean, T)
+  name.vb: ToEnum(Of T)(Object, Boolean, T)
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  id: ToFloat(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToFloat(Object)
+  nameWithType: ExtObject.ToFloat(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToFloat
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 336
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static float ToFloat(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToFloat(o As Object) As Single
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToFloat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  id: ToFloat(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToFloat(Object, Boolean)
+  nameWithType: ExtObject.ToFloat(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToFloat
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 341
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static float ToFloat(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToFloat(o As Object, throwEx As Boolean) As Single
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToFloat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  id: ToInt(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToInt(Object)
+  nameWithType: ExtObject.ToInt(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToInt
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 371
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static int ToInt(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInt(o As Object) As Integer
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  id: ToInt(System.Object,System.Boolean,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToInt(Object, Boolean, Int32)
+  nameWithType: ExtObject.ToInt(Object, Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object, System.Boolean, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToInt
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 376
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static int ToInt(this object o, bool throwEx, int returnValueOnError = 0)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInt(o As Object, throwEx As Boolean, returnValueOnError As Integer = 0) As Integer
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  id: ToLong(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToLong(Object)
+  nameWithType: ExtObject.ToLong(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToLong
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 408
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static long ToLong(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Int64
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToLong(o As Object) As Long
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToLong*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  id: ToLong(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToLong(Object, Boolean)
+  nameWithType: ExtObject.ToLong(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToLong
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 413
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static long ToLong(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.Int64
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToLong(o As Object, throwEx As Boolean) As Long
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToLong*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  id: ToSByte(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToSByte(Object)
+  nameWithType: ExtObject.ToSByte(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToSByte
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 443
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static sbyte ToSByte(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.SByte
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSByte(o As Object) As SByte
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToSByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  id: ToSByte(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToSByte(Object, Boolean)
+  nameWithType: ExtObject.ToSByte(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToSByte
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 448
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static sbyte ToSByte(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.SByte
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSByte(o As Object, throwEx As Boolean) As SByte
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToSByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  id: ToShort(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToShort(Object)
+  nameWithType: ExtObject.ToShort(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToShort
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 478
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static short ToShort(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Int16
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToShort(o As Object) As Short
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToShort*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  id: ToShort(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToShort(Object, Boolean)
+  nameWithType: ExtObject.ToShort(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToShort
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 483
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static short ToShort(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.Int16
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToShort(o As Object, throwEx As Boolean) As Short
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToShort*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  id: ToUInt(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToUInt(Object)
+  nameWithType: ExtObject.ToUInt(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToUInt
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 513
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static uint ToUInt(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUInt(o As Object) As UInteger
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToUInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  id: ToUInt(System.Object,System.Boolean,System.UInt32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToUInt(Object, Boolean, UInt32)
+  nameWithType: ExtObject.ToUInt(Object, Boolean, UInt32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object, System.Boolean, System.UInt32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToUInt
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 518
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static uint ToUInt(this object o, bool throwEx, uint returnValueOnError = 0U)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    - id: returnValueOnError
+      type: System.UInt32
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUInt(o As Object, throwEx As Boolean, returnValueOnError As UInteger = 0UI) As UInteger
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToUInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  id: ToULong(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToULong(Object)
+  nameWithType: ExtObject.ToULong(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToULong
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 549
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static ulong ToULong(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.UInt64
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToULong(o As Object) As ULong
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToULong*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  id: ToULong(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToULong(Object, Boolean)
+  nameWithType: ExtObject.ToULong(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToULong
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 554
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static ulong ToULong(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.UInt64
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToULong(o As Object, throwEx As Boolean) As ULong
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToULong*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  id: ToUShort(System.Object)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToUShort(Object)
+  nameWithType: ExtObject.ToUShort(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToUShort
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 584
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static ushort ToUShort(this object o)
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.UInt16
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUShort(o As Object) As UShort
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToUShort*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  id: ToUShort(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToUShort(Object, Boolean)
+  nameWithType: ExtObject.ToUShort(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToUShort
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 589
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static ushort ToUShort(this object o, bool throwEx)
+    parameters:
+    - id: o
+      type: System.Object
+    - id: throwEx
+      type: System.Boolean
+    return:
+      type: System.UInt16
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUShort(o As Object, throwEx As Boolean) As UShort
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToUShort*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToComparer``1(System.Comparison{``0})
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToComparer``1(System.Comparison{``0})
+  id: ToComparer``1(System.Comparison{``0})
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  langs:
+  - csharp
+  - vb
+  name: ToComparer<T>(Comparison<T>)
+  nameWithType: ExtObject.ToComparer<T>(Comparison<T>)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToComparer<T>(System.Comparison<T>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToComparer
+    path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
+    startLine: 624
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static IComparer<T> ToComparer<T>(this Comparison<T> comparison)
+    parameters:
+    - id: comparison
+      type: System.Comparison{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IComparer{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToComparer(Of T)(comparison As Comparison(Of T)) As IComparer(Of T)
+  overload: DotNetHelper_Contracts.Extension.ExtObject.ToComparer*
+  nameWithType.vb: ExtObject.ToComparer(Of T)(Comparison(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToComparer(Of T)(System.Comparison(Of T))
+  name.vb: ToComparer(Of T)(Comparison(Of T))
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+  name: IsNullThrow
+  nameWithType: ExtObject.IsNullThrow
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  name: ToBoolEx
+  nameWithType: ExtObject.ToBoolEx
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  name: ToByte
+  nameWithType: ExtObject.ToByte
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  name: ToChar
+  nameWithType: ExtObject.ToChar
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  name: ToDateTime
+  nameWithType: ExtObject.ToDateTime
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  name: ToDecimal
+  nameWithType: ExtObject.ToDecimal
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  name: ToDouble
+  nameWithType: ExtObject.ToDouble
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToEnum
+  name: ToEnum
+  nameWithType: ExtObject.ToEnum
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  name: ToFloat
+  nameWithType: ExtObject.ToFloat
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  name: ToInt
+  nameWithType: ExtObject.ToInt
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  name: ToLong
+  nameWithType: ExtObject.ToLong
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  name: ToSByte
+  nameWithType: ExtObject.ToSByte
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  name: ToShort
+  nameWithType: ExtObject.ToShort
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  name: ToUInt
+  nameWithType: ExtObject.ToUInt
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  name: ToULong
+  nameWithType: ExtObject.ToULong
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  name: ToUShort
+  nameWithType: ExtObject.ToUShort
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToComparer*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtObject.ToComparer
+  name: ToComparer
+  nameWithType: ExtObject.ToComparer
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToComparer
+- uid: System.Comparison{{T}}
+  commentId: T:System.Comparison{``0}
+  parent: System
+  definition: System.Comparison`1
+  name: Comparison<T>
+  nameWithType: Comparison<T>
+  fullName: System.Comparison<T>
+  nameWithType.vb: Comparison(Of T)
+  fullName.vb: System.Comparison(Of T)
+  name.vb: Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    nameWithType: Comparison
+    fullName: System.Comparison
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    nameWithType: Comparison
+    fullName: System.Comparison
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IComparer{{T}}
+  commentId: T:System.Collections.Generic.IComparer{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IComparer`1
+  name: IComparer<T>
+  nameWithType: IComparer<T>
+  fullName: System.Collections.Generic.IComparer<T>
+  nameWithType.vb: IComparer(Of T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  name.vb: IComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Comparison`1
+  commentId: T:System.Comparison`1
+  isExternal: true
+  name: Comparison<T>
+  nameWithType: Comparison<T>
+  fullName: System.Comparison<T>
+  nameWithType.vb: Comparison(Of T)
+  fullName.vb: System.Comparison(Of T)
+  name.vb: Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    nameWithType: Comparison
+    fullName: System.Comparison
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    nameWithType: Comparison
+    fullName: System.Comparison
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IComparer`1
+  commentId: T:System.Collections.Generic.IComparer`1
+  isExternal: true
+  name: IComparer<T>
+  nameWithType: IComparer<T>
+  fullName: System.Collections.Generic.IComparer<T>
+  nameWithType.vb: IComparer(Of T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  name.vb: IComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

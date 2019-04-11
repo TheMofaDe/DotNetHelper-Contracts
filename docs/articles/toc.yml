@@ -1,0 +1,9 @@
+﻿- name: Home
+  href: articles/docfx_getting_started.md
+- name: Roslyn Wiki
+  href: articles/
+- name: Roslyn API
+  href: api/
+- name: Test API
+  href: obj/api/
+  homepage: articles/docfx_getting_started.md

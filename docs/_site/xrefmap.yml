@@ -312,11 +312,11 @@ references:
   commentId: M:DotNetHelper_Contracts.CustomException.BadCodeException.#ctor
   fullName: DotNetHelper_Contracts.CustomException.BadCodeException.BadCodeException()
   nameWithType: BadCodeException.BadCodeException()
-- uid: DotNetHelper_Contracts.CustomException.BadCodeException.#ctor(SerializationInfo,StreamingContext)
+- uid: DotNetHelper_Contracts.CustomException.BadCodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: BadCodeException(SerializationInfo, StreamingContext)
-  href: api/DotNetHelper_Contracts.CustomException.BadCodeException.html#DotNetHelper_Contracts_CustomException_BadCodeException__ctor_SerializationInfo_StreamingContext_
-  commentId: M:DotNetHelper_Contracts.CustomException.BadCodeException.#ctor(SerializationInfo,StreamingContext)
-  fullName: DotNetHelper_Contracts.CustomException.BadCodeException.BadCodeException(SerializationInfo, StreamingContext)
+  href: api/DotNetHelper_Contracts.CustomException.BadCodeException.html#DotNetHelper_Contracts_CustomException_BadCodeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:DotNetHelper_Contracts.CustomException.BadCodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: DotNetHelper_Contracts.CustomException.BadCodeException.BadCodeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: BadCodeException.BadCodeException(SerializationInfo, StreamingContext)
 - uid: DotNetHelper_Contracts.CustomException.BadCodeException.#ctor(System.String)
   name: BadCodeException(String)
@@ -349,11 +349,11 @@ references:
   commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor
   fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException()
   nameWithType: SerializableException.SerializableException()
-- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(SerializationInfo,StreamingContext)
+- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: SerializableException(SerializationInfo, StreamingContext)
-  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_SerializationInfo_StreamingContext_
-  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(SerializationInfo,StreamingContext)
-  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(SerializationInfo, StreamingContext)
+  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: SerializableException.SerializableException(SerializationInfo, StreamingContext)
 - uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String)
   name: SerializableException(String)
@@ -367,22 +367,22 @@ references:
   commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.Exception)
   fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.Exception)
   nameWithType: SerializableException.SerializableException(String, Exception)
-- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String})
+- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String})
   name: SerializableException(String, String, IList<String>)
-  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_IList_System_String__
-  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String})
+  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__
+  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String})
   name.vb: SerializableException(String, String, IList(Of String))
-  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, IList<System.String>)
-  fullName.vb: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, IList(Of System.String))
+  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, System.Collections.Generic.IList<System.String>)
+  fullName.vb: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, System.Collections.Generic.IList(Of System.String))
   nameWithType: SerializableException.SerializableException(String, String, IList<String>)
   nameWithType.vb: SerializableException.SerializableException(String, String, IList(Of String))
-- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String},System.Exception)
+- uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String},System.Exception)
   name: SerializableException(String, String, IList<String>, Exception)
-  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_IList_System_String__System_Exception_
-  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String},System.Exception)
+  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__System_Exception_
+  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String},System.Exception)
   name.vb: SerializableException(String, String, IList(Of String), Exception)
-  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, IList<System.String>, System.Exception)
-  fullName.vb: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, IList(Of System.String), System.Exception)
+  fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, System.Collections.Generic.IList<System.String>, System.Exception)
+  fullName.vb: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException(System.String, System.String, System.Collections.Generic.IList(Of System.String), System.Exception)
   nameWithType: SerializableException.SerializableException(String, String, IList<String>, Exception)
   nameWithType.vb: SerializableException.SerializableException(String, String, IList(Of String), Exception)
 - uid: DotNetHelper_Contracts.CustomException.SerializableException.#ctor*
@@ -392,11 +392,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.CustomException.SerializableException.SerializableException
   nameWithType: SerializableException.SerializableException
-- uid: DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: GetObjectData(SerializationInfo, StreamingContext)
-  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_SerializationInfo_StreamingContext_
-  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(SerializationInfo,StreamingContext)
-  fullName: DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(SerializationInfo, StreamingContext)
+  href: api/DotNetHelper_Contracts.CustomException.SerializableException.html#DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: SerializableException.GetObjectData(SerializationInfo, StreamingContext)
 - uid: DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData*
   name: GetObjectData
@@ -455,22 +455,22 @@ references:
   commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.Exception)
   fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.Exception)
   nameWithType: UserSerializableException.UserSerializableException(String, String, Exception)
-- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,IList{System.String})
+- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{System.String})
   name: UserSerializableException(String, String, String, IList<String>)
-  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException__ctor_System_String_System_String_System_String_IList_System_String__
-  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,IList{System.String})
+  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException__ctor_System_String_System_String_System_String_System_Collections_Generic_IList_System_String__
+  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{System.String})
   name.vb: UserSerializableException(String, String, String, IList(Of String))
-  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, IList<System.String>)
-  fullName.vb: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, IList(Of System.String))
+  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, System.Collections.Generic.IList<System.String>)
+  fullName.vb: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, System.Collections.Generic.IList(Of System.String))
   nameWithType: UserSerializableException.UserSerializableException(String, String, String, IList<String>)
   nameWithType.vb: UserSerializableException.UserSerializableException(String, String, String, IList(Of String))
-- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,IList{System.String},System.Exception)
+- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Exception)
   name: UserSerializableException(String, String, String, IList<String>, Exception)
-  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException__ctor_System_String_System_String_System_String_IList_System_String__System_Exception_
-  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,IList{System.String},System.Exception)
+  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException__ctor_System_String_System_String_System_String_System_Collections_Generic_IList_System_String__System_Exception_
+  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Exception)
   name.vb: UserSerializableException(String, String, String, IList(Of String), Exception)
-  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, IList<System.String>, System.Exception)
-  fullName.vb: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, IList(Of System.String), System.Exception)
+  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, System.Collections.Generic.IList<System.String>, System.Exception)
+  fullName.vb: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException(System.String, System.String, System.String, System.Collections.Generic.IList(Of System.String), System.Exception)
   nameWithType: UserSerializableException.UserSerializableException(String, String, String, IList<String>, Exception)
   nameWithType.vb: UserSerializableException.UserSerializableException(String, String, String, IList(Of String), Exception)
 - uid: DotNetHelper_Contracts.CustomException.UserSerializableException.#ctor*
@@ -480,11 +480,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.UserSerializableException
   nameWithType: UserSerializableException.UserSerializableException
-- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: GetObjectData(SerializationInfo, StreamingContext)
-  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException_GetObjectData_SerializationInfo_StreamingContext_
-  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(SerializationInfo,StreamingContext)
-  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(SerializationInfo, StreamingContext)
+  href: api/DotNetHelper_Contracts.CustomException.UserSerializableException.html#DotNetHelper_Contracts_CustomException_UserSerializableException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: UserSerializableException.GetObjectData(SerializationInfo, StreamingContext)
 - uid: DotNetHelper_Contracts.CustomException.UserSerializableException.GetObjectData*
   name: GetObjectData
@@ -1107,22 +1107,22 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtCollection.AddRange
   nameWithType: ExtCollection.AddRange
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(ICollection{``0},ICollection{``0})
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
   name: AddRange<T>(ICollection<T>, ICollection<T>)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_AddRange__1_ICollection___0__ICollection___0__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(ICollection{``0},ICollection{``0})
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_ICollection___0__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
   name.vb: AddRange(Of T)(ICollection(Of T), ICollection(Of T))
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.AddRange<T>(ICollection<T>, ICollection<T>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.AddRange(Of T)(ICollection(Of T), ICollection(Of T))
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.AddRange<T>(System.Collections.Generic.ICollection<T>, System.Collections.Generic.ICollection<T>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.AddRange(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.ICollection(Of T))
   nameWithType: ExtCollection.AddRange<T>(ICollection<T>, ICollection<T>)
   nameWithType.vb: ExtCollection.AddRange(Of T)(ICollection(Of T), ICollection(Of T))
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(IDataParameterCollection,IEnumerable{``0})
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(System.Data.IDataParameterCollection,System.Collections.Generic.IEnumerable{``0})
   name: AddRange<T>(IDataParameterCollection, IEnumerable<T>)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_AddRange__1_IDataParameterCollection_IEnumerable___0__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(IDataParameterCollection,IEnumerable{``0})
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_AddRange__1_System_Data_IDataParameterCollection_System_Collections_Generic_IEnumerable___0__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.AddRange``1(System.Data.IDataParameterCollection,System.Collections.Generic.IEnumerable{``0})
   name.vb: AddRange(Of T)(IDataParameterCollection, IEnumerable(Of T))
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.AddRange<T>(IDataParameterCollection, IEnumerable<T>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.AddRange(Of T)(IDataParameterCollection, IEnumerable(Of T))
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.AddRange<T>(System.Data.IDataParameterCollection, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.AddRange(Of T)(System.Data.IDataParameterCollection, System.Collections.Generic.IEnumerable(Of T))
   nameWithType: ExtCollection.AddRange<T>(IDataParameterCollection, IEnumerable<T>)
   nameWithType.vb: ExtCollection.AddRange(Of T)(IDataParameterCollection, IEnumerable(Of T))
 - uid: DotNetHelper_Contracts.Extension.ExtCollection.ForEach*
@@ -1132,20 +1132,20 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtCollection.ForEach
   nameWithType: ExtCollection.ForEach
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.ForEach``1(ICollection{``0},System.Action{``0})
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.ForEach``1(System.Collections.Generic.ICollection{``0},System.Action{``0})
   name: ForEach<T>(ICollection<T>, Action<T>)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_ForEach__1_ICollection___0__System_Action___0__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.ForEach``1(ICollection{``0},System.Action{``0})
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_ForEach__1_System_Collections_Generic_ICollection___0__System_Action___0__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.ForEach``1(System.Collections.Generic.ICollection{``0},System.Action{``0})
   name.vb: ForEach(Of T)(ICollection(Of T), Action(Of T))
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.ForEach<T>(ICollection<T>, System.Action<T>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.ForEach(Of T)(ICollection(Of T), System.Action(Of T))
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.ForEach<T>(System.Collections.Generic.ICollection<T>, System.Action<T>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.ForEach(Of T)(System.Collections.Generic.ICollection(Of T), System.Action(Of T))
   nameWithType: ExtCollection.ForEach<T>(ICollection<T>, Action<T>)
   nameWithType.vb: ExtCollection.ForEach(Of T)(ICollection(Of T), Action(Of T))
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(ICollection)
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(System.Collections.ICollection)
   name: IsNullOrEmpty(ICollection)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_IsNullOrEmpty_ICollection_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(ICollection)
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(ICollection)
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_IsNullOrEmpty_System_Collections_ICollection_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(System.Collections.ICollection)
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty(System.Collections.ICollection)
   nameWithType: ExtCollection.IsNullOrEmpty(ICollection)
 - uid: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty*
   name: IsNullOrEmpty
@@ -1154,11 +1154,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtCollection.IsNullOrEmpty
   nameWithType: ExtCollection.IsNullOrEmpty
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(IDataParameterCollection,System.String)
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(System.Data.IDataParameterCollection,System.String)
   name: ParamToSql(IDataParameterCollection, String)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_ParamToSql_IDataParameterCollection_System_String_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(IDataParameterCollection,System.String)
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(IDataParameterCollection, System.String)
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_ParamToSql_System_Data_IDataParameterCollection_System_String_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(System.Data.IDataParameterCollection,System.String)
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql(System.Data.IDataParameterCollection, System.String)
   nameWithType: ExtCollection.ParamToSql(IDataParameterCollection, String)
 - uid: DotNetHelper_Contracts.Extension.ExtCollection.ParamToSql*
   name: ParamToSql
@@ -1174,13 +1174,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange
   nameWithType: ExtCollection.RemoveRange
-- uid: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange``1(ICollection{``0},ICollection{``0})
+- uid: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
   name: RemoveRange<T>(ICollection<T>, ICollection<T>)
-  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_RemoveRange__1_ICollection___0__ICollection___0__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange``1(ICollection{``0},ICollection{``0})
+  href: api/DotNetHelper_Contracts.Extension.ExtCollection.html#DotNetHelper_Contracts_Extension_ExtCollection_RemoveRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_ICollection___0__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
   name.vb: RemoveRange(Of T)(ICollection(Of T), ICollection(Of T))
-  fullName: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange<T>(ICollection<T>, ICollection<T>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange(Of T)(ICollection(Of T), ICollection(Of T))
+  fullName: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange<T>(System.Collections.Generic.ICollection<T>, System.Collections.Generic.ICollection<T>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtCollection.RemoveRange(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.ICollection(Of T))
   nameWithType: ExtCollection.RemoveRange<T>(ICollection<T>, ICollection<T>)
   nameWithType.vb: ExtCollection.RemoveRange(Of T)(ICollection(Of T), ICollection(Of T))
 - uid: DotNetHelper_Contracts.Extension.ExtDateTime
@@ -1202,13 +1202,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist
   nameWithType: ExtDictionary.AddIfNotExist
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name: AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddIfNotExist__2_IDictionary___0___1____0___1_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(IDictionary{``0,``1},``0,``1)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddIfNotExist__2_System_Collections_Generic_IDictionary___0___1____0___1_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name.vb: AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist<K, V>(System.Collections.Generic.IDictionary<K, V>, K, V)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddIfNotExist(Of K, V)(System.Collections.Generic.IDictionary(Of K, V), K, V)
   nameWithType: ExtDictionary.AddIfNotExist<K, V>(IDictionary<K, V>, K, V)
   nameWithType.vb: ExtDictionary.AddIfNotExist(Of K, V)(IDictionary(Of K, V), K, V)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate*
@@ -1218,13 +1218,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate
   nameWithType: ExtDictionary.AddOrUpdate
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name: AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdate__2_IDictionary___0___1____0___1_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(IDictionary{``0,``1},``0,``1)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdate__2_System_Collections_Generic_IDictionary___0___1____0___1_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name.vb: AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate<K, V>(System.Collections.Generic.IDictionary<K, V>, K, V)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdate(Of K, V)(System.Collections.Generic.IDictionary(Of K, V), K, V)
   nameWithType: ExtDictionary.AddOrUpdate<K, V>(IDictionary<K, V>, K, V)
   nameWithType.vb: ExtDictionary.AddOrUpdate(Of K, V)(IDictionary(Of K, V), K, V)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue*
@@ -1234,13 +1234,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue
   nameWithType: ExtDictionary.AddOrUpdateHighestValue
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(System.Collections.Generic.IDictionary{``0,System.Int32},``0,System.Int32)
   name: AddOrUpdateHighestValue<K>(IDictionary<K, Int32>, K, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdateHighestValue__1_IDictionary___0_System_Int32____0_System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdateHighestValue__1_System_Collections_Generic_IDictionary___0_System_Int32____0_System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue``1(System.Collections.Generic.IDictionary{``0,System.Int32},``0,System.Int32)
   name.vb: AddOrUpdateHighestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue<K>(IDictionary<K, System.Int32>, K, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue(Of K)(IDictionary(Of K, System.Int32), K, System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue<K>(System.Collections.Generic.IDictionary<K, System.Int32>, K, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateHighestValue(Of K)(System.Collections.Generic.IDictionary(Of K, System.Int32), K, System.Int32)
   nameWithType: ExtDictionary.AddOrUpdateHighestValue<K>(IDictionary<K, Int32>, K, Int32)
   nameWithType.vb: ExtDictionary.AddOrUpdateHighestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue*
@@ -1250,13 +1250,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue
   nameWithType: ExtDictionary.AddOrUpdateLowestValue
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(System.Collections.Generic.IDictionary{``0,System.Int32},``0,System.Int32)
   name: AddOrUpdateLowestValue<K>(IDictionary<K, Int32>, K, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdateLowestValue__1_IDictionary___0_System_Int32____0_System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(IDictionary{``0,System.Int32},``0,System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_AddOrUpdateLowestValue__1_System_Collections_Generic_IDictionary___0_System_Int32____0_System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue``1(System.Collections.Generic.IDictionary{``0,System.Int32},``0,System.Int32)
   name.vb: AddOrUpdateLowestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue<K>(IDictionary<K, System.Int32>, K, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue(Of K)(IDictionary(Of K, System.Int32), K, System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue<K>(System.Collections.Generic.IDictionary<K, System.Int32>, K, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.AddOrUpdateLowestValue(Of K)(System.Collections.Generic.IDictionary(Of K, System.Int32), K, System.Int32)
   nameWithType: ExtDictionary.AddOrUpdateLowestValue<K>(IDictionary<K, Int32>, K, Int32)
   nameWithType.vb: ExtDictionary.AddOrUpdateLowestValue(Of K)(IDictionary(Of K, Int32), K, Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.Clone*
@@ -1266,13 +1266,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.Clone
   nameWithType: ExtDictionary.Clone
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(IDictionary{``0,``1})
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(System.Collections.Generic.IDictionary{``0,``1})
   name: Clone<K, V>(IDictionary<K, V>)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_Clone__2_IDictionary___0___1__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(IDictionary{``0,``1})
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_Clone__2_System_Collections_Generic_IDictionary___0___1__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.Clone``2(System.Collections.Generic.IDictionary{``0,``1})
   name.vb: Clone(Of K, V)(IDictionary(Of K, V))
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.Clone<K, V>(IDictionary<K, V>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.Clone(Of K, V)(IDictionary(Of K, V))
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.Clone<K, V>(System.Collections.Generic.IDictionary<K, V>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.Clone(Of K, V)(System.Collections.Generic.IDictionary(Of K, V))
   nameWithType: ExtDictionary.Clone<K, V>(IDictionary<K, V>)
   nameWithType.vb: ExtDictionary.Clone(Of K, V)(IDictionary(Of K, V))
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey*
@@ -1282,13 +1282,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey
   nameWithType: ExtDictionary.GetKey
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(IOrderedDictionary,System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(System.Collections.Specialized.IOrderedDictionary,System.Int32)
   name: GetKey<T>(IOrderedDictionary, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetKey__1_IOrderedDictionary_System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(IOrderedDictionary,System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetKey__1_System_Collections_Specialized_IOrderedDictionary_System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetKey``1(System.Collections.Specialized.IOrderedDictionary,System.Int32)
   name.vb: GetKey(Of T)(IOrderedDictionary, Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey<T>(IOrderedDictionary, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey(Of T)(IOrderedDictionary, System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey<T>(System.Collections.Specialized.IOrderedDictionary, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetKey(Of T)(System.Collections.Specialized.IOrderedDictionary, System.Int32)
   nameWithType: ExtDictionary.GetKey<T>(IOrderedDictionary, Int32)
   nameWithType.vb: ExtDictionary.GetKey(Of T)(IOrderedDictionary, Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue*
@@ -1298,38 +1298,38 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue
   nameWithType: ExtDictionary.GetValue
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(IOrderedDictionary,``0)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(System.Collections.Specialized.IOrderedDictionary,``0)
   name: GetValue<T, U>(IOrderedDictionary, T)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValue__2_IOrderedDictionary___0_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(IOrderedDictionary,``0)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValue__2_System_Collections_Specialized_IOrderedDictionary___0_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValue``2(System.Collections.Specialized.IOrderedDictionary,``0)
   name.vb: GetValue(Of T, U)(IOrderedDictionary, T)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue<T, U>(IOrderedDictionary, T)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue(Of T, U)(IOrderedDictionary, T)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue<T, U>(System.Collections.Specialized.IOrderedDictionary, T)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValue(Of T, U)(System.Collections.Specialized.IOrderedDictionary, T)
   nameWithType: ExtDictionary.GetValue<T, U>(IOrderedDictionary, T)
   nameWithType.vb: ExtDictionary.GetValue(Of T, U)(IOrderedDictionary, T)
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue*
-  name: GetValueOrDefaultValue
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValueOrDefaultValue_
-  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValueOrDefault_
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault
   isSpec: "True"
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue
-  nameWithType: ExtDictionary.GetValueOrDefaultValue
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
-  name: GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValueOrDefaultValue__2_IDictionary___0___1____0___1_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue``2(IDictionary{``0,``1},``0,``1)
-  name.vb: GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
-  nameWithType: ExtDictionary.GetValueOrDefaultValue<K, V>(IDictionary<K, V>, K, V)
-  nameWithType.vb: ExtDictionary.GetValueOrDefaultValue(Of K, V)(IDictionary(Of K, V), K, V)
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault
+  nameWithType: ExtDictionary.GetValueOrDefault
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
+  name: GetValueOrDefault<K, V>(IDictionary<K, V>, K, V)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0___1_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
+  name.vb: GetValueOrDefault(Of K, V)(IDictionary(Of K, V), K, V)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault<K, V>(System.Collections.Generic.IDictionary<K, V>, K, V)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.GetValueOrDefault(Of K, V)(System.Collections.Generic.IDictionary(Of K, V), K, V)
+  nameWithType: ExtDictionary.GetValueOrDefault<K, V>(IDictionary<K, V>, K, V)
+  nameWithType.vb: ExtDictionary.GetValueOrDefault(Of K, V)(IDictionary(Of K, V), K, V)
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(System.Collections.Generic.IDictionary{System.String,System.Object},System.String)
   name: MapToDataTable(IDictionary<String, Object>, String)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_MapToDataTable_IDictionary_System_String_System_Object__System_String_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary{System.String,System.Object},System.String)
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_MapToDataTable_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(System.Collections.Generic.IDictionary{System.String,System.Object},System.String)
   name.vb: MapToDataTable(IDictionary(Of String, Object), String)
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary<System.String, System.Object>, System.String)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(IDictionary(Of System.String, System.Object), System.String)
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String)
   nameWithType: ExtDictionary.MapToDataTable(IDictionary<String, Object>, String)
   nameWithType.vb: ExtDictionary.MapToDataTable(IDictionary(Of String, Object), String)
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable*
@@ -1339,13 +1339,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtDictionary.MapToDataTable
   nameWithType: ExtDictionary.MapToDataTable
-- uid: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary{System.String,System.Object})
+- uid: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(System.Collections.Generic.IDictionary{System.String,System.Object})
   name: ToDataReader(IDictionary<String, Object>)
-  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_ToDataReader_IDictionary_System_String_System_Object__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary{System.String,System.Object})
+  href: api/DotNetHelper_Contracts.Extension.ExtDictionary.html#DotNetHelper_Contracts_Extension_ExtDictionary_ToDataReader_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(System.Collections.Generic.IDictionary{System.String,System.Object})
   name.vb: ToDataReader(IDictionary(Of String, Object))
-  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary<System.String, System.Object>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(IDictionary(Of System.String, System.Object))
+  fullName: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader(System.Collections.Generic.IDictionary(Of System.String, System.Object))
   nameWithType: ExtDictionary.ToDataReader(IDictionary<String, Object>)
   nameWithType.vb: ExtDictionary.ToDataReader(IDictionary(Of String, Object))
 - uid: DotNetHelper_Contracts.Extension.ExtDictionary.ToDataReader*
@@ -1361,13 +1361,13 @@ references:
   commentId: T:DotNetHelper_Contracts.Extension.ExtIEnumerable
   fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable
   nameWithType: ExtIEnumerable
-- uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(IEnumerable{System.String},IEnumerable{System.String})
+- uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
   name: ContainAnySameItem(IEnumerable<String>, IEnumerable<String>)
-  href: api/DotNetHelper_Contracts.Extension.ExtIEnumerable.html#DotNetHelper_Contracts_Extension_ExtIEnumerable_ContainAnySameItem_IEnumerable_System_String__IEnumerable_System_String__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(IEnumerable{System.String},IEnumerable{System.String})
+  href: api/DotNetHelper_Contracts.Extension.ExtIEnumerable.html#DotNetHelper_Contracts_Extension_ExtIEnumerable_ContainAnySameItem_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
   name.vb: ContainAnySameItem(IEnumerable(Of String), IEnumerable(Of String))
-  fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(IEnumerable<System.String>, IEnumerable<System.String>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(IEnumerable(Of System.String), IEnumerable(Of System.String))
+  fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
   nameWithType: ExtIEnumerable.ContainAnySameItem(IEnumerable<String>, IEnumerable<String>)
   nameWithType.vb: ExtIEnumerable.ContainAnySameItem(IEnumerable(Of String), IEnumerable(Of String))
 - uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem*
@@ -1377,11 +1377,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable.ContainAnySameItem
   nameWithType: ExtIEnumerable.ContainAnySameItem
-- uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(IEnumerable)
+- uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(System.Collections.IEnumerable)
   name: IsNullOrEmpty(IEnumerable)
-  href: api/DotNetHelper_Contracts.Extension.ExtIEnumerable.html#DotNetHelper_Contracts_Extension_ExtIEnumerable_IsNullOrEmpty_IEnumerable_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(IEnumerable)
-  fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(IEnumerable)
+  href: api/DotNetHelper_Contracts.Extension.ExtIEnumerable.html#DotNetHelper_Contracts_Extension_ExtIEnumerable_IsNullOrEmpty_System_Collections_IEnumerable_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(System.Collections.IEnumerable)
+  fullName: DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty(System.Collections.IEnumerable)
   nameWithType: ExtIEnumerable.IsNullOrEmpty(IEnumerable)
 - uid: DotNetHelper_Contracts.Extension.ExtIEnumerable.IsNullOrEmpty*
   name: IsNullOrEmpty
@@ -1403,13 +1403,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups
   nameWithType: ExtList.BatchIntoGroups
-- uid: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups``1(List{``0},System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups``1(System.Collections.Generic.List{``0},System.Int32)
   name: BatchIntoGroups<T>(List<T>, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_BatchIntoGroups__1_List___0__System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups``1(List{``0},System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_BatchIntoGroups__1_System_Collections_Generic_List___0__System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups``1(System.Collections.Generic.List{``0},System.Int32)
   name.vb: BatchIntoGroups(Of T)(List(Of T), Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups<T>(List<T>, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups(Of T)(List(Of T), System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups<T>(System.Collections.Generic.List<T>, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroups(Of T)(System.Collections.Generic.List(Of T), System.Int32)
   nameWithType: ExtList.BatchIntoGroups<T>(List<T>, Int32)
   nameWithType.vb: ExtList.BatchIntoGroups(Of T)(List(Of T), Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax*
@@ -1419,13 +1419,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax
   nameWithType: ExtList.BatchIntoGroupsWithMax
-- uid: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax``1(List{``0},System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax``1(System.Collections.Generic.List{``0},System.Int32)
   name: BatchIntoGroupsWithMax<T>(List<T>, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_BatchIntoGroupsWithMax__1_List___0__System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax``1(List{``0},System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_BatchIntoGroupsWithMax__1_System_Collections_Generic_List___0__System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax``1(System.Collections.Generic.List{``0},System.Int32)
   name.vb: BatchIntoGroupsWithMax(Of T)(List(Of T), Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax<T>(List<T>, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax(Of T)(List(Of T), System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax<T>(System.Collections.Generic.List<T>, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.BatchIntoGroupsWithMax(Of T)(System.Collections.Generic.List(Of T), System.Int32)
   nameWithType: ExtList.BatchIntoGroupsWithMax<T>(List<T>, Int32)
   nameWithType.vb: ExtList.BatchIntoGroupsWithMax(Of T)(List(Of T), Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems*
@@ -1435,13 +1435,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems
   nameWithType: ExtList.GetRandomItems
-- uid: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems``1(List{``0},System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems``1(System.Collections.Generic.List{``0},System.Int32)
   name: GetRandomItems<T>(List<T>, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_GetRandomItems__1_List___0__System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtList.GetRandomItems``1(List{``0},System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_GetRandomItems__1_System_Collections_Generic_List___0__System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtList.GetRandomItems``1(System.Collections.Generic.List{``0},System.Int32)
   name.vb: GetRandomItems(Of T)(List(Of T), Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems<T>(List<T>, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems(Of T)(List(Of T), System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems<T>(System.Collections.Generic.List<T>, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.GetRandomItems(Of T)(System.Collections.Generic.List(Of T), System.Int32)
   nameWithType: ExtList.GetRandomItems<T>(List<T>, Int32)
   nameWithType.vb: ExtList.GetRandomItems(Of T)(List(Of T), Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty*
@@ -1451,13 +1451,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty
   nameWithType: ExtList.IsNullOrEmpty
-- uid: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty``1(List{``0},System.Func{``0,System.Boolean})
+- uid: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty``1(System.Collections.Generic.List{``0},System.Func{``0,System.Boolean})
   name: IsNullOrEmpty<T>(List<T>, Func<T, Boolean>)
-  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_IsNullOrEmpty__1_List___0__System_Func___0_System_Boolean__
-  commentId: M:DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty``1(List{``0},System.Func{``0,System.Boolean})
+  href: api/DotNetHelper_Contracts.Extension.ExtList.html#DotNetHelper_Contracts_Extension_ExtList_IsNullOrEmpty__1_System_Collections_Generic_List___0__System_Func___0_System_Boolean__
+  commentId: M:DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty``1(System.Collections.Generic.List{``0},System.Func{``0,System.Boolean})
   name.vb: IsNullOrEmpty(Of T)(List(Of T), Func(Of T, Boolean))
-  fullName: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty<T>(List<T>, System.Func<T, System.Boolean>)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty(Of T)(List(Of T), System.Func(Of T, System.Boolean))
+  fullName: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty<T>(System.Collections.Generic.List<T>, System.Func<T, System.Boolean>)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtList.IsNullOrEmpty(Of T)(System.Collections.Generic.List(Of T), System.Func(Of T, System.Boolean))
   nameWithType: ExtList.IsNullOrEmpty<T>(List<T>, Func<T, Boolean>)
   nameWithType.vb: ExtList.IsNullOrEmpty(Of T)(List(Of T), Func(Of T, Boolean))
 - uid: DotNetHelper_Contracts.Extension.ExtMemberInfo
@@ -1466,11 +1466,11 @@ references:
   commentId: T:DotNetHelper_Contracts.Extension.ExtMemberInfo
   fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo
   nameWithType: ExtMemberInfo
-- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(MemberInfo)
+- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(System.Reflection.MemberInfo)
   name: GetMemberType(MemberInfo)
-  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_GetMemberType_MemberInfo_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(MemberInfo)
-  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(MemberInfo)
+  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_GetMemberType_System_Reflection_MemberInfo_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(System.Reflection.MemberInfo)
+  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType(System.Reflection.MemberInfo)
   nameWithType: ExtMemberInfo.GetMemberType(MemberInfo)
 - uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType*
   name: GetMemberType
@@ -1479,11 +1479,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetMemberType
   nameWithType: ExtMemberInfo.GetMemberType
-- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(MemberInfo,System.Object)
+- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(System.Reflection.MemberInfo,System.Object)
   name: GetValue(MemberInfo, Object)
-  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_GetValue_MemberInfo_System_Object_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(MemberInfo,System.Object)
-  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(MemberInfo, System.Object)
+  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_GetValue_System_Reflection_MemberInfo_System_Object_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(System.Reflection.MemberInfo,System.Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue(System.Reflection.MemberInfo, System.Object)
   nameWithType: ExtMemberInfo.GetValue(MemberInfo, Object)
 - uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue*
   name: GetValue
@@ -1492,11 +1492,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.GetValue
   nameWithType: ExtMemberInfo.GetValue
-- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(MemberInfo,System.Object,System.Object)
+- uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(System.Reflection.MemberInfo,System.Object,System.Object)
   name: SetValue(MemberInfo, Object, Object)
-  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_SetValue_MemberInfo_System_Object_System_Object_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(MemberInfo,System.Object,System.Object)
-  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(MemberInfo, System.Object, System.Object)
+  href: api/DotNetHelper_Contracts.Extension.ExtMemberInfo.html#DotNetHelper_Contracts_Extension_ExtMemberInfo_SetValue_System_Reflection_MemberInfo_System_Object_System_Object_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(System.Reflection.MemberInfo,System.Object,System.Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue(System.Reflection.MemberInfo, System.Object, System.Object)
   nameWithType: ExtMemberInfo.SetValue(MemberInfo, Object, Object)
 - uid: DotNetHelper_Contracts.Extension.ExtMemberInfo.SetValue*
   name: SetValue
@@ -1860,13 +1860,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStack.Pop
   nameWithType: ExtStack.Pop
-- uid: DotNetHelper_Contracts.Extension.ExtStack.Pop``1(Stack{``0},System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtStack.Pop``1(System.Collections.Generic.Stack{``0},System.Int32)
   name: Pop<T>(Stack<T>, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtStack.html#DotNetHelper_Contracts_Extension_ExtStack_Pop__1_Stack___0__System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStack.Pop``1(Stack{``0},System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtStack.html#DotNetHelper_Contracts_Extension_ExtStack_Pop__1_System_Collections_Generic_Stack___0__System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStack.Pop``1(System.Collections.Generic.Stack{``0},System.Int32)
   name.vb: Pop(Of T)(Stack(Of T), Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtStack.Pop<T>(Stack<T>, System.Int32)
-  fullName.vb: DotNetHelper_Contracts.Extension.ExtStack.Pop(Of T)(Stack(Of T), System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtStack.Pop<T>(System.Collections.Generic.Stack<T>, System.Int32)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtStack.Pop(Of T)(System.Collections.Generic.Stack(Of T), System.Int32)
   nameWithType: ExtStack.Pop<T>(Stack<T>, Int32)
   nameWithType.vb: ExtStack.Pop(Of T)(Stack(Of T), Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtStream
@@ -1875,11 +1875,11 @@ references:
   commentId: T:DotNetHelper_Contracts.Extension.ExtStream
   fullName: DotNetHelper_Contracts.Extension.ExtStream
   nameWithType: ExtStream
-- uid: DotNetHelper_Contracts.Extension.ExtStream.Clear(Stream)
+- uid: DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
   name: Clear(Stream)
-  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_Clear_Stream_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.Clear(Stream)
-  fullName: DotNetHelper_Contracts.Extension.ExtStream.Clear(Stream)
+  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_Clear_System_IO_Stream_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
   nameWithType: ExtStream.Clear(Stream)
 - uid: DotNetHelper_Contracts.Extension.ExtStream.Clear*
   name: Clear
@@ -1888,11 +1888,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStream.Clear
   nameWithType: ExtStream.Clear
-- uid: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(Stream,Encoding,System.Int32)
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
   name: ReadToString(Stream, Encoding, Int32)
-  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ReadToString_Stream_Encoding_System_Int32_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ReadToString(Stream,Encoding,System.Int32)
-  fullName: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(Stream, Encoding, System.Int32)
+  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ReadToString_System_IO_Stream_System_Text_Encoding_System_Int32_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream, System.Text.Encoding, System.Int32)
   nameWithType: ExtStream.ReadToString(Stream, Encoding, Int32)
 - uid: DotNetHelper_Contracts.Extension.ExtStream.ReadToString*
   name: ReadToString
@@ -1901,11 +1901,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStream.ReadToString
   nameWithType: ExtStream.ReadToString
-- uid: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(Stream)
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
   name: ResetPosition(Stream)
-  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ResetPosition_Stream_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(Stream)
-  fullName: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(Stream)
+  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ResetPosition_System_IO_Stream_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
   nameWithType: ExtStream.ResetPosition(Stream)
 - uid: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition*
   name: ResetPosition
@@ -1914,11 +1914,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition
   nameWithType: ExtStream.ResetPosition
-- uid: DotNetHelper_Contracts.Extension.ExtStream.ToArray(Stream)
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
   name: ToArray(Stream)
-  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ToArray_Stream_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ToArray(Stream)
-  fullName: DotNetHelper_Contracts.Extension.ExtStream.ToArray(Stream)
+  href: api/DotNetHelper_Contracts.Extension.ExtStream.html#DotNetHelper_Contracts_Extension_ExtStream_ToArray_System_IO_Stream_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
   nameWithType: ExtStream.ToArray(Stream)
 - uid: DotNetHelper_Contracts.Extension.ExtStream.ToArray*
   name: ToArray
@@ -1946,11 +1946,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtString.CloneString
   nameWithType: ExtString.CloneString
-- uid: DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String,Encoding)
+- uid: DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String,System.Text.Encoding)
   name: GetBytes(String, Encoding)
-  href: api/DotNetHelper_Contracts.Extension.ExtString.html#DotNetHelper_Contracts_Extension_ExtString_GetBytes_System_String_Encoding_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String,Encoding)
-  fullName: DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String, Encoding)
+  href: api/DotNetHelper_Contracts.Extension.ExtString.html#DotNetHelper_Contracts_Extension_ExtString_GetBytes_System_String_System_Text_Encoding_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String,System.Text.Encoding)
+  fullName: DotNetHelper_Contracts.Extension.ExtString.GetBytes(System.String, System.Text.Encoding)
   nameWithType: ExtString.GetBytes(String, Encoding)
 - uid: DotNetHelper_Contracts.Extension.ExtString.GetBytes*
   name: GetBytes
@@ -1991,11 +1991,11 @@ references:
   commentId: T:DotNetHelper_Contracts.Extension.ExtStringBuilder
   fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder
   nameWithType: ExtStringBuilder
-- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(StringBuilder,MemoryStream,Encoding)
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
   name: CopyToStream(StringBuilder, MemoryStream, Encoding)
-  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_CopyToStream_StringBuilder_MemoryStream_Encoding_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(StringBuilder,MemoryStream,Encoding)
-  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(StringBuilder, MemoryStream, Encoding)
+  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_CopyToStream_System_Text_StringBuilder_System_IO_MemoryStream_System_Text_Encoding_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder, System.IO.MemoryStream, System.Text.Encoding)
   nameWithType: ExtStringBuilder.CopyToStream(StringBuilder, MemoryStream, Encoding)
 - uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream*
   name: CopyToStream
@@ -2004,11 +2004,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream
   nameWithType: ExtStringBuilder.CopyToStream
-- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(StringBuilder,System.String,System.String,System.StringComparison)
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
   name: ReplaceFirstOccurrence(StringBuilder, String, String, StringComparison)
-  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_ReplaceFirstOccurrence_StringBuilder_System_String_System_String_System_StringComparison_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(StringBuilder,System.String,System.String,System.StringComparison)
-  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(StringBuilder, System.String, System.String, System.StringComparison)
+  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_ReplaceFirstOccurrence_System_Text_StringBuilder_System_String_System_String_System_StringComparison_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder, System.String, System.String, System.StringComparison)
   nameWithType: ExtStringBuilder.ReplaceFirstOccurrence(StringBuilder, String, String, StringComparison)
 - uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence*
   name: ReplaceFirstOccurrence
@@ -2017,11 +2017,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence
   nameWithType: ExtStringBuilder.ReplaceFirstOccurrence
-- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(StringBuilder,System.String,System.String,System.StringComparison)
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
   name: ReplaceLastOccurrence(StringBuilder, String, String, StringComparison)
-  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_ReplaceLastOccurrence_StringBuilder_System_String_System_String_System_StringComparison_
-  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(StringBuilder,System.String,System.String,System.StringComparison)
-  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(StringBuilder, System.String, System.String, System.StringComparison)
+  href: api/DotNetHelper_Contracts.Extension.ExtStringBuilder.html#DotNetHelper_Contracts_Extension_ExtStringBuilder_ReplaceLastOccurrence_System_Text_StringBuilder_System_String_System_String_System_StringComparison_
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder, System.String, System.String, System.StringComparison)
   nameWithType: ExtStringBuilder.ReplaceLastOccurrence(StringBuilder, String, String, StringComparison)
 - uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence*
   name: ReplaceLastOccurrence
@@ -2049,13 +2049,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression
   nameWithType: LikeExpressionExtension.BuildLikeExpression
-- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.String}},System.String,System.Char)
   name: BuildLikeExpression<TElement>(Expression<Func<TElement, String>>, String, Char)
-  href: api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.html#DotNetHelper_Contracts_Extension_Linq_LikeExpressionExtension_BuildLikeExpression__1_Expression_System_Func___0_System_String___System_String_System_Char_
-  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(Expression{System.Func{``0,System.String}},System.String,System.Char)
+  href: api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.html#DotNetHelper_Contracts_Extension_Linq_LikeExpressionExtension_BuildLikeExpression__1_System_Linq_Expressions_Expression_System_Func___0_System_String___System_String_System_Char_
+  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.String}},System.String,System.Char)
   name.vb: BuildLikeExpression(Of TElement)(Expression(Of Func(Of TElement, String)), String, Char)
-  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression<TElement>(Expression<System.Func<TElement, System.String>>, System.String, System.Char)
-  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression(Of TElement)(Expression(Of System.Func(Of TElement, System.String)), System.String, System.Char)
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression<TElement>(System.Linq.Expressions.Expression<System.Func<TElement, System.String>>, System.String, System.Char)
+  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.BuildLikeExpression(Of TElement)(System.Linq.Expressions.Expression(Of System.Func(Of TElement, System.String)), System.String, System.Char)
   nameWithType: LikeExpressionExtension.BuildLikeExpression<TElement>(Expression<Func<TElement, String>>, String, Char)
   nameWithType.vb: LikeExpressionExtension.BuildLikeExpression(Of TElement)(Expression(Of Func(Of TElement, String)), String, Char)
 - uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike*
@@ -2065,13 +2065,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike
   nameWithType: LikeExpressionExtension.WhereLike
-- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+- uid: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.String}},System.String,System.Char)
   name: WhereLike<TSource>(IQueryable<TSource>, Expression<Func<TSource, String>>, String, Char)
-  href: api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.html#DotNetHelper_Contracts_Extension_Linq_LikeExpressionExtension_WhereLike__1_IQueryable___0__Expression_System_Func___0_System_String___System_String_System_Char_
-  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(IQueryable{``0},Expression{System.Func{``0,System.String}},System.String,System.Char)
+  href: api/DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.html#DotNetHelper_Contracts_Extension_Linq_LikeExpressionExtension_WhereLike__1_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0_System_String___System_String_System_Char_
+  commentId: M:DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.String}},System.String,System.Char)
   name.vb: WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, String)), String, Char)
-  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike<TSource>(IQueryable<TSource>, Expression<System.Func<TSource, System.String>>, System.String, System.Char)
-  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of System.Func(Of TSource, System.String)), System.String, System.Char)
+  fullName: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, System.String>>, System.String, System.Char)
+  fullName.vb: DotNetHelper_Contracts.Extension.Linq.LikeExpressionExtension.WhereLike(Of TSource)(System.Linq.IQueryable(Of TSource), System.Linq.Expressions.Expression(Of System.Func(Of TSource, System.String)), System.String, System.Char)
   nameWithType: LikeExpressionExtension.WhereLike<TSource>(IQueryable<TSource>, Expression<Func<TSource, String>>, String, Char)
   nameWithType.vb: LikeExpressionExtension.WhereLike(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, String)), String, Char)
 - uid: DotNetHelper_Contracts.Extension.ProgressStream
@@ -2080,11 +2080,11 @@ references:
   commentId: T:DotNetHelper_Contracts.Extension.ProgressStream
   fullName: DotNetHelper_Contracts.Extension.ProgressStream
   nameWithType: ProgressStream
-- uid: DotNetHelper_Contracts.Extension.ProgressStream.#ctor(Stream)
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.#ctor(System.IO.Stream)
   name: ProgressStream(Stream)
-  href: api/DotNetHelper_Contracts.Extension.ProgressStream.html#DotNetHelper_Contracts_Extension_ProgressStream__ctor_Stream_
-  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.#ctor(Stream)
-  fullName: DotNetHelper_Contracts.Extension.ProgressStream.ProgressStream(Stream)
+  href: api/DotNetHelper_Contracts.Extension.ProgressStream.html#DotNetHelper_Contracts_Extension_ProgressStream__ctor_System_IO_Stream_
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.#ctor(System.IO.Stream)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.ProgressStream(System.IO.Stream)
   nameWithType: ProgressStream.ProgressStream(Stream)
 - uid: DotNetHelper_Contracts.Extension.ProgressStream.#ctor*
   name: ProgressStream
@@ -2257,11 +2257,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ProgressStream.Read
   nameWithType: ProgressStream.Read
-- uid: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,SeekOrigin)
+- uid: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,System.IO.SeekOrigin)
   name: Seek(Int64, SeekOrigin)
-  href: api/DotNetHelper_Contracts.Extension.ProgressStream.html#DotNetHelper_Contracts_Extension_ProgressStream_Seek_System_Int64_SeekOrigin_
-  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,SeekOrigin)
-  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64, SeekOrigin)
+  href: api/DotNetHelper_Contracts.Extension.ProgressStream.html#DotNetHelper_Contracts_Extension_ProgressStream_Seek_System_Int64_System_IO_SeekOrigin_
+  commentId: M:DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64,System.IO.SeekOrigin)
+  fullName: DotNetHelper_Contracts.Extension.ProgressStream.Seek(System.Int64, System.IO.SeekOrigin)
   nameWithType: ProgressStream.Seek(Int64, SeekOrigin)
 - uid: DotNetHelper_Contracts.Extension.ProgressStream.Seek*
   name: Seek
@@ -2318,11 +2318,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetConstructorWithMostParameters
   nameWithType: ReflectionExtensions.GetConstructorWithMostParameters
-- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo,Expression)
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(System.Reflection.MemberInfo,System.Linq.Expressions.Expression)
   name: GetMemberExpression(MemberInfo, Expression)
-  href: api/DotNetHelper_Contracts.Extension.ReflectionExtensions.html#DotNetHelper_Contracts_Extension_ReflectionExtensions_GetMemberExpression_MemberInfo_Expression_
-  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo,Expression)
-  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(MemberInfo, Expression)
+  href: api/DotNetHelper_Contracts.Extension.ReflectionExtensions.html#DotNetHelper_Contracts_Extension_ReflectionExtensions_GetMemberExpression_System_Reflection_MemberInfo_System_Linq_Expressions_Expression_
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(System.Reflection.MemberInfo,System.Linq.Expressions.Expression)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression(System.Reflection.MemberInfo, System.Linq.Expressions.Expression)
   nameWithType: ReflectionExtensions.GetMemberExpression(MemberInfo, Expression)
 - uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.GetMemberExpression*
   name: GetMemberExpression
@@ -2370,11 +2370,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.IsUserDefinedStruct
   nameWithType: ReflectionExtensions.IsUserDefinedStruct
-- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+- uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(System.Reflection.MemberInfo)
   name: MemberType(MemberInfo)
-  href: api/DotNetHelper_Contracts.Extension.ReflectionExtensions.html#DotNetHelper_Contracts_Extension_ReflectionExtensions_MemberType_MemberInfo_
-  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
-  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(MemberInfo)
+  href: api/DotNetHelper_Contracts.Extension.ReflectionExtensions.html#DotNetHelper_Contracts_Extension_ReflectionExtensions_MemberType_System_Reflection_MemberInfo_
+  commentId: M:DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(System.Reflection.MemberInfo)
+  fullName: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType(System.Reflection.MemberInfo)
   nameWithType: ReflectionExtensions.MemberType(MemberInfo)
 - uid: DotNetHelper_Contracts.Extension.ReflectionExtensions.MemberType*
   name: MemberType
@@ -2595,11 +2595,11 @@ references:
   commentId: T:DotNetHelper_Contracts.Helpers.DynamicObjectHelper
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper
   nameWithType: DynamicObjectHelper
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject,System.String,System.Object)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(System.Dynamic.ExpandoObject,System.String,System.Object)
   name: AddProperty(ExpandoObject, String, Object)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_AddProperty_ExpandoObject_System_String_System_Object_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject,System.String,System.Object)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(ExpandoObject, System.String, System.Object)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_AddProperty_System_Dynamic_ExpandoObject_System_String_System_Object_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(System.Dynamic.ExpandoObject,System.String,System.Object)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty(System.Dynamic.ExpandoObject, System.String, System.Object)
   nameWithType: DynamicObjectHelper.AddProperty(ExpandoObject, String, Object)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty*
   name: AddProperty
@@ -2608,11 +2608,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddProperty
   nameWithType: DynamicObjectHelper.AddProperty
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(System.Dynamic.ExpandoObject,System.ComponentModel.PropertyChangedEventHandler)
   name: AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_AddPropertyChangedHandler_ExpandoObject_PropertyChangedEventHandler_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject,PropertyChangedEventHandler)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_AddPropertyChangedHandler_System_Dynamic_ExpandoObject_System_ComponentModel_PropertyChangedEventHandler_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(System.Dynamic.ExpandoObject,System.ComponentModel.PropertyChangedEventHandler)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler(System.Dynamic.ExpandoObject, System.ComponentModel.PropertyChangedEventHandler)
   nameWithType: DynamicObjectHelper.AddPropertyChangedHandler(ExpandoObject, PropertyChangedEventHandler)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler*
   name: AddPropertyChangedHandler
@@ -2621,11 +2621,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.AddPropertyChangedHandler
   nameWithType: DynamicObjectHelper.AddPropertyChangedHandler
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(System.Dynamic.ExpandoObject)
   name: GetProperties(ExpandoObject)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_GetProperties_ExpandoObject_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(ExpandoObject)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_GetProperties_System_Dynamic_ExpandoObject_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(System.Dynamic.ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties(System.Dynamic.ExpandoObject)
   nameWithType: DynamicObjectHelper.GetProperties(ExpandoObject)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties*
   name: GetProperties
@@ -2634,11 +2634,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetProperties
   nameWithType: DynamicObjectHelper.GetProperties
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject,System.String,System.Boolean)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(System.Dynamic.ExpandoObject,System.String,System.Boolean)
   name: GetPropertyValue(ExpandoObject, String, Boolean)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_GetPropertyValue_ExpandoObject_System_String_System_Boolean_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject,System.String,System.Boolean)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(ExpandoObject, System.String, System.Boolean)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_GetPropertyValue_System_Dynamic_ExpandoObject_System_String_System_Boolean_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(System.Dynamic.ExpandoObject,System.String,System.Boolean)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue(System.Dynamic.ExpandoObject, System.String, System.Boolean)
   nameWithType: DynamicObjectHelper.GetPropertyValue(ExpandoObject, String, Boolean)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue*
   name: GetPropertyValue
@@ -2647,11 +2647,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.GetPropertyValue
   nameWithType: DynamicObjectHelper.GetPropertyValue
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject,System.String)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(System.Dynamic.ExpandoObject,System.String)
   name: RemoveProperty(ExpandoObject, String)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_RemoveProperty_ExpandoObject_System_String_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject,System.String)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(ExpandoObject, System.String)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_RemoveProperty_System_Dynamic_ExpandoObject_System_String_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(System.Dynamic.ExpandoObject,System.String)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty(System.Dynamic.ExpandoObject, System.String)
   nameWithType: DynamicObjectHelper.RemoveProperty(ExpandoObject, String)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty*
   name: RemoveProperty
@@ -2660,11 +2660,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.RemoveProperty
   nameWithType: DynamicObjectHelper.RemoveProperty
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(System.Dynamic.ExpandoObject)
   name: ToDataReader(ExpandoObject)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_ToDataReader_ExpandoObject_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(ExpandoObject)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_ToDataReader_System_Dynamic_ExpandoObject_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(System.Dynamic.ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader(System.Dynamic.ExpandoObject)
   nameWithType: DynamicObjectHelper.ToDataReader(ExpandoObject)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader*
   name: ToDataReader
@@ -2673,11 +2673,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataReader
   nameWithType: DynamicObjectHelper.ToDataReader
-- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+- uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(System.Dynamic.ExpandoObject)
   name: ToDataTable(ExpandoObject)
-  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_ToDataTable_ExpandoObject_
-  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
-  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(ExpandoObject)
+  href: api/DotNetHelper_Contracts.Helpers.DynamicObjectHelper.html#DotNetHelper_Contracts_Helpers_DynamicObjectHelper_ToDataTable_System_Dynamic_ExpandoObject_
+  commentId: M:DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(System.Dynamic.ExpandoObject)
+  fullName: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable(System.Dynamic.ExpandoObject)
   nameWithType: DynamicObjectHelper.ToDataTable(ExpandoObject)
 - uid: DotNetHelper_Contracts.Helpers.DynamicObjectHelper.ToDataTable*
   name: ToDataTable
@@ -2699,13 +2699,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression
   nameWithType: ExpressionHelper.GetPropertyNamesFromExpression
-- uid: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression``1(Expression{System.Func{``0,System.Object}})
+- uid: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
   name: GetPropertyNamesFromExpression<T>(Expression<Func<T, Object>>)
-  href: api/DotNetHelper_Contracts.Helpers.ExpressionHelper.html#DotNetHelper_Contracts_Helpers_ExpressionHelper_GetPropertyNamesFromExpression__1_Expression_System_Func___0_System_Object___
-  commentId: M:DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression``1(Expression{System.Func{``0,System.Object}})
+  href: api/DotNetHelper_Contracts.Helpers.ExpressionHelper.html#DotNetHelper_Contracts_Helpers_ExpressionHelper_GetPropertyNamesFromExpression__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
   name.vb: GetPropertyNamesFromExpression(Of T)(Expression(Of Func(Of T, Object)))
-  fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression<T>(Expression<System.Func<T, System.Object>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression(Of T)(Expression(Of System.Func(Of T, System.Object)))
+  fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression<T>(System.Linq.Expressions.Expression<System.Func<T, System.Object>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpression(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
   nameWithType: ExpressionHelper.GetPropertyNamesFromExpression<T>(Expression<Func<T, Object>>)
   nameWithType.vb: ExpressionHelper.GetPropertyNamesFromExpression(Of T)(Expression(Of Func(Of T, Object)))
 - uid: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions*
@@ -2715,76 +2715,15 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions
   nameWithType: ExpressionHelper.GetPropertyNamesFromExpressions
-- uid: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions``1(Expression{System.Func{``0,System.Object}}[])
+- uid: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
   name: GetPropertyNamesFromExpressions<T>(Expression<Func<T, Object>>[])
-  href: api/DotNetHelper_Contracts.Helpers.ExpressionHelper.html#DotNetHelper_Contracts_Helpers_ExpressionHelper_GetPropertyNamesFromExpressions__1_Expression_System_Func___0_System_Object_____
-  commentId: M:DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions``1(Expression{System.Func{``0,System.Object}}[])
+  href: api/DotNetHelper_Contracts.Helpers.ExpressionHelper.html#DotNetHelper_Contracts_Helpers_ExpressionHelper_GetPropertyNamesFromExpressions__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
   name.vb: GetPropertyNamesFromExpressions(Of T)(Expression(Of Func(Of T, Object))())
-  fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions<T>(Expression<System.Func<T, System.Object>>[])
-  fullName.vb: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions(Of T)(Expression(Of System.Func(Of T, System.Object))())
+  fullName: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions<T>(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: DotNetHelper_Contracts.Helpers.ExpressionHelper.GetPropertyNamesFromExpressions(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
   nameWithType: ExpressionHelper.GetPropertyNamesFromExpressions<T>(Expression<Func<T, Object>>[])
   nameWithType.vb: ExpressionHelper.GetPropertyNamesFromExpressions(Of T)(Expression(Of Func(Of T, Object))())
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
-  name: Linq2SqlGenerator
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html
-  commentId: T:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator
-  nameWithType: Linq2SqlGenerator
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor(StringBuilder)
-  name: Linq2SqlGenerator(StringBuilder)
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator__ctor_StringBuilder_
-  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor(StringBuilder)
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.Linq2SqlGenerator(StringBuilder)
-  nameWithType: Linq2SqlGenerator.Linq2SqlGenerator(StringBuilder)
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor*
-  name: Linq2SqlGenerator
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator__ctor_
-  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.#ctor
-  isSpec: "True"
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.Linq2SqlGenerator
-  nameWithType: Linq2SqlGenerator.Linq2SqlGenerator
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
-  name: GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_GetSQLFromMember_MemberExpression_MemberExpression_BinaryExpression_
-  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression,MemberExpression,BinaryExpression)
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
-  nameWithType: Linq2SqlGenerator.GetSQLFromMember(MemberExpression, MemberExpression, BinaryExpression)
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember*
-  name: GetSQLFromMember
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_GetSQLFromMember_
-  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember
-  isSpec: "True"
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.GetSQLFromMember
-  nameWithType: Linq2SqlGenerator.GetSQLFromMember
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause*
-  name: LinqToSqlWhereClause
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_LinqToSqlWhereClause_
-  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause
-  isSpec: "True"
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause
-  nameWithType: Linq2SqlGenerator.LinqToSqlWhereClause
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
-  name: LinqToSqlWhereClause<T>(Expression<Func<T, Boolean>>, DataBaseType)
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_LinqToSqlWhereClause__1_Expression_System_Func___0_System_Boolean___DataBaseType_
-  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause``1(Expression{System.Func{``0,System.Boolean}},DataBaseType)
-  name.vb: LinqToSqlWhereClause(Of T)(Expression(Of Func(Of T, Boolean)), DataBaseType)
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause<T>(Expression<System.Func<T, System.Boolean>>, DataBaseType)
-  fullName.vb: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.LinqToSqlWhereClause(Of T)(Expression(Of System.Func(Of T, System.Boolean)), DataBaseType)
-  nameWithType: Linq2SqlGenerator.LinqToSqlWhereClause<T>(Expression<Func<T, Boolean>>, DataBaseType)
-  nameWithType.vb: Linq2SqlGenerator.LinqToSqlWhereClause(Of T)(Expression(Of Func(Of T, Boolean)), DataBaseType)
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
-  name: ResolveMemberExpression(Expression)
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_ResolveMemberExpression_Expression_
-  commentId: M:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression(Expression)
-  nameWithType: Linq2SqlGenerator.ResolveMemberExpression(Expression)
-- uid: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression*
-  name: ResolveMemberExpression
-  href: api/DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.html#DotNetHelper_Contracts_Helpers_Linq2SqlGenerator_ResolveMemberExpression_
-  commentId: Overload:DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression
-  isSpec: "True"
-  fullName: DotNetHelper_Contracts.Helpers.Linq2SqlGenerator.ResolveMemberExpression
-  nameWithType: Linq2SqlGenerator.ResolveMemberExpression
 - uid: DotNetHelper_Contracts.Helpers.LinqToSQL
   name: DotNetHelper_Contracts.Helpers.LinqToSQL
   href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.html
@@ -2804,13 +2743,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql
   nameWithType: Generator.ToSql
-- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(Expression{System.Func{``0,System.Boolean}})
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
   name: ToSql<T>(Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.html#DotNetHelper_Contracts_Helpers_LinqToSQL_Generator_ToSql__1_Expression_System_Func___0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(Expression{System.Func{``0,System.Boolean}})
+  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.html#DotNetHelper_Contracts_Helpers_LinqToSQL_Generator_ToSql__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
   name.vb: ToSql(Of T)(Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql<T>(Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql(Of T)(Expression(Of System.Func(Of T, System.Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql<T>(System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.ToSql(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
   nameWithType: Generator.ToSql<T>(Expression<Func<T, Boolean>>)
   nameWithType.vb: Generator.ToSql(Of T)(Expression(Of Func(Of T, Boolean)))
 - uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql*
@@ -2820,13 +2759,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql
   nameWithType: Generator.WhereSql
-- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
   name: WhereSql<T>(Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.html#DotNetHelper_Contracts_Helpers_LinqToSQL_Generator_WhereSql__1_Expression_System_Func___0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(Expression{System.Func{``0,System.Boolean}})
+  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.html#DotNetHelper_Contracts_Helpers_LinqToSQL_Generator_WhereSql__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
   name.vb: WhereSql(Of T)(Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql<T>(Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql(Of T)(Expression(Of System.Func(Of T, System.Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql<T>(System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.Generator.WhereSql(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
   nameWithType: Generator.WhereSql<T>(Expression<Func<T, Boolean>>)
   nameWithType.vb: Generator.WhereSql(Of T)(Expression(Of Func(Of T, Boolean)))
 - uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart
@@ -2854,13 +2793,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.Concat
   nameWithType: WherePart.Concat
-- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,IEnumerable)
+- uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,System.Collections.IEnumerable)
   name: IsCollection(ref Int32, IEnumerable)
-  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.html#DotNetHelper_Contracts_Helpers_LinqToSQL_WherePart_IsCollection_System_Int32__IEnumerable_
-  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,IEnumerable)
+  href: api/DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.html#DotNetHelper_Contracts_Helpers_LinqToSQL_WherePart_IsCollection_System_Int32__System_Collections_IEnumerable_
+  commentId: M:DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(System.Int32@,System.Collections.IEnumerable)
   name.vb: IsCollection(ByRef Int32, IEnumerable)
-  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ref System.Int32, IEnumerable)
-  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ByRef System.Int32, IEnumerable)
+  fullName: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ref System.Int32, System.Collections.IEnumerable)
+  fullName.vb: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection(ByRef System.Int32, System.Collections.IEnumerable)
   nameWithType: WherePart.IsCollection(ref Int32, IEnumerable)
   nameWithType.vb: WherePart.IsCollection(ByRef Int32, IEnumerable)
 - uid: DotNetHelper_Contracts.Helpers.LinqToSQL.WherePart.IsCollection*
@@ -3032,24 +2971,24 @@ references:
   fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T)
   nameWithType: PredicateBuilder<T>
   nameWithType.vb: PredicateBuilder(Of T)
-- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(Expression{System.Func{`0,System.Boolean}})
-  name: And(Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_And_Expression_System_Func__0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(Expression{System.Func{`0,System.Boolean}})
-  name.vb: And(Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(Expression(Of System.Func(Of T, System.Boolean)))
-  nameWithType: PredicateBuilder<T>.And(Expression<Func<T, Boolean>>)
-  nameWithType.vb: PredicateBuilder(Of T).And(Expression(Of Func(Of T, Boolean)))
-- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name: And(Boolean, Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_And_System_Boolean_Expression_System_Func__0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_And_System_Boolean_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Boolean,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name.vb: And(Boolean, Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(System.Boolean, Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(System.Boolean, Expression(Of System.Func(Of T, System.Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(System.Boolean, System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(System.Boolean, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
   nameWithType: PredicateBuilder<T>.And(Boolean, Expression<Func<T, Boolean>>)
   nameWithType.vb: PredicateBuilder(Of T).And(Boolean, Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  name: And(Expression<Func<T, Boolean>>)
+  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_And_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  name.vb: And(Expression(Of Func(Of T, Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.And(System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).And(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
+  nameWithType: PredicateBuilder<T>.And(Expression<Func<T, Boolean>>)
+  nameWithType.vb: PredicateBuilder(Of T).And(Expression(Of Func(Of T, Boolean)))
 - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.And*
   name: And
   href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_And_
@@ -3076,13 +3015,13 @@ references:
   fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).New
   nameWithType: PredicateBuilder<T>.New
   nameWithType.vb: PredicateBuilder(Of T).New
-- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(Expression{System.Func{`0,System.Boolean}})
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name: Not(Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Not_Expression_System_Func__0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(Expression{System.Func{`0,System.Boolean}})
+  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Not_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name.vb: Not(Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Not(Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Not(Expression(Of System.Func(Of T, System.Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Not(System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Not(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
   nameWithType: PredicateBuilder<T>.Not(Expression<Func<T, Boolean>>)
   nameWithType.vb: PredicateBuilder(Of T).Not(Expression(Of Func(Of T, Boolean)))
 - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Not*
@@ -3094,24 +3033,24 @@ references:
   fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Not
   nameWithType: PredicateBuilder<T>.Not
   nameWithType.vb: PredicateBuilder(Of T).Not
-- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(Expression{System.Func{`0,System.Boolean}})
-  name: Or(Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Or_Expression_System_Func__0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(Expression{System.Func{`0,System.Boolean}})
-  name.vb: Or(Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(Expression(Of System.Func(Of T, System.Boolean)))
-  nameWithType: PredicateBuilder<T>.Or(Expression<Func<T, Boolean>>)
-  nameWithType.vb: PredicateBuilder(Of T).Or(Expression(Of Func(Of T, Boolean)))
-- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name: Or(Boolean, Expression<Func<T, Boolean>>)
-  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Or_System_Boolean_Expression_System_Func__0_System_Boolean___
-  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,Expression{System.Func{`0,System.Boolean}})
+  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Or_System_Boolean_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Boolean,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
   name.vb: Or(Boolean, Expression(Of Func(Of T, Boolean)))
-  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(System.Boolean, Expression<System.Func<T, System.Boolean>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(System.Boolean, Expression(Of System.Func(Of T, System.Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(System.Boolean, System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(System.Boolean, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
   nameWithType: PredicateBuilder<T>.Or(Boolean, Expression<Func<T, Boolean>>)
   nameWithType.vb: PredicateBuilder(Of T).Or(Boolean, Expression(Of Func(Of T, Boolean)))
+- uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  name: Or(Expression<Func<T, Boolean>>)
+  href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Or_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  commentId: M:DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  name.vb: Or(Expression(Of Func(Of T, Boolean)))
+  fullName: DotNetHelper_Contracts.Helpers.PredicateBuilder<T>.Or(System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.PredicateBuilder(Of T).Or(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)))
+  nameWithType: PredicateBuilder<T>.Or(Expression<Func<T, Boolean>>)
+  nameWithType.vb: PredicateBuilder(Of T).Or(Expression(Of Func(Of T, Boolean)))
 - uid: DotNetHelper_Contracts.Helpers.PredicateBuilder`1.Or*
   name: Or
   href: api/DotNetHelper_Contracts.Helpers.PredicateBuilder-1.html#DotNetHelper_Contracts_Helpers_PredicateBuilder_1_Or_
@@ -3170,13 +3109,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo
   nameWithType: Reflect.GetPropertyInfo
-- uid: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo``2(Expression{System.Func{``0,``1}})
+- uid: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   name: GetPropertyInfo<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
-  href: api/DotNetHelper_Contracts.Helpers.Reflect.html#DotNetHelper_Contracts_Helpers_Reflect_GetPropertyInfo__2_Expression_System_Func___0___1___
-  commentId: M:DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo``2(Expression{System.Func{``0,``1}})
+  href: api/DotNetHelper_Contracts.Helpers.Reflect.html#DotNetHelper_Contracts_Helpers_Reflect_GetPropertyInfo__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   name.vb: GetPropertyInfo(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
-  fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo<TSource, TProperty>(Expression<System.Func<TSource, TProperty>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo(Of TSource, TProperty)(Expression(Of System.Func(Of TSource, TProperty)))
+  fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo<TSource, TProperty>(System.Linq.Expressions.Expression<System.Func<TSource, TProperty>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyInfo(Of TSource, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of TSource, TProperty)))
   nameWithType: Reflect.GetPropertyInfo<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
   nameWithType.vb: Reflect.GetPropertyInfo(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
 - uid: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName*
@@ -3186,13 +3125,13 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName
   nameWithType: Reflect.GetPropertyName
-- uid: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName``2(Expression{System.Func{``0,``1}})
+- uid: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   name: GetPropertyName<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
-  href: api/DotNetHelper_Contracts.Helpers.Reflect.html#DotNetHelper_Contracts_Helpers_Reflect_GetPropertyName__2_Expression_System_Func___0___1___
-  commentId: M:DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName``2(Expression{System.Func{``0,``1}})
+  href: api/DotNetHelper_Contracts.Helpers.Reflect.html#DotNetHelper_Contracts_Helpers_Reflect_GetPropertyName__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   name.vb: GetPropertyName(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
-  fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName<TSource, TProperty>(Expression<System.Func<TSource, TProperty>>)
-  fullName.vb: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName(Of TSource, TProperty)(Expression(Of System.Func(Of TSource, TProperty)))
+  fullName: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName<TSource, TProperty>(System.Linq.Expressions.Expression<System.Func<TSource, TProperty>>)
+  fullName.vb: DotNetHelper_Contracts.Helpers.Reflect.GetPropertyName(Of TSource, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of TSource, TProperty)))
   nameWithType: Reflect.GetPropertyName<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
   nameWithType.vb: Reflect.GetPropertyName(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
 - uid: DotNetHelper_Contracts.Helpers.RegexHelper
@@ -3646,13 +3585,13 @@ references:
   commentId: M:DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor
   fullName: DotNetHelper_Contracts.Models.Web.ApiResponse.ApiResponse()
   nameWithType: ApiResponse.ApiResponse()
-- uid: DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor(System.Int32,System.String,System.Object,List{System.Exception})
+- uid: DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor(System.Int32,System.String,System.Object,System.Collections.Generic.List{System.Exception})
   name: ApiResponse(Int32, String, Object, List<Exception>)
-  href: api/DotNetHelper_Contracts.Models.Web.ApiResponse.html#DotNetHelper_Contracts_Models_Web_ApiResponse__ctor_System_Int32_System_String_System_Object_List_System_Exception__
-  commentId: M:DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor(System.Int32,System.String,System.Object,List{System.Exception})
+  href: api/DotNetHelper_Contracts.Models.Web.ApiResponse.html#DotNetHelper_Contracts_Models_Web_ApiResponse__ctor_System_Int32_System_String_System_Object_System_Collections_Generic_List_System_Exception__
+  commentId: M:DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor(System.Int32,System.String,System.Object,System.Collections.Generic.List{System.Exception})
   name.vb: ApiResponse(Int32, String, Object, List(Of Exception))
-  fullName: DotNetHelper_Contracts.Models.Web.ApiResponse.ApiResponse(System.Int32, System.String, System.Object, List<System.Exception>)
-  fullName.vb: DotNetHelper_Contracts.Models.Web.ApiResponse.ApiResponse(System.Int32, System.String, System.Object, List(Of System.Exception))
+  fullName: DotNetHelper_Contracts.Models.Web.ApiResponse.ApiResponse(System.Int32, System.String, System.Object, System.Collections.Generic.List<System.Exception>)
+  fullName.vb: DotNetHelper_Contracts.Models.Web.ApiResponse.ApiResponse(System.Int32, System.String, System.Object, System.Collections.Generic.List(Of System.Exception))
   nameWithType: ApiResponse.ApiResponse(Int32, String, Object, List<Exception>)
   nameWithType.vb: ApiResponse.ApiResponse(Int32, String, Object, List(Of Exception))
 - uid: DotNetHelper_Contracts.Models.Web.ApiResponse.#ctor*
@@ -3816,11 +3755,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Tools.CommandPrompt.CreateNoWindow
   nameWithType: CommandPrompt.CreateNoWindow
-- uid: DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String,System.String,System.Boolean,DataReceivedEventHandler,DataReceivedEventHandler)
+- uid: DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String,System.String,System.Boolean,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler)
   name: CreateStartInfo(String, String, Boolean, DataReceivedEventHandler, DataReceivedEventHandler)
-  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_CreateStartInfo_System_String_System_String_System_Boolean_DataReceivedEventHandler_DataReceivedEventHandler_
-  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String,System.String,System.Boolean,DataReceivedEventHandler,DataReceivedEventHandler)
-  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String, System.String, System.Boolean, DataReceivedEventHandler, DataReceivedEventHandler)
+  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_CreateStartInfo_System_String_System_String_System_Boolean_System_Diagnostics_DataReceivedEventHandler_System_Diagnostics_DataReceivedEventHandler_
+  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String,System.String,System.Boolean,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler)
+  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo(System.String, System.String, System.Boolean, System.Diagnostics.DataReceivedEventHandler, System.Diagnostics.DataReceivedEventHandler)
   nameWithType: CommandPrompt.CreateStartInfo(String, String, Boolean, DataReceivedEventHandler, DataReceivedEventHandler)
 - uid: DotNetHelper_Contracts.Tools.CommandPrompt.CreateStartInfo*
   name: CreateStartInfo
@@ -3855,23 +3794,23 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RedirectStandardOutput
   nameWithType: CommandPrompt.RedirectStandardOutput
-- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
+- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
   name: RunCommand(ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
-  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_ProcessStartInfo_DataReceivedEventHandler_DataReceivedEventHandler_System_EventHandler_
-  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
-  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, System.EventHandler)
+  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_System_Diagnostics_ProcessStartInfo_System_Diagnostics_DataReceivedEventHandler_System_Diagnostics_DataReceivedEventHandler_System_EventHandler_
+  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
+  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.Diagnostics.ProcessStartInfo, System.Diagnostics.DataReceivedEventHandler, System.Diagnostics.DataReceivedEventHandler, System.EventHandler)
   nameWithType: CommandPrompt.RunCommand(ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
-- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
+- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
   name: RunCommand(String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
-  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_System_String_ProcessStartInfo_DataReceivedEventHandler_DataReceivedEventHandler_System_EventHandler_
-  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
-  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, System.EventHandler)
+  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_System_String_System_Diagnostics_ProcessStartInfo_System_Diagnostics_DataReceivedEventHandler_System_Diagnostics_DataReceivedEventHandler_System_EventHandler_
+  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
+  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String, System.Diagnostics.ProcessStartInfo, System.Diagnostics.DataReceivedEventHandler, System.Diagnostics.DataReceivedEventHandler, System.EventHandler)
   nameWithType: CommandPrompt.RunCommand(String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
-- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.String,ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
+- uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.String,System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
   name: RunCommand(String, String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
-  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_System_String_System_String_ProcessStartInfo_DataReceivedEventHandler_DataReceivedEventHandler_System_EventHandler_
-  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.String,ProcessStartInfo,DataReceivedEventHandler,DataReceivedEventHandler,System.EventHandler)
-  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String, System.String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, System.EventHandler)
+  href: api/DotNetHelper_Contracts.Tools.CommandPrompt.html#DotNetHelper_Contracts_Tools_CommandPrompt_RunCommand_System_String_System_String_System_Diagnostics_ProcessStartInfo_System_Diagnostics_DataReceivedEventHandler_System_Diagnostics_DataReceivedEventHandler_System_EventHandler_
+  commentId: M:DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String,System.String,System.Diagnostics.ProcessStartInfo,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler,System.EventHandler)
+  fullName: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand(System.String, System.String, System.Diagnostics.ProcessStartInfo, System.Diagnostics.DataReceivedEventHandler, System.Diagnostics.DataReceivedEventHandler, System.EventHandler)
   nameWithType: CommandPrompt.RunCommand(String, String, ProcessStartInfo, DataReceivedEventHandler, DataReceivedEventHandler, EventHandler)
 - uid: DotNetHelper_Contracts.Tools.CommandPrompt.RunCommand*
   name: RunCommand

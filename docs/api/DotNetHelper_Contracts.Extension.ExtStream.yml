@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ExtStream
+  commentId: T:DotNetHelper_Contracts.Extension.ExtStream
+  id: ExtStream
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
+  - DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
+  - DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
+  - DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
+  langs:
+  - csharp
+  - vb
+  name: ExtStream
+  nameWithType: ExtStream
+  fullName: DotNetHelper_Contracts.Extension.ExtStream
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStream.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ExtStream
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStream.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static class ExtStream
+    content.vb: Public Module ExtStream
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
+  id: Clear(System.IO.Stream)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStream
+  langs:
+  - csharp
+  - vb
+  name: Clear(Stream)
+  nameWithType: ExtStream.Clear(Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.Clear(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStream.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: Clear
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStream.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static Stream Clear(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: System.IO.Stream
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clear(stream As Stream) As Stream
+  overload: DotNetHelper_Contracts.Extension.ExtStream.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
+  id: ResetPosition(System.IO.Stream)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStream
+  langs:
+  - csharp
+  - vb
+  name: ResetPosition(Stream)
+  nameWithType: ExtStream.ResetPosition(Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStream.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ResetPosition
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStream.cs
+    startLine: 14
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static Stream ResetPosition(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: System.IO.Stream
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ResetPosition(stream As Stream) As Stream
+  overload: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
+  id: ToArray(System.IO.Stream)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStream
+  langs:
+  - csharp
+  - vb
+  name: ToArray(Stream)
+  nameWithType: ExtStream.ToArray(Stream)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ToArray(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStream.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ToArray
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStream.cs
+    startLine: 20
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static byte[] ToArray(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToArray(stream As Stream) As Byte()
+  overload: DotNetHelper_Contracts.Extension.ExtStream.ToArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
+  id: ReadToString(System.IO.Stream,System.Text.Encoding,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStream
+  langs:
+  - csharp
+  - vb
+  name: ReadToString(Stream, Encoding, Int32)
+  nameWithType: ExtStream.ReadToString(Stream, Encoding, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ReadToString(System.IO.Stream, System.Text.Encoding, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStream.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ReadToString
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStream.cs
+    startLine: 28
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static string ReadToString(this Stream stream, Encoding encoding, int startPosition = 0)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: encoding
+      type: System.Text.Encoding
+    - id: startPosition
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadToString(stream As Stream, encoding As Encoding, startPosition As Integer = 0) As String
+  overload: DotNetHelper_Contracts.Extension.ExtStream.ReadToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ExtStream.Clear*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStream.Clear
+  name: Clear
+  nameWithType: ExtStream.Clear
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.Clear
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStream.ResetPosition
+  name: ResetPosition
+  nameWithType: ExtStream.ResetPosition
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ResetPosition
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ToArray*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStream.ToArray
+  name: ToArray
+  nameWithType: ExtStream.ToArray
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ToArray
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: DotNetHelper_Contracts.Extension.ExtStream.ReadToString*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStream.ReadToString
+  name: ReadToString
+  nameWithType: ExtStream.ReadToString
+  fullName: DotNetHelper_Contracts.Extension.ExtStream.ReadToString
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text

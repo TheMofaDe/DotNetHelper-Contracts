@@ -3,20 +3,40 @@
     {
       "src": [
         {
-          "files": [ "*.sln", "**/*.sln", "src/**.cs" ],
-          "exclude": [ "**/bin/**", "**/obj/**" ],
-         // "src": "../src",
-          "cwd": "../"
+          "src": "../",
+          "files": [
+            "src/**.csproj"
+          ],
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ]
         }
+       //,{
+       //  "src": "../",
+       //  "files": [
+       //    "generics/**.csproj"
+       //  ],
+       //  "exclude": [
+       //    "**/obj/**",
+       //    "**/bin/**",
+       //    "_site/**"
+       //  ]
+       //}
       ],
-      "dest": "obj/api"
+      "dest": "api",
+      "properties": {
+        "TargetFramework": "net452"
+      }
     }
   ],
   "build": {
+
     "content": [
       {
-        "files": [ "**/*.yml" ],
-        "src": "obj/api",
+        "files": [ "**/*.yml", "**/**/*.yml" ],
+        "src": "api",
         "dest": "api"
       },
       {
@@ -25,15 +45,33 @@
     ],
     "resource": [
       {
-        "files": [ "articles/images/**"]
+        "files": [ "articles/images/**" ]
       }
     ],
     "globalMetadata": {
       "_appTitle": "DotNetHelper-Contracts",
-      "_enableSearch": true
+      "_disableContribution": false,
+      "_disableBreadcrumb": false,
+      "_appFaviconPath": "logo/favicon.ico",
+      "_disableNavbar": false,
+      "_enableSearch": true,
+   //   "_navRel": "../toc.html",
+      //    "_appLogoPath": "logo/lucene-net-color.png",
+      "_appFooter": "Copyright © 2019 Joseph McNeal Jr"
     },
-    "markdownEngineName": "markdig",
     "dest": "_site",
-    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    //   "template": [
+    //     "default",
+    //     "lucenetemplate"
+    //   ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
+    "keepFileLink": true,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
   }
 }

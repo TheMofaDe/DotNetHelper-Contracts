@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder
+  commentId: T:DotNetHelper_Contracts.Extension.ExtStringBuilder
+  id: ExtStringBuilder
+  parent: DotNetHelper_Contracts.Extension
+  children:
+  - DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
+  - DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  - DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  langs:
+  - csharp
+  - vb
+  name: ExtStringBuilder
+  nameWithType: ExtStringBuilder
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ExtStringBuilder
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static class ExtStringBuilder
+    content.vb: Public Module ExtStringBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
+  id: CopyToStream(System.Text.StringBuilder,System.IO.MemoryStream,System.Text.Encoding)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStringBuilder
+  langs:
+  - csharp
+  - vb
+  name: CopyToStream(StringBuilder, MemoryStream, Encoding)
+  nameWithType: ExtStringBuilder.CopyToStream(StringBuilder, MemoryStream, Encoding)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream(System.Text.StringBuilder, System.IO.MemoryStream, System.Text.Encoding)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: CopyToStream
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  summary: "\nCopies the contents of the StringBuilder to the MemoryStream using the specified encoding \n"
+  example: []
+  syntax:
+    content: public static void CopyToStream(this StringBuilder builder, MemoryStream ms, Encoding encoding)
+    parameters:
+    - id: builder
+      type: System.Text.StringBuilder
+      description: StringBuilder source
+    - id: ms
+      type: System.IO.MemoryStream
+      description: MemoryStream destination
+    - id: encoding
+      type: System.Text.Encoding
+      description: Encoding used for converter string into byte-stream
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CopyToStream(builder As StringBuilder, ms As MemoryStream, encoding As Encoding)
+  overload: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  id: ReplaceFirstOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStringBuilder
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFirstOccurrence(StringBuilder, String, String, StringComparison)
+  nameWithType: ExtStringBuilder.ReplaceFirstOccurrence(StringBuilder, String, String, StringComparison)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence(System.Text.StringBuilder, System.String, System.String, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ReplaceFirstOccurrence
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static StringBuilder ReplaceFirstOccurrence(this StringBuilder source, string find, string replace, StringComparison comparison)
+    parameters:
+    - id: source
+      type: System.Text.StringBuilder
+    - id: find
+      type: System.String
+    - id: replace
+      type: System.String
+    - id: comparison
+      type: System.StringComparison
+    return:
+      type: System.Text.StringBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReplaceFirstOccurrence(source As StringBuilder, find As String, replace As String, comparison As StringComparison) As StringBuilder
+  overload: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  id: ReplaceLastOccurrence(System.Text.StringBuilder,System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: DotNetHelper_Contracts.Extension.ExtStringBuilder
+  langs:
+  - csharp
+  - vb
+  name: ReplaceLastOccurrence(StringBuilder, String, String, StringComparison)
+  nameWithType: ExtStringBuilder.ReplaceLastOccurrence(StringBuilder, String, String, StringComparison)
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence(System.Text.StringBuilder, System.String, System.String, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ReplaceLastOccurrence
+    path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
+    startLine: 34
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Extension
+  syntax:
+    content: public static StringBuilder ReplaceLastOccurrence(this StringBuilder source, string find, string replace, StringComparison comparison)
+    parameters:
+    - id: source
+      type: System.Text.StringBuilder
+    - id: find
+      type: System.String
+    - id: replace
+      type: System.String
+    - id: comparison
+      type: System.StringComparison
+    return:
+      type: System.Text.StringBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReplaceLastOccurrence(source As StringBuilder, find As String, replace As String, comparison As StringComparison) As StringBuilder
+  overload: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream
+  name: CopyToStream
+  nameWithType: ExtStringBuilder.CopyToStream
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.CopyToStream
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.IO.MemoryStream
+  commentId: T:System.IO.MemoryStream
+  parent: System.IO
+  isExternal: true
+  name: MemoryStream
+  nameWithType: MemoryStream
+  fullName: System.IO.MemoryStream
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence
+  name: ReplaceFirstOccurrence
+  nameWithType: ExtStringBuilder.ReplaceFirstOccurrence
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceFirstOccurrence
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence*
+  commentId: Overload:DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence
+  name: ReplaceLastOccurrence
+  nameWithType: ExtStringBuilder.ReplaceLastOccurrence
+  fullName: DotNetHelper_Contracts.Extension.ExtStringBuilder.ReplaceLastOccurrence

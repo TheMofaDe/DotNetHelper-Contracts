@@ -178,7 +178,7 @@ Task("Test")
 Task("Generate-Docs")
 .Does<BuildParameters>((parameters) => 
 {
-	DocFxMetadata("./docs/docfx.json");
+    DocFxMetadata("./docs/docfx.json");
 	DocFxBuild("./docs/docfx.json");
 	Zip("./docs/_site/", parameters.Paths.Directories.Artifacts + "/docfx.zip");
 });

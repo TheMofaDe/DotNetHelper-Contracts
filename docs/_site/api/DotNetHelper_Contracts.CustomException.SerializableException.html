@@ -12,7 +12,7 @@
    | DotNetHelper-Contracts ">
     <meta name="generator" content="docfx 2.41.0.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../logo/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
@@ -106,9 +106,6 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.tostring#System_Exception_ToString">Exception.ToString()</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">Exception.GetObjectData(SerializationInfo, StreamingContext)</a>
-    </div>
-    <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.gettype#System_Exception_GetType">Exception.GetType()</a>
     </div>
     <div>
@@ -155,7 +152,7 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DotNetHelper_Contracts.CustomException.html">DotNetHelper_Contracts.CustomException</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: DotNetHelper-Contracts.dll</h6>
   <h5 id="DotNetHelper_Contracts_CustomException_SerializableException_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
@@ -163,8 +160,13 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L16">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
   <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor">SerializableException()</h4>
   <div class="markdown level1 summary"></div>
@@ -173,15 +175,21 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public SerializableException()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L44">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
-  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_SerializationInfo_StreamingContext_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(SerializationInfo,StreamingContext)">SerializableException(SerializationInfo, StreamingContext)</h4>
+  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">SerializableException(SerializationInfo, StreamingContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SerializableException(SerializationInfo info, StreamingContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">[SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+protected SerializableException(SerializationInfo info, StreamingContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,19 +202,24 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SerializationInfo</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a></td>
         <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">StreamingContext</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext">StreamingContext</a></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L20">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
   <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String)">SerializableException(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -232,8 +245,13 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_Exception_.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor(System.String%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L25">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
   <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_Exception_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.Exception)">SerializableException(String, Exception)</h4>
   <div class="markdown level1 summary"></div>
@@ -264,10 +282,15 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor(System.String%2CSystem.String%2CSystem.Collections.Generic.IList%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L30">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
-  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_IList_System_String__" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String})">SerializableException(String, String, IList&lt;String&gt;)</h4>
+  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String})">SerializableException(String, String, IList&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -295,16 +318,21 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">validationErrors</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__System_Exception_.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.%23ctor(System.String%2CSystem.String%2CSystem.Collections.Generic.IList%7BSystem.String%7D%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L37">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor*"></a>
-  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_IList_System_String__System_Exception_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,IList{System.String},System.Exception)">SerializableException(String, String, IList&lt;String&gt;, Exception)</h4>
+  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException__ctor_System_String_System_String_System_Collections_Generic_IList_System_String__System_Exception_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.#ctor(System.String,System.String,System.Collections.Generic.IList{System.String},System.Exception)">SerializableException(String, String, IList&lt;String&gt;, Exception)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -332,7 +360,7 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">validationErrors</span></td>
         <td></td>
       </tr>
@@ -345,8 +373,13 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException_ResourceName.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.ResourceName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L54">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException_ResourceName_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.ResourceName*"></a>
   <h4 id="DotNetHelper_Contracts_CustomException_SerializableException_ResourceName" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.ResourceName">ResourceName</h4>
   <div class="markdown level1 summary"></div>
@@ -370,8 +403,13 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException_ValidationErrors.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.ValidationErrors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L56">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException_ValidationErrors_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.ValidationErrors*"></a>
   <h4 id="DotNetHelper_Contracts_CustomException_SerializableException_ValidationErrors" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.ValidationErrors">ValidationErrors</h4>
   <div class="markdown level1 summary"></div>
@@ -390,22 +428,28 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L58">View Source</a>
+  </span>
   <a id="DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData*"></a>
-  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_SerializationInfo_StreamingContext_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(SerializationInfo,StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
+  <h4 id="DotNetHelper_Contracts_CustomException_SerializableException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="DotNetHelper_Contracts.CustomException.SerializableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void GetObjectData(SerializationInfo info, StreamingContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">[SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+public override void GetObjectData(SerializationInfo info, StreamingContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -418,23 +462,116 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SerializationInfo</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a></td>
         <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">StreamingContext</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext">StreamingContext</a></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">Exception.GetObjectData(SerializationInfo, StreamingContext)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">System.Runtime.Serialization.ISerializable</a>
   </div>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception">System.Runtime.InteropServices._Exception</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_IsNullThrow_System_Object_System_String_System_Exception_">ExtObject.IsNullThrow(Object, String, Exception)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToBoolEx_System_Object_">ExtObject.ToBoolEx(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToByte_System_Object_">ExtObject.ToByte(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToByte_System_Object_System_Boolean_System_Byte_">ExtObject.ToByte(Object, Boolean, Byte)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToChar_System_Object_">ExtObject.ToChar(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToChar_System_Object_System_Boolean_System_Char_">ExtObject.ToChar(Object, Boolean, Char)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDateTime_System_Object_">ExtObject.ToDateTime(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDateTime_System_Object_System_Boolean_System_DateTime_">ExtObject.ToDateTime(Object, Boolean, DateTime)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDecimal_System_Object_">ExtObject.ToDecimal(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDecimal_System_Object_System_Boolean_System_Int32_">ExtObject.ToDecimal(Object, Boolean, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDouble_System_Object_">ExtObject.ToDouble(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToDouble_System_Object_System_Boolean_System_Double_">ExtObject.ToDouble(Object, Boolean, Double)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToEnum__1_System_Object_">ExtObject.ToEnum&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToEnum__1_System_Object_System_Boolean___0_">ExtObject.ToEnum&lt;T&gt;(Object, Boolean, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToFloat_System_Object_">ExtObject.ToFloat(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToFloat_System_Object_System_Boolean_">ExtObject.ToFloat(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToInt_System_Object_">ExtObject.ToInt(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToInt_System_Object_System_Boolean_System_Int32_">ExtObject.ToInt(Object, Boolean, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToLong_System_Object_">ExtObject.ToLong(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToLong_System_Object_System_Boolean_">ExtObject.ToLong(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToSByte_System_Object_">ExtObject.ToSByte(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToSByte_System_Object_System_Boolean_">ExtObject.ToSByte(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToShort_System_Object_">ExtObject.ToShort(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToShort_System_Object_System_Boolean_">ExtObject.ToShort(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToUInt_System_Object_">ExtObject.ToUInt(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToUInt_System_Object_System_Boolean_System_UInt32_">ExtObject.ToUInt(Object, Boolean, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToULong_System_Object_">ExtObject.ToULong(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToULong_System_Object_System_Boolean_">ExtObject.ToULong(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToUShort_System_Object_">ExtObject.ToUShort(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetHelper_Contracts.Extension.ExtObject.html#DotNetHelper_Contracts_Extension_ExtObject_ToUShort_System_Object_System_Boolean_">ExtObject.ToUShort(Object, Boolean)</a>
   </div>
 </article>
           </div>
@@ -443,6 +580,12 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/new/master/apiSpec/new?filename=DotNetHelper_Contracts_CustomException_SerializableException.md&amp;value=---%0Auid%3A%20DotNetHelper_Contracts.CustomException.SerializableException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Contracts/blob/master/src/DotNetHelper-Contracts/CustomException/SerializableException.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -460,8 +603,8 @@ public class SerializableException : Exception, ISerializable, _Exception</code>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            Copyright � 2019 Joseph McNeal Jr
             
-            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

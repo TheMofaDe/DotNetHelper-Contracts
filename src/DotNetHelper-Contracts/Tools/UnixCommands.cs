@@ -200,7 +200,7 @@ namespace DotNetHelper_Contracts.Tools
 
 
         /// <summary>
-        /// Set on Windows prints a list of all environment variables. For individual environment variables, set <variable> is the same as echo $<variable> on Unix.
+        /// Set on Windows prints a list of all environment variables. For individual environment variables, set "variable" is the same as echo $"variable" on Unix.
         /// </summary>
         /// <returns></returns>
         public static string GetEnvironmentVariables()

@@ -1,0 +1,2846 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  id: ScriptType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  children:
+  - DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  - DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  langs:
+  - csharp
+  - vb
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: ScriptType
+    path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+    startLine: 13
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: public enum ScriptType
+    content.vb: Public Enum ScriptType
+  extensionMethods:
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.String,System.Exception)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Boolean,System.Byte)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Boolean,System.Char)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Boolean,System.DateTime)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Boolean,System.Int32)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Boolean,System.Double)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Boolean,{T})
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Boolean)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Boolean,System.Int32)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Boolean)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Boolean)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Boolean)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Boolean,System.UInt32)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Boolean)
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Boolean)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  commentId: F:DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  id: Parameterized
+  parent: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: Parameterized
+  nameWithType: ScriptType.Parameterized
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType.Parameterized
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: Parameterized
+    path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: Parameterized = 0
+    return:
+      type: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  commentId: F:DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  id: HumanReadable
+  parent: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: ScriptType.HumanReadable
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType.HumanReadable
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: HumanReadable
+    path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
+    startLine: 16
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Enum.DataSource
+  syntax:
+    content: HumanReadable = 1
+    return:
+      type: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Contracts.Enum.DataSource
+  commentId: N:DotNetHelper_Contracts.Enum.DataSource
+  name: DotNetHelper_Contracts.Enum.DataSource
+  nameWithType: DotNetHelper_Contracts.Enum.DataSource
+  fullName: DotNetHelper_Contracts.Enum.DataSource
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.String,System.Exception)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  name: IsNullThrow(String, Exception)
+  nameWithType: ExtObject.IsNullThrow(String, Exception)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.String, System.Exception)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.String,System.Exception)
+    name: IsNullThrow
+    nameWithType: ExtObject.IsNullThrow
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.String,System.Exception)
+    name: IsNullThrow
+    nameWithType: ExtObject.IsNullThrow
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  name: ToBoolEx()
+  nameWithType: ExtObject.ToBoolEx()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+    name: ToBoolEx
+    nameWithType: ExtObject.ToBoolEx
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+    name: ToBoolEx
+    nameWithType: ExtObject.ToBoolEx
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  name: ToByte()
+  nameWithType: ExtObject.ToByte()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Boolean,System.Byte)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  name: ToByte(Boolean, Byte)
+  nameWithType: ExtObject.ToByte(Boolean, Byte)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Boolean, System.Byte)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Boolean,System.Byte)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Boolean,System.Byte)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  name: ToChar()
+  nameWithType: ExtObject.ToChar()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Boolean,System.Char)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  name: ToChar(Boolean, Char)
+  nameWithType: ExtObject.ToChar(Boolean, Char)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Boolean, System.Char)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Boolean,System.Char)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Boolean,System.Char)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  name: ToDateTime()
+  nameWithType: ExtObject.ToDateTime()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Boolean,System.DateTime)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  name: ToDateTime(Boolean, DateTime)
+  nameWithType: ExtObject.ToDateTime(Boolean, DateTime)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Boolean, System.DateTime)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Boolean,System.DateTime)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Boolean,System.DateTime)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  name: ToDecimal()
+  nameWithType: ExtObject.ToDecimal()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  name: ToDecimal(Boolean, Int32)
+  nameWithType: ExtObject.ToDecimal(Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Boolean, System.Int32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Boolean,System.Int32)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Boolean,System.Int32)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  name: ToDouble()
+  nameWithType: ExtObject.ToDouble()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Boolean,System.Double)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  name: ToDouble(Boolean, Double)
+  nameWithType: ExtObject.ToDouble(Boolean, Double)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Boolean, System.Double)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Boolean,System.Double)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Boolean,System.Double)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  name: ToEnum<T>()
+  nameWithType: ExtObject.ToEnum<T>()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>()
+  nameWithType.vb: ExtObject.ToEnum(Of T)()
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)()
+  name.vb: ToEnum(Of T)()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1
+    name: ToEnum<T>
+    nameWithType: ExtObject.ToEnum<T>
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1
+    name: ToEnum(Of T)
+    nameWithType: ExtObject.ToEnum(Of T)
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Boolean,{T})
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  name: ToEnum<T>(Boolean, T)
+  nameWithType: ExtObject.ToEnum<T>(Boolean, T)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>(System.Boolean, T)
+  nameWithType.vb: ExtObject.ToEnum(Of T)(Boolean, T)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)(System.Boolean, T)
+  name.vb: ToEnum(Of T)(Boolean, T)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Boolean,``0)
+    name: ToEnum<T>
+    nameWithType: ExtObject.ToEnum<T>
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Boolean,``0)
+    name: ToEnum(Of T)
+    nameWithType: ExtObject.ToEnum(Of T)
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  name: ToFloat()
+  nameWithType: ExtObject.ToFloat()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  name: ToFloat(Boolean)
+  nameWithType: ExtObject.ToFloat(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Boolean)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Boolean)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  name: ToInt()
+  nameWithType: ExtObject.ToInt()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  name: ToInt(Boolean, Int32)
+  nameWithType: ExtObject.ToInt(Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Boolean, System.Int32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Boolean,System.Int32)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Boolean,System.Int32)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  name: ToLong()
+  nameWithType: ExtObject.ToLong()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  name: ToLong(Boolean)
+  nameWithType: ExtObject.ToLong(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Boolean)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Boolean)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  name: ToSByte()
+  nameWithType: ExtObject.ToSByte()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  name: ToSByte(Boolean)
+  nameWithType: ExtObject.ToSByte(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Boolean)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Boolean)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  name: ToShort()
+  nameWithType: ExtObject.ToShort()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  name: ToShort(Boolean)
+  nameWithType: ExtObject.ToShort(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Boolean)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Boolean)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  name: ToUInt()
+  nameWithType: ExtObject.ToUInt()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Boolean,System.UInt32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  name: ToUInt(Boolean, UInt32)
+  nameWithType: ExtObject.ToUInt(Boolean, UInt32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Boolean, System.UInt32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Boolean,System.UInt32)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Boolean,System.UInt32)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  name: ToULong()
+  nameWithType: ExtObject.ToULong()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  name: ToULong(Boolean)
+  nameWithType: ExtObject.ToULong(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Boolean)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Boolean)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  name: ToUShort()
+  nameWithType: ExtObject.ToUShort()
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort()
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  parent: DotNetHelper_Contracts.Extension.ExtObject
+  definition: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  name: ToUShort(Boolean)
+  nameWithType: ExtObject.ToUShort(Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Boolean)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Boolean)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+  isExternal: true
+  name: IsNullThrow(Object, String, Exception)
+  nameWithType: ExtObject.IsNullThrow(Object, String, Exception)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object, System.String, System.Exception)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+    name: IsNullThrow
+    nameWithType: ExtObject.IsNullThrow
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow(System.Object,System.String,System.Exception)
+    name: IsNullThrow
+    nameWithType: ExtObject.IsNullThrow
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.IsNullThrow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject
+  commentId: T:DotNetHelper_Contracts.Extension.ExtObject
+  parent: DotNetHelper_Contracts.Extension
+  name: ExtObject
+  nameWithType: ExtObject
+  fullName: DotNetHelper_Contracts.Extension.ExtObject
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  isExternal: true
+  name: ToBoolEx(Object)
+  nameWithType: ExtObject.ToBoolEx(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+    name: ToBoolEx
+    nameWithType: ExtObject.ToBoolEx
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx(System.Object)
+    name: ToBoolEx
+    nameWithType: ExtObject.ToBoolEx
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToBoolEx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  isExternal: true
+  name: ToByte(Object)
+  nameWithType: ExtObject.ToByte(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+  isExternal: true
+  name: ToByte(Object, Boolean, Byte)
+  nameWithType: ExtObject.ToByte(Object, Boolean, Byte)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object, System.Boolean, System.Byte)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToByte(System.Object,System.Boolean,System.Byte)
+    name: ToByte
+    nameWithType: ExtObject.ToByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  isExternal: true
+  name: ToChar(Object)
+  nameWithType: ExtObject.ToChar(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+  isExternal: true
+  name: ToChar(Object, Boolean, Char)
+  nameWithType: ExtObject.ToChar(Object, Boolean, Char)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object, System.Boolean, System.Char)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToChar(System.Object,System.Boolean,System.Char)
+    name: ToChar
+    nameWithType: ExtObject.ToChar
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToChar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  isExternal: true
+  name: ToDateTime(Object)
+  nameWithType: ExtObject.ToDateTime(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+  isExternal: true
+  name: ToDateTime(Object, Boolean, DateTime)
+  nameWithType: ExtObject.ToDateTime(Object, Boolean, DateTime)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object, System.Boolean, System.DateTime)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime(System.Object,System.Boolean,System.DateTime)
+    name: ToDateTime
+    nameWithType: ExtObject.ToDateTime
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  isExternal: true
+  name: ToDecimal(Object)
+  nameWithType: ExtObject.ToDecimal(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+  isExternal: true
+  name: ToDecimal(Object, Boolean, Int32)
+  nameWithType: ExtObject.ToDecimal(Object, Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object, System.Boolean, System.Int32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal(System.Object,System.Boolean,System.Int32)
+    name: ToDecimal
+    nameWithType: ExtObject.ToDecimal
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDecimal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  isExternal: true
+  name: ToDouble(Object)
+  nameWithType: ExtObject.ToDouble(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+  isExternal: true
+  name: ToDouble(Object, Boolean, Double)
+  nameWithType: ExtObject.ToDouble(Object, Boolean, Double)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object, System.Boolean, System.Double)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToDouble(System.Object,System.Boolean,System.Double)
+    name: ToDouble
+    nameWithType: ExtObject.ToDouble
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToDouble
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+  isExternal: true
+  name: ToEnum<T>(Object)
+  nameWithType: ExtObject.ToEnum<T>(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>(System.Object)
+  nameWithType.vb: ExtObject.ToEnum(Of T)(Object)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)(System.Object)
+  name.vb: ToEnum(Of T)(Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+    name: ToEnum<T>
+    nameWithType: ExtObject.ToEnum<T>
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object)
+    name: ToEnum(Of T)
+    nameWithType: ExtObject.ToEnum(Of T)
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+  isExternal: true
+  name: ToEnum<T>(Object, Boolean, T)
+  nameWithType: ExtObject.ToEnum<T>(Object, Boolean, T)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>(System.Object, System.Boolean, T)
+  nameWithType.vb: ExtObject.ToEnum(Of T)(Object, Boolean, T)
+  fullName.vb: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)(System.Object, System.Boolean, T)
+  name.vb: ToEnum(Of T)(Object, Boolean, T)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+    name: ToEnum<T>
+    nameWithType: ExtObject.ToEnum<T>
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToEnum``1(System.Object,System.Boolean,``0)
+    name: ToEnum(Of T)
+    nameWithType: ExtObject.ToEnum(Of T)
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToEnum(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  isExternal: true
+  name: ToFloat(Object)
+  nameWithType: ExtObject.ToFloat(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+  isExternal: true
+  name: ToFloat(Object, Boolean)
+  nameWithType: ExtObject.ToFloat(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToFloat(System.Object,System.Boolean)
+    name: ToFloat
+    nameWithType: ExtObject.ToFloat
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToFloat
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  isExternal: true
+  name: ToInt(Object)
+  nameWithType: ExtObject.ToInt(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+  isExternal: true
+  name: ToInt(Object, Boolean, Int32)
+  nameWithType: ExtObject.ToInt(Object, Boolean, Int32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object, System.Boolean, System.Int32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToInt(System.Object,System.Boolean,System.Int32)
+    name: ToInt
+    nameWithType: ExtObject.ToInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  isExternal: true
+  name: ToLong(Object)
+  nameWithType: ExtObject.ToLong(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+  isExternal: true
+  name: ToLong(Object, Boolean)
+  nameWithType: ExtObject.ToLong(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToLong(System.Object,System.Boolean)
+    name: ToLong
+    nameWithType: ExtObject.ToLong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToLong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  isExternal: true
+  name: ToSByte(Object)
+  nameWithType: ExtObject.ToSByte(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+  isExternal: true
+  name: ToSByte(Object, Boolean)
+  nameWithType: ExtObject.ToSByte(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToSByte(System.Object,System.Boolean)
+    name: ToSByte
+    nameWithType: ExtObject.ToSByte
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToSByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  isExternal: true
+  name: ToShort(Object)
+  nameWithType: ExtObject.ToShort(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+  isExternal: true
+  name: ToShort(Object, Boolean)
+  nameWithType: ExtObject.ToShort(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToShort(System.Object,System.Boolean)
+    name: ToShort
+    nameWithType: ExtObject.ToShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  isExternal: true
+  name: ToUInt(Object)
+  nameWithType: ExtObject.ToUInt(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+  isExternal: true
+  name: ToUInt(Object, Boolean, UInt32)
+  nameWithType: ExtObject.ToUInt(Object, Boolean, UInt32)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object, System.Boolean, System.UInt32)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUInt(System.Object,System.Boolean,System.UInt32)
+    name: ToUInt
+    nameWithType: ExtObject.ToUInt
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUInt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  isExternal: true
+  name: ToULong(Object)
+  nameWithType: ExtObject.ToULong(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+  isExternal: true
+  name: ToULong(Object, Boolean)
+  nameWithType: ExtObject.ToULong(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToULong(System.Object,System.Boolean)
+    name: ToULong
+    nameWithType: ExtObject.ToULong
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToULong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  isExternal: true
+  name: ToUShort(Object)
+  nameWithType: ExtObject.ToUShort(Object)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  commentId: M:DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+  isExternal: true
+  name: ToUShort(Object, Boolean)
+  nameWithType: ExtObject.ToUShort(Object, Boolean)
+  fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Contracts.Extension.ExtObject.ToUShort(System.Object,System.Boolean)
+    name: ToUShort
+    nameWithType: ExtObject.ToUShort
+    fullName: DotNetHelper_Contracts.Extension.ExtObject.ToUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Contracts.Extension
+  commentId: N:DotNetHelper_Contracts.Extension
+  name: DotNetHelper_Contracts.Extension
+  nameWithType: DotNetHelper_Contracts.Extension
+  fullName: DotNetHelper_Contracts.Extension
+- uid: DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.ScriptType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.ScriptType

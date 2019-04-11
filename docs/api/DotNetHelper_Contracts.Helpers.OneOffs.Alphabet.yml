@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet
+  commentId: T:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet
+  id: Alphabet
+  parent: DotNetHelper_Contracts.Helpers.OneOffs
+  children:
+  - DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  - DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  langs:
+  - csharp
+  - vb
+  name: Alphabet
+  nameWithType: Alphabet
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: Alphabet
+    path: ../src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: public static class Alphabet
+    content.vb: Public Module Alphabet
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  commentId: M:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  id: GetNextLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  parent: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet
+  langs:
+  - csharp
+  - vb
+  name: GetNextLetter(Char, Alphabet.CaseType)
+  nameWithType: Alphabet.GetNextLetter(Char, Alphabet.CaseType)
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter(System.Char, DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: GetNextLetter
+    path: ../src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+    startLine: 10
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: public static char GetNextLetter(char letter, Alphabet.CaseType type = Alphabet.CaseType.Upper)
+    parameters:
+    - id: letter
+      type: System.Char
+    - id: type
+      type: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+    return:
+      type: System.Char
+    content.vb: Public Shared Function GetNextLetter(letter As Char, type As Alphabet.CaseType = Alphabet.CaseType.Upper) As Char
+  overload: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  commentId: M:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  id: GetPreviousLetter(System.Char,DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  parent: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousLetter(Char, Alphabet.CaseType)
+  nameWithType: Alphabet.GetPreviousLetter(Char, Alphabet.CaseType)
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter(System.Char, DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+    id: GetPreviousLetter
+    path: ../src/DotNetHelper-Contracts/Helpers/OneOffs/Alphabet.cs
+    startLine: 28
+  assemblies:
+  - DotNetHelper-Contracts
+  namespace: DotNetHelper_Contracts.Helpers.OneOffs
+  syntax:
+    content: public static char GetPreviousLetter(char letter, Alphabet.CaseType type = Alphabet.CaseType.Upper)
+    parameters:
+    - id: letter
+      type: System.Char
+    - id: type
+      type: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+    return:
+      type: System.Char
+    content.vb: Public Shared Function GetPreviousLetter(letter As Char, type As Alphabet.CaseType = Alphabet.CaseType.Upper) As Char
+  overload: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Contracts.Helpers.OneOffs
+  commentId: N:DotNetHelper_Contracts.Helpers.OneOffs
+  name: DotNetHelper_Contracts.Helpers.OneOffs
+  nameWithType: DotNetHelper_Contracts.Helpers.OneOffs
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter
+  name: GetNextLetter
+  nameWithType: Alphabet.GetNextLetter
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetNextLetter
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  commentId: T:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+  parent: DotNetHelper_Contracts.Helpers.OneOffs
+  name: Alphabet.CaseType
+  nameWithType: Alphabet.CaseType
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.CaseType
+- uid: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter*
+  commentId: Overload:DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter
+  name: GetPreviousLetter
+  nameWithType: Alphabet.GetPreviousLetter
+  fullName: DotNetHelper_Contracts.Helpers.OneOffs.Alphabet.GetPreviousLetter

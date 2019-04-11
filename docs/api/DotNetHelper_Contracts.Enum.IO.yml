@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum.IO
+  commentId: N:DotNetHelper_Contracts.Enum.IO
+  id: DotNetHelper_Contracts.Enum.IO
+  children:
+  - DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum
+  - DotNetHelper_Contracts.Enum.IO.FileOption
+  - DotNetHelper_Contracts.Enum.IO.FileType
+  - DotNetHelper_Contracts.Enum.IO.IOType
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Enum.IO
+  nameWithType: DotNetHelper_Contracts.Enum.IO
+  fullName: DotNetHelper_Contracts.Enum.IO
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Contracts
+references:
+- uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  commentId: T:DotNetHelper_Contracts.Enum.IO.FileOption
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: FileOption
+  nameWithType: FileOption
+  fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+- uid: DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum
+  commentId: T:DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: AddOrRemoveEnum
+  nameWithType: AddOrRemoveEnum
+  fullName: DotNetHelper_Contracts.Enum.IO.AddOrRemoveEnum
+- uid: DotNetHelper_Contracts.Enum.IO.IOType
+  commentId: T:DotNetHelper_Contracts.Enum.IO.IOType
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: IOType
+  nameWithType: IOType
+  fullName: DotNetHelper_Contracts.Enum.IO.IOType
+- uid: DotNetHelper_Contracts.Enum.IO.FileType
+  commentId: T:DotNetHelper_Contracts.Enum.IO.FileType
+  parent: DotNetHelper_Contracts.Enum.IO
+  name: FileType
+  nameWithType: FileType
+  fullName: DotNetHelper_Contracts.Enum.IO.FileType
+- uid: DotNetHelper_Contracts.Enum.IO
+  commentId: N:DotNetHelper_Contracts.Enum.IO
+  name: DotNetHelper_Contracts.Enum.IO
+  nameWithType: DotNetHelper_Contracts.Enum.IO
+  fullName: DotNetHelper_Contracts.Enum.IO

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Comparer
+  commentId: N:DotNetHelper_Contracts.Comparer
+  id: DotNetHelper_Contracts.Comparer
+  children:
+  - DotNetHelper_Contracts.Comparer.EqualityComparerString
+  - DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Comparer
+  nameWithType: DotNetHelper_Contracts.Comparer
+  fullName: DotNetHelper_Contracts.Comparer
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Contracts
+references:
+- uid: DotNetHelper_Contracts.Comparer.EqualityComparerString
+  commentId: T:DotNetHelper_Contracts.Comparer.EqualityComparerString
+  name: EqualityComparerString
+  nameWithType: EqualityComparerString
+  fullName: DotNetHelper_Contracts.Comparer.EqualityComparerString
+- uid: DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer
+  commentId: T:DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer
+  name: ExceptionEqualityComparer
+  nameWithType: ExceptionEqualityComparer
+  fullName: DotNetHelper_Contracts.Comparer.ExceptionEqualityComparer

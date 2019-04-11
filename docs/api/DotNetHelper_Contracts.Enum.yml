@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  id: DotNetHelper_Contracts.Enum
+  children:
+  - DotNetHelper_Contracts.Enum.DataType
+  - DotNetHelper_Contracts.Enum.FileRepo
+  - DotNetHelper_Contracts.Enum.LogSeverity
+  - DotNetHelper_Contracts.Enum.MyEnvironment
+  - DotNetHelper_Contracts.Enum.SerializableType
+  - DotNetHelper_Contracts.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Contracts
+references:
+- uid: DotNetHelper_Contracts.Enum.SQLType
+  commentId: T:DotNetHelper_Contracts.Enum.SQLType
+  parent: DotNetHelper_Contracts.Enum
+  name: SQLType
+  nameWithType: SQLType
+  fullName: DotNetHelper_Contracts.Enum.SQLType
+- uid: DotNetHelper_Contracts.Enum.DataType
+  commentId: T:DotNetHelper_Contracts.Enum.DataType
+  parent: DotNetHelper_Contracts.Enum
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Contracts.Enum.DataType
+- uid: DotNetHelper_Contracts.Enum.FileRepo
+  commentId: T:DotNetHelper_Contracts.Enum.FileRepo
+  parent: DotNetHelper_Contracts.Enum
+  name: FileRepo
+  nameWithType: FileRepo
+  fullName: DotNetHelper_Contracts.Enum.FileRepo
+- uid: DotNetHelper_Contracts.Enum.LogSeverity
+  commentId: T:DotNetHelper_Contracts.Enum.LogSeverity
+  parent: DotNetHelper_Contracts.Enum
+  name: LogSeverity
+  nameWithType: LogSeverity
+  fullName: DotNetHelper_Contracts.Enum.LogSeverity
+- uid: DotNetHelper_Contracts.Enum.MyEnvironment
+  commentId: T:DotNetHelper_Contracts.Enum.MyEnvironment
+  parent: DotNetHelper_Contracts.Enum
+  name: MyEnvironment
+  nameWithType: MyEnvironment
+  fullName: DotNetHelper_Contracts.Enum.MyEnvironment
+- uid: DotNetHelper_Contracts.Enum.SerializableType
+  commentId: T:DotNetHelper_Contracts.Enum.SerializableType
+  parent: DotNetHelper_Contracts.Enum
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Contracts.Enum.SerializableType
+- uid: DotNetHelper_Contracts.Enum
+  commentId: N:DotNetHelper_Contracts.Enum
+  name: DotNetHelper_Contracts.Enum
+  nameWithType: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Contracts.Enum
