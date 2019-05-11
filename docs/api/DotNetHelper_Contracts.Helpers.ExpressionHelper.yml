@@ -18,7 +18,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExpressionHelper
     path: ../src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
     startLine: 7
@@ -61,7 +61,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetPropertyNamesFromExpressions
     path: ../src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
     startLine: 10
@@ -107,7 +107,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetPropertyNamesFromExpression
     path: ../src/DotNetHelper-Contracts/Helpers/ExpressionHelper.cs
     startLine: 22

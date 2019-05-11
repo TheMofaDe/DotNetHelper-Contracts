@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/BytesHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: BytesHelper
     path: ../src/DotNetHelper-Contracts/Helpers/BytesHelper.cs
     startLine: 4
@@ -59,7 +59,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/BytesHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DeepEqual
     path: ../src/DotNetHelper-Contracts/Helpers/BytesHelper.cs
     startLine: 7

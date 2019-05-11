@@ -16,7 +16,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDateTime.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtDateTime
     path: ../src/DotNetHelper-Contracts/Extension/ExtDateTime.cs
     startLine: 4

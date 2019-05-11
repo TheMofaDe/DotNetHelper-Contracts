@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: PredicateBuilder
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 5
@@ -100,7 +100,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: New
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 7
@@ -136,7 +136,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Predicate
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 12
@@ -173,7 +173,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Or
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 14
@@ -211,7 +211,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: And
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 28
@@ -249,7 +249,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Not
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 44
@@ -289,7 +289,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Or
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 50
@@ -329,7 +329,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: And
     path: ../src/DotNetHelper-Contracts/Helpers/PredicateBuilder.cs
     startLine: 55

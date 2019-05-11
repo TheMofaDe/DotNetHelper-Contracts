@@ -26,7 +26,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtDictionary
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 10
@@ -69,7 +69,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddOrUpdate
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 25
@@ -128,7 +128,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetValueOrDefault
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 39
@@ -179,7 +179,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddOrUpdateHighestValue
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 61
@@ -227,7 +227,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddOrUpdateLowestValue
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 74
@@ -275,7 +275,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Clone
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 89
@@ -322,7 +322,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDataReader
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 95
@@ -366,7 +366,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MapToDataTable
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 100
@@ -412,7 +412,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetKey
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 116
@@ -461,7 +461,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetValue
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 133
@@ -510,7 +510,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddIfNotExist
     path: ../src/DotNetHelper-Contracts/Extension/ExtDictonary.cs
     startLine: 153

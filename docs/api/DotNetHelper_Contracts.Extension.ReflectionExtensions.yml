@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ReflectionExtensions
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 11
@@ -67,7 +67,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MemberType
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 18
@@ -112,7 +112,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetMemberExpression
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 41
@@ -160,7 +160,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsAnonymous
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 63
@@ -204,7 +204,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: HasParameterlessConstructor
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 85
@@ -248,7 +248,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetConstructorWithMostParameters
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 94
@@ -292,7 +292,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtReflection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsUserDefinedStruct
     path: ../src/DotNetHelper-Contracts/Extension/ExtReflection.cs
     startLine: 104

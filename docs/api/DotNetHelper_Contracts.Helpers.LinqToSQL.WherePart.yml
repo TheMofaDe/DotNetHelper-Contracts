@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: WherePart
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 8
@@ -95,7 +95,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Sql
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 10
@@ -130,7 +130,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Parameters
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 11
@@ -165,7 +165,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsSql
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 13
@@ -202,7 +202,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsParameter
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 22
@@ -241,7 +241,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsCollection
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 31
@@ -283,7 +283,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Concat
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 53
@@ -322,7 +322,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Concat
     path: ../src/DotNetHelper-Contracts/Helpers/LinqToSQL/WherePart.cs
     startLine: 62

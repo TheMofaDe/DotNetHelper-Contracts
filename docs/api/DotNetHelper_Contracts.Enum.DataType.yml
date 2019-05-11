@@ -34,7 +34,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DataType
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 28
@@ -98,7 +98,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Custom
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 33
@@ -132,7 +132,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DateTime
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 38
@@ -166,7 +166,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Date
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 43
@@ -200,7 +200,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Time
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 48
@@ -234,7 +234,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Duration
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 53
@@ -268,7 +268,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: PhoneNumber
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 58
@@ -302,7 +302,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Currency
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 63
@@ -336,7 +336,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Text
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 68
@@ -370,7 +370,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Html
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 73
@@ -404,7 +404,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MultilineText
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 78
@@ -438,7 +438,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: EmailAddress
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 83
@@ -472,7 +472,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Password
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 88
@@ -506,7 +506,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Url
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 93
@@ -540,7 +540,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ImageUrl
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 98
@@ -574,7 +574,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CreditCard
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 103
@@ -608,7 +608,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: PostalCode
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 108
@@ -642,7 +642,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Upload
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 113
@@ -676,7 +676,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Unknown
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 118

@@ -21,7 +21,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SQLType
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 5
@@ -83,7 +83,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SQLServer
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 7
@@ -115,7 +115,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MYSql
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 8
@@ -147,7 +147,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SQLLite
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 9
@@ -179,7 +179,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Oledb
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 10
@@ -211,7 +211,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataTypes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Oracle
     path: ../src/DotNetHelper-Contracts/Enum/DataTypes.cs
     startLine: 11

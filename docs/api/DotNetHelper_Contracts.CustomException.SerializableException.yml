@@ -25,7 +25,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SerializableException
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 9
@@ -125,7 +125,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 15
@@ -155,7 +155,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 19
@@ -188,7 +188,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 24
@@ -223,7 +223,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 29
@@ -263,7 +263,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 36
@@ -305,7 +305,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 43
@@ -356,7 +356,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ResourceName
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 53
@@ -391,7 +391,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ValidationErrors
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 55
@@ -426,7 +426,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/SerializableException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetObjectData
     path: ../src/DotNetHelper-Contracts/CustomException/SerializableException.cs
     startLine: 57

@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DateTimeHelper
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 5
@@ -61,7 +61,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CalculateMonthEnd
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 24
@@ -99,7 +99,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: TimeStamp
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 77
@@ -143,7 +143,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: FromTimeStamp
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 89

@@ -25,10 +25,7 @@
         /// Increments the file extension +1
         /// </summary>
         IncrementFileExtensionIfExist = 5,
-       
-  
-
-}
+    }
 
 /// <summary>
 /// Enum AddOrRemoveEnum

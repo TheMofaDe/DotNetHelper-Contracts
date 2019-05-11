@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtMemberInfo
     path: ../src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
     startLine: 5
@@ -62,7 +62,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetMemberType
     path: ../src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
     startLine: 7
@@ -103,7 +103,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetValue
     path: ../src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
     startLine: 35
@@ -146,7 +146,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetValue
     path: ../src/DotNetHelper-Contracts/Extension/ExtMemberInfo.cs
     startLine: 63

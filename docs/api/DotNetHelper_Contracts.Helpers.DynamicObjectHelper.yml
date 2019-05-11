@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DynamicObjectHelper
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 12
@@ -65,7 +65,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddProperty
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 15
@@ -104,7 +104,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: RemoveProperty
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 25
@@ -141,7 +141,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddPropertyChangedHandler
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 34
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDataReader
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 39
@@ -215,7 +215,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDataTable
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 46
@@ -252,7 +252,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetProperties
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 57
@@ -293,7 +293,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetPropertyValue
     path: ../src/DotNetHelper-Contracts/Helpers/DynamicObject.cs
     startLine: 64

@@ -25,7 +25,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AuthFacebook
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 5
@@ -97,7 +97,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Type
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 8
@@ -132,7 +132,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ClientId
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 11
@@ -167,7 +167,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ClientSecret
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 12
@@ -202,7 +202,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Scope
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 14
@@ -237,7 +237,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AuthorizeUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 15
@@ -272,7 +272,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AccessTokenUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 16
@@ -307,7 +307,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: UserInfoUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 17
@@ -342,7 +342,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: RedirectUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 18
@@ -377,7 +377,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: KeystoreService
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthFacebook.cs
     startLine: 20

@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStack.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtStack
     path: ../src/DotNetHelper-Contracts/Extension/ExtStack.cs
     startLine: 4
@@ -60,7 +60,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStack.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Pop
     path: ../src/DotNetHelper-Contracts/Extension/ExtStack.cs
     startLine: 7

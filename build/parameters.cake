@@ -3,21 +3,11 @@
 #load "./credentials.cake"
 #load "./version.cake"
 
+
 public class BuildParameters
 {
     public string Target { get; private set; }
     public string Configuration { get; private set; }
-
-    public string StandardFxVersion { get; private set; } = "netstandard2.0"; // TODO ::  Configurable per project. Enter the framwork your targeting
-    public string CoreFxVersion { get; private set; } = "netcoreapp2.1"; // TODO ::  Configurable per project. Enter the framwork your targeting
-    public string FullFxVersion { get; private set; } = "net452"; // TODO ::  Configurable per project. Enter the framwork your targeting
-    public string RepositoryOwner {get; private set;} = "TheMoFaDe";
-    public string RepositoryName {get; private set;} // leave null if same as project name
-
-    public string SolutionDir  {get; private set;} = "./";
-    public string ProjectDir   {get; private set;}
-    public string ProjectName  {get; private set;} = "DotNetHelper-Contracts"; // TODO ::  Configurable per project
-    public string SolutionFileName {get; private set;} = "DotNetHelper-Contracts.sln"; // TODO ::  Configurable per project
 
     public bool EnabledUnitTests { get; private set; }
     public bool EnabledPublishGem { get; private set; }
@@ -43,10 +33,7 @@ public class BuildParameters
     
 
     public BuildParameters(){
-            ProjectDir   = SolutionDir + "src/" + ProjectName + "/";  // TODO ::  Configurable per project
-            if(string.IsNullOrEmpty(RepositoryName)){
-                RepositoryName = ProjectName;
-            }
+
     }
 
 
@@ -96,12 +83,12 @@ public class BuildParameters
             IsRunningOnTravis        = buildSystem.IsRunningOnTravisCI,
             IsRunningOnAzurePipeline = buildSystem.IsRunningOnVSTS,
 
-      //      IsMainRepo    = IsOnMainRepo(context,RepositoryOwner,RepositoryName),
+      //      IsMainRepo    = IsOnMainRepo(context,MyProject.RepositoryOwner,MyProject.RepositoryName),
             IsMainBranch  = IsOnMainBranch(context),
             IsPullRequest = IsPullRequestBuild(context),
             IsTagged      = IsBuildTagged(context),
         };
-         parmeters.IsMainRepo    = IsOnMainRepo(context,parmeters.RepositoryOwner,parmeters.RepositoryName);
+         parmeters.IsMainRepo    = IsOnMainRepo(context);
         return parmeters;
     }
 
@@ -117,13 +104,13 @@ public class BuildParameters
         Packages = BuildPackages.GetPackages(
             Paths.Directories.NugetRoot,
             Version.SemVersion,
-            new [] { $"{RepositoryName}.DotNetCore",   $"{RepositoryName}.DotNetStandard", $"{RepositoryName}"},
+            new [] { $"{MyProject.RepositoryName}.DotNetCore",   $"{MyProject.RepositoryName}.DotNetStandard", $"{MyProject.RepositoryName}"},
             new [] { "" });
 
         var files = Paths.Files;
         Artifacts = BuildArtifacts.GetArtifacts(new[] {
-            files.ZipArtifactPathDesktop,
-            files.ZipArtifactPathCoreClr,
+          //  files.ZipArtifactPathDesktop,
+          //  files.ZipArtifactPathCoreClr,
             files.TestCoverageOutputFilePath,
             files.ReleaseNotesOutputFilePath,
             files.VsixOutputFilePath,
@@ -131,14 +118,11 @@ public class BuildParameters
             files.GemOutputFilePath
         });
 
-        PackagesBuildMap = new Dictionary<string, DirectoryPath>
-        {
-            [$"{RepositoryName}.DotNetCore"] = Paths.Directories.ArtifactsBinCoreFx,
-            [$"{RepositoryName}.DotNetStandard"] = Paths.Directories.ArtifactsBinStandardFx,
-            [$"{RepositoryName}"] = Paths.Directories.ArtifactsBinFullFx,
-       //     ["ApplicationName.Portable"] = Paths.Directories.ArtifactsBinFullFxPortable,
-      //      ["ApplicationName.Tool"] = Paths.Directories.ArtifactsBinCoreFx,
-        };
+        PackagesBuildMap = new Dictionary<string, DirectoryPath>();
+    foreach(var targetFramework in MyProject.TargetFrameworks){    
+            PackagesBuildMap.Add($"{MyProject.RepositoryName}.{targetFramework}", Paths.Directories.ArtifactsBin.Combine(targetFramework));
+    }        
+
 
         Credentials = BuildCredentials.GetCredentials(context);
 
@@ -174,30 +158,30 @@ public class BuildParameters
         return msBuildSettings;
     }
 
-    private static bool IsOnMainRepo(ICakeContext context,string RepositoryOwner, string RepositoryName)
+    private static bool IsOnMainRepo(ICakeContext context)
     {
         var buildSystem = context.BuildSystem();
-        string repositoryName = null;
+
         if (buildSystem.IsRunningOnAppVeyor)
         {
-            repositoryName = buildSystem.AppVeyor.Environment.Repository.Name;
+            MyProject.RepositoryName = buildSystem.AppVeyor.Environment.Repository.Name;
         }
         else if (buildSystem.IsRunningOnTravisCI)
         {
-            repositoryName = buildSystem.TravisCI.Environment.Repository.Slug;
+            MyProject.RepositoryName = buildSystem.TravisCI.Environment.Repository.Slug;
         }
         else if (buildSystem.IsRunningOnVSTS)
         {
-            repositoryName = buildSystem.TFBuild.Environment.Repository.RepoName;
+            MyProject.RepositoryName = buildSystem.TFBuild.Environment.Repository.RepoName;
         }
         else if (buildSystem.IsLocalBuild)
         {
-             repositoryName = "Local Bulid";
+             return false;
         }
 
-        context.Information("Repository Name: {0}" , repositoryName);
+        context.Information("Repository Name: {0}" , MyProject.RepositoryName);
 
-        return !string.IsNullOrWhiteSpace(repositoryName) && StringComparer.OrdinalIgnoreCase.Equals($"{RepositoryOwner}/{RepositoryName}", repositoryName); 
+        return !string.IsNullOrWhiteSpace(MyProject.RepositoryName) && StringComparer.OrdinalIgnoreCase.Equals($"{MyProject.RepositoryOwner}/{MyProject.RepositoryName}", MyProject.RepositoryName); 
     }
 
     private static bool IsOnMainBranch(ICakeContext context)
@@ -263,7 +247,10 @@ public class BuildParameters
     private static bool IsEnabled(ICakeContext context, string envVar, bool nullOrEmptyAsEnabled = true)
     {
         var value = context.EnvironmentVariable(envVar);
-
+        try{
         return string.IsNullOrWhiteSpace(value) ? nullOrEmptyAsEnabled : bool.Parse(value);
+        }catch(Exception error){
+        return false;   
+        }
     }
 }

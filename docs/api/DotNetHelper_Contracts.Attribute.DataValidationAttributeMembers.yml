@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DataValidationAttributeMembers
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 145
@@ -86,7 +86,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetMaxLengthSize
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 150
@@ -120,7 +120,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetRequireValue
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 154
@@ -152,7 +152,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetDataType
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 158
@@ -184,7 +184,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetCanContainNumbers
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 162
@@ -216,7 +216,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetCanContainLetter
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 166
@@ -248,7 +248,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SetIgnore
     path: ../src/DotNetHelper-Contracts/Attribute/CustomAttributes.cs
     startLine: 170

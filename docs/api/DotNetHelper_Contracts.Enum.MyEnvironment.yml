@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MyEnvironment
     path: ../src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
     startLine: 2
@@ -81,7 +81,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Development
     path: ../src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
     startLine: 4
@@ -113,7 +113,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Staging
     path: ../src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
     startLine: 5
@@ -145,7 +145,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Production
     path: ../src/DotNetHelper-Contracts/Enum/MyEnvironment.cs
     startLine: 6

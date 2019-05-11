@@ -24,7 +24,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: LogSeverity
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 4
@@ -86,7 +86,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Trace
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -118,7 +118,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Debug
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -150,7 +150,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Information
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -182,7 +182,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Warning
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -214,7 +214,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Error
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -246,7 +246,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Fatal
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -278,7 +278,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: None
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6
@@ -310,7 +310,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/LogSeverity.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Critical
     path: ../src/DotNetHelper-Contracts/Enum/LogSeverity.cs
     startLine: 6

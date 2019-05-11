@@ -21,7 +21,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: TimeElapse
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 40
@@ -85,7 +85,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Second
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 42
@@ -117,7 +117,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Minute
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 43
@@ -149,7 +149,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Hour
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 44
@@ -181,7 +181,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Day
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 45
@@ -213,7 +213,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Week
     path: ../src/DotNetHelper-Contracts/Helpers/DateTimeHelper.cs
     startLine: 46

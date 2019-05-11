@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: EqualityComparerString
     path: ../src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
     startLine: 5
@@ -95,7 +95,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
     startLine: 8
@@ -128,7 +128,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Equals
     path: ../src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
     startLine: 13
@@ -167,7 +167,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetHashCode
     path: ../src/DotNetHelper-Contracts/Comparer/EqualityComparerString.cs
     startLine: 18

@@ -34,7 +34,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: UnixCommands
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 7
@@ -78,7 +78,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CopyDirectory
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 15
@@ -122,7 +122,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: TailFile
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 35
@@ -166,7 +166,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetSystemInfo
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 46
@@ -203,7 +203,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetOsVersion
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 55
@@ -240,7 +240,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetTaskList
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 64
@@ -277,7 +277,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Ping
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 74
@@ -318,7 +318,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CreateDirectory
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 84
@@ -359,7 +359,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MoveFile
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 95
@@ -403,7 +403,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetAttribute
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 114
@@ -444,7 +444,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: OpenServices
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 129
@@ -481,7 +481,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: OpenControlPanel
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 138
@@ -518,7 +518,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Shutdown
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 148
@@ -559,7 +559,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Reboot
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 163
@@ -609,7 +609,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AbortShutDownOrReboot
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 183
@@ -646,7 +646,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: RemoveDirectory
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 194
@@ -687,7 +687,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetEnvironmentVariables
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 205
@@ -724,7 +724,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MapDrive
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 217
@@ -768,7 +768,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Tools/UnixCommands.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: UnMapDrive
     path: ../src/DotNetHelper-Contracts/Tools/UnixCommands.cs
     startLine: 228

@@ -20,10 +20,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: FileType
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 55
+    startLine: 52
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -82,10 +82,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Xml
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 57
+    startLine: 54
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -114,10 +114,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Json
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 58
+    startLine: 55
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -146,10 +146,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Csv
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 59
+    startLine: 56
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -178,10 +178,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AllTypes
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 60
+    startLine: 57
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO

@@ -18,7 +18,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExceptionEqualityComparer
     path: ../src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
     startLine: 5
@@ -94,7 +94,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Equals
     path: ../src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
     startLine: 7
@@ -133,7 +133,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetHashCode
     path: ../src/DotNetHelper-Contracts/Comparer/ExeceptionEqualityComparer.cs
     startLine: 23

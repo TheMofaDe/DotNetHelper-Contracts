@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtProgress.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtProgress
     path: ../src/DotNetHelper-Contracts/Extension/ExtProgress.cs
     startLine: 6
@@ -60,7 +60,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtProgress.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: OnProgressChange
     path: ../src/DotNetHelper-Contracts/Extension/ExtProgress.cs
     startLine: 8

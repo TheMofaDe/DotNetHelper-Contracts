@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtStringBuilder
     path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
     startLine: 6
@@ -62,7 +62,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CopyToStream
     path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
     startLine: 15
@@ -110,7 +110,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ReplaceFirstOccurrence
     path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
     startLine: 24
@@ -157,7 +157,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ReplaceLastOccurrence
     path: ../src/DotNetHelper-Contracts/Extension/ExtStringBuilder.cs
     startLine: 34

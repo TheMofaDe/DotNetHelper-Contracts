@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: DataBaseType
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 2
@@ -85,7 +85,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SqlServer
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 4
@@ -117,7 +117,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MySql
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 5
@@ -149,7 +149,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Sqlite
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 6
@@ -181,7 +181,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Oracle
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 7
@@ -213,7 +213,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Oledb
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 8
@@ -245,7 +245,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Access95
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 9
@@ -277,7 +277,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/DataSource/database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Odbc
     path: ../src/DotNetHelper-Contracts/Enum/DataSource/database.cs
     startLine: 10

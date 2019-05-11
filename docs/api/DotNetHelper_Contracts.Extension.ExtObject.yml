@@ -47,7 +47,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtObject
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 5
@@ -90,7 +90,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsNullThrow
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 8
@@ -133,7 +133,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToBoolEx
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 26
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToByte
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 94
@@ -219,7 +219,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToByte
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 99
@@ -264,7 +264,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToChar
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 130
@@ -305,7 +305,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToChar
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 135
@@ -350,7 +350,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDateTime
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 166
@@ -391,7 +391,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDateTime
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 171
@@ -436,7 +436,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDecimal
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 203
@@ -477,7 +477,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDecimal
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 208
@@ -522,7 +522,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDouble
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 240
@@ -563,7 +563,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToDouble
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 245
@@ -608,7 +608,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToEnum
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 279
@@ -656,7 +656,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToEnum
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 285
@@ -708,7 +708,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToFloat
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 336
@@ -749,7 +749,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToFloat
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 341
@@ -792,7 +792,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToInt
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 371
@@ -833,7 +833,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToInt
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 376
@@ -878,7 +878,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToLong
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 408
@@ -919,7 +919,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToLong
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 413
@@ -962,7 +962,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToSByte
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 443
@@ -1003,7 +1003,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToSByte
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 448
@@ -1046,7 +1046,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToShort
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 478
@@ -1087,7 +1087,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToShort
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 483
@@ -1130,7 +1130,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToUInt
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 513
@@ -1171,7 +1171,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToUInt
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 518
@@ -1216,7 +1216,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToULong
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 549
@@ -1257,7 +1257,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToULong
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 554
@@ -1300,7 +1300,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToUShort
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 584
@@ -1341,7 +1341,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToUShort
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 589
@@ -1384,7 +1384,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToComparer
     path: ../src/DotNetHelper-Contracts/Extension/ExtObject.cs
     startLine: 624

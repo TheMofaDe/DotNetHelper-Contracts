@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/WildCardHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: WildCardHelper
     path: ../src/DotNetHelper-Contracts/Helpers/WildCardHelper.cs
     startLine: 2
@@ -59,7 +59,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/WildCardHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsMatch
     path: ../src/DotNetHelper-Contracts/Helpers/WildCardHelper.cs
     startLine: 14

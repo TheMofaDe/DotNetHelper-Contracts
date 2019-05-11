@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtCollection
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 140
@@ -65,7 +65,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsNullOrEmpty
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 149
@@ -110,7 +110,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ForEach
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 154
@@ -158,7 +158,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddRange
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 163
@@ -204,7 +204,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddRange
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 168
@@ -250,7 +250,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: RemoveRange
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 177
@@ -296,7 +296,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ParamToSql
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 183

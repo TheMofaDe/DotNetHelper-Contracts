@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/MathMethods.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: MathHelper
     path: ../src/DotNetHelper-Contracts/Helpers/MathMethods.cs
     startLine: 5
@@ -61,7 +61,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/MathMethods.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetPercentage
     path: ../src/DotNetHelper-Contracts/Helpers/MathMethods.cs
     startLine: 7
@@ -102,7 +102,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/MathMethods.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: FindPercentage
     path: ../src/DotNetHelper-Contracts/Helpers/MathMethods.cs
     startLine: 36
@@ -141,7 +141,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/MathMethods.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Divide
     path: ../src/DotNetHelper-Contracts/Helpers/MathMethods.cs
     startLine: 50

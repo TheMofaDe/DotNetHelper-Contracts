@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/RandomHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: RandomHelper
     path: ../src/DotNetHelper-Contracts/Helpers/RandomHelper.cs
     startLine: 4
@@ -59,7 +59,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Helpers/RandomHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetRandomString
     path: ../src/DotNetHelper-Contracts/Helpers/RandomHelper.cs
     startLine: 6

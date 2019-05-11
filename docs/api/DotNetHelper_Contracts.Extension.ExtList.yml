@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ExtList
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 32
@@ -63,7 +63,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: IsNullOrEmpty
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 40
@@ -116,7 +116,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: GetRandomItems
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 47
@@ -164,7 +164,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: BatchIntoGroups
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 57
@@ -212,7 +212,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/ExtList.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: BatchIntoGroupsWithMax
     path: ../src/DotNetHelper-Contracts/Extension/ExtList.cs
     startLine: 73

@@ -25,7 +25,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AuthGoogle
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 5
@@ -97,7 +97,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Type
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 10
@@ -132,7 +132,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ClientId
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 12
@@ -167,7 +167,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ClientSecret
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 13
@@ -202,7 +202,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Scopes
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 15
@@ -237,7 +237,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Scope
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 16
@@ -272,7 +272,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AuthorizeUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 17
@@ -307,7 +307,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AccessTokenUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 18
@@ -342,7 +342,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: UserInfoUrl
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 19
@@ -377,7 +377,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: KeystoreService
     path: ../src/DotNetHelper-Contracts/Models/OAuth/AuthGoogle.cs
     startLine: 21

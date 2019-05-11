@@ -18,10 +18,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: AddOrRemoveEnum
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 35
+    startLine: 32
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -82,10 +82,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Add
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 40
+    startLine: 37
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO
@@ -116,10 +116,10 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: Remove
     path: ../src/DotNetHelper-Contracts/Enum/IO/FileOption.cs
-    startLine: 44
+    startLine: 41
   assemblies:
   - DotNetHelper-Contracts
   namespace: DotNetHelper_Contracts.Enum.IO

@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/TimeSpanExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: TimeSpanExtension
     path: ../src/DotNetHelper-Contracts/Extension/TimeSpanExtension.cs
     startLine: 5
@@ -60,7 +60,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Extension/TimeSpanExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: ToCancellationTokenSource
     path: ../src/DotNetHelper-Contracts/Extension/TimeSpanExtension.cs
     startLine: 7

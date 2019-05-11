@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: BadCodeException
     path: ../src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
     startLine: 9
@@ -121,7 +121,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
     startLine: 16
@@ -153,7 +153,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
     startLine: 26
@@ -189,7 +189,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
     startLine: 37
@@ -228,7 +228,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: .ctor
     path: ../src/DotNetHelper-Contracts/CustomException/BadCodeException.cs
     startLine: 50

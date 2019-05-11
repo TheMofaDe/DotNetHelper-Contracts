@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/SerializableType.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: SerializableType
     path: ../src/DotNetHelper-Contracts/Enum/SerializableType.cs
     startLine: 2
@@ -82,7 +82,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/SerializableType.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: NONE
     path: ../src/DotNetHelper-Contracts/Enum/SerializableType.cs
     startLine: 5
@@ -114,7 +114,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/SerializableType.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: XML
     path: ../src/DotNetHelper-Contracts/Enum/SerializableType.cs
     startLine: 6
@@ -146,7 +146,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/SerializableType.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: JSON
     path: ../src/DotNetHelper-Contracts/Enum/SerializableType.cs
     startLine: 7
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/DotNetHelper-Contracts/Enum/SerializableType.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Contracts
     id: CSV
     path: ../src/DotNetHelper-Contracts/Enum/SerializableType.cs
     startLine: 8
