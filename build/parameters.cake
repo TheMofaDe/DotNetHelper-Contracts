@@ -106,9 +106,8 @@ public class BuildParameters
 			IsSupportBranch = System.Text.RegularExpressions.Regex.Match(branchName, "support[/-]", regexOptions).Success,
 			IsDevelopBranch = System.Text.RegularExpressions.Regex.Match(branchName, "dev(elop)?(ment)?$", regexOptions).Success, 
         };
-   
 
-		   context.Information("Building on branch={1} IsMasterBranch={0}", parmeters.IsMasterBranch,branchName);
+		//   context.Information("Building on branch={1} IsMasterBranch={0}", parmeters.IsMasterBranch,branchName);
         return parmeters;
     }
 
@@ -259,7 +258,9 @@ public class BuildParameters
     private static string GetActiveBranchName(ICakeContext context)
     {
         var gitPath = context.Tools.Resolve(context.IsRunningOnWindows() ? "git.exe" : "git");
-        context.StartProcess(gitPath, new ProcessSettings { Arguments = "branch", RedirectStandardOutput = true }, out var redirectedOutput);
+        context.StartProcess(gitPath, new ProcessSettings {
+		Arguments = "rev-parse --abbrev-ref HEAD" //"branch"
+		, RedirectStandardOutput = true }, out var redirectedOutput);
         return redirectedOutput.FirstOrDefault().Replace("* ","");
     }
     private static bool IsEnabled(ICakeContext context, string envVar, bool nullOrEmptyAsEnabled = true)
@@ -271,6 +272,4 @@ public class BuildParameters
         return false;   
         }
     }
-
-
 }
