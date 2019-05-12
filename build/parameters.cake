@@ -31,6 +31,13 @@ public class BuildParameters
     public bool IsTagged { get; private set; }
     public bool IsPullRequest { get; private set; }
     
+	public bool IsReleaseBranch { get; private set; }
+	public bool IsFeatureBranch { get; private set; }
+	public bool IsMasterBranch { get; private set; }
+	public bool IsPullRequestBranch { get; private set; }
+	public bool IsHotFixBranch { get; private set; }
+	public bool IsSupportBranch { get; private set; }
+	public bool IsDevelopBranch { get; private set; }
 
     public BuildParameters(){
 
@@ -62,6 +69,9 @@ public class BuildParameters
         var target = context.Argument("target", "Default");
         var buildSystem = context.BuildSystem();
 
+		var branchName = GetActiveBranchName(context);
+		var regexOptions = System.Text.RegularExpressions.RegexOptions.IgnoreCase;
+
         var parmeters = new BuildParameters {
             Target        = target,
             Configuration = context.Argument("configuration", "Release"),
@@ -83,12 +93,22 @@ public class BuildParameters
             IsRunningOnTravis        = buildSystem.IsRunningOnTravisCI,
             IsRunningOnAzurePipeline = buildSystem.IsRunningOnVSTS,
 
-      //      IsMainRepo    = IsOnMainRepo(context,MyProject.RepositoryOwner,MyProject.RepositoryName),
+            IsMainRepo    = IsOnMainRepo(context),
             IsMainBranch  = IsOnMainBranch(context),
             IsPullRequest = IsPullRequestBuild(context),
             IsTagged      = IsBuildTagged(context),
+
+			IsReleaseBranch = System.Text.RegularExpressions.Regex.Match(branchName, "releases?[/-]", regexOptions).Success,
+			IsFeatureBranch = System.Text.RegularExpressions.Regex.Match(branchName, "features?[/-]", regexOptions).Success,
+			IsMasterBranch  = System.Text.RegularExpressions.Regex.Match(branchName, "(master)", regexOptions).Success,
+			IsPullRequestBranch  = System.Text.RegularExpressions.Regex.Match(branchName, @"(pull|pull\-requests|pr)[/-]", regexOptions).Success, 
+			IsHotFixBranch  = System.Text.RegularExpressions.Regex.Match(branchName, "hotfix(es)?[/-]", regexOptions).Success,
+			IsSupportBranch = System.Text.RegularExpressions.Regex.Match(branchName, "support[/-]", regexOptions).Success,
+			IsDevelopBranch = System.Text.RegularExpressions.Regex.Match(branchName, "dev(elop)?(ment)?$", regexOptions).Success, 
         };
-         parmeters.IsMainRepo    = IsOnMainRepo(context);
+   
+
+		   context.Information("Building on branch={1} IsMasterBranch={0}", parmeters.IsMasterBranch,branchName);
         return parmeters;
     }
 
@@ -109,8 +129,6 @@ public class BuildParameters
 
         var files = Paths.Files;
         Artifacts = BuildArtifacts.GetArtifacts(new[] {
-          //  files.ZipArtifactPathDesktop,
-          //  files.ZipArtifactPathCoreClr,
             files.TestCoverageOutputFilePath,
             files.ReleaseNotesOutputFilePath,
             files.VsixOutputFilePath,
@@ -249,8 +267,10 @@ public class BuildParameters
         var value = context.EnvironmentVariable(envVar);
         try{
         return string.IsNullOrWhiteSpace(value) ? nullOrEmptyAsEnabled : bool.Parse(value);
-        }catch(Exception error){
+        }catch(Exception){
         return false;   
         }
     }
+
+
 }
