@@ -178,27 +178,27 @@ public class BuildParameters
     private static bool IsOnMainRepo(ICakeContext context)
     {
         var buildSystem = context.BuildSystem();
-
+		var repositoryName = "";
         if (buildSystem.IsRunningOnAppVeyor)
         {
-            MyProject.RepositoryName = buildSystem.AppVeyor.Environment.Repository.Name;
+            repositoryName = buildSystem.AppVeyor.Environment.Repository.Name;
         }
         else if (buildSystem.IsRunningOnTravisCI)
         {
-            MyProject.RepositoryName = buildSystem.TravisCI.Environment.Repository.Slug;
+            repositoryName = buildSystem.TravisCI.Environment.Repository.Slug;
         }
         else if (buildSystem.IsRunningOnVSTS)
         {
-            MyProject.RepositoryName = buildSystem.TFBuild.Environment.Repository.RepoName;
+            repositoryName = buildSystem.TFBuild.Environment.Repository.RepoName;
         }
         else if (buildSystem.IsLocalBuild)
         {
-             return false;
+           repositoryName = "Local Build";
         }
 
-        context.Information("Repository Name: {0}" , MyProject.RepositoryName);
+        context.Information("Repository Name: {0} vs {1}" , MyProject.RepositoryName,repositoryName);
 
-        return !string.IsNullOrWhiteSpace(MyProject.RepositoryName) && StringComparer.OrdinalIgnoreCase.Equals($"{MyProject.RepositoryOwner}/{MyProject.RepositoryName}", MyProject.RepositoryName); 
+        return !string.IsNullOrWhiteSpace(MyProject.RepositoryName) && StringComparer.OrdinalIgnoreCase.Equals($"{MyProject.RepositoryOwner}/{MyProject.RepositoryName}", repositoryName); 
     }
 
     private static bool IsOnMainBranch(ICakeContext context)
