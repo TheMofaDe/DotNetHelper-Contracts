@@ -99,6 +99,7 @@ public class NugetCredentials
 
     public static NugetCredentials GetNugetCredentials(ICakeContext context)
     {
+        context.Information($"YEET {context.EnvironmentVariable("NUGET_API_URL")}");
         return new NugetCredentials(
             context.EnvironmentVariable("NUGET_API_KEY"),
             context.EnvironmentVariable("NUGET_API_URL"));
