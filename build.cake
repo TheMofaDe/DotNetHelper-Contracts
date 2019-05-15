@@ -492,7 +492,7 @@ Task("Pack")
 
 Task("Release-Notes")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnWindows,       "Release notes are generated only on Windows agents.")
-    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAzurePipeline, "Release notes are generated only on AzurePipeline.")
+    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAppVeyor, "Release notes are generated only on AzurePipeline.")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsStableRelease(),        "Release notes are generated only for stable releases.")
     .Does<BuildParameters>((parameters) =>
 {
@@ -511,7 +511,7 @@ Task("Release-Notes")
 
 Task("Publish-Coverage")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnWindows,       "Publish-Coverage works only on Windows agents.")
-    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAzurePipeline, "Publish-Coverage works only on AzurePipeline.")
+    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAppVeyor, "Publish-Coverage works only on AzurePipeline.")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsStableRelease() || parameters.IsPreRelease(), "Publish-Coverage works only for releases.")
     .IsDependentOn("Test")
     .Does<BuildParameters>((parameters) =>
@@ -639,7 +639,7 @@ Task("Publish-DockerHub")
 Task("Publish-NuGet")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.EnabledPublishNuget,      "Publish-NuGet was disabled.")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnWindows,       "Publish-NuGet works only on Windows agents.")
-    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAzurePipeline, "Publish-NuGet works only on AzurePipeline.")
+    .WithCriteria<BuildParameters>((context, parameters) => parameters.IsRunningOnAppVeyor, "Publish-NuGet works only on AzurePipeline.")
     .WithCriteria<BuildParameters>((context, parameters) => parameters.IsStableRelease() || parameters.IsPreRelease() || parameters.IsMasterBranch, "Publish-NuGet works only for releases.")
     .IsDependentOn("Pack-NuGet")
     .Does<BuildParameters>((parameters) =>
