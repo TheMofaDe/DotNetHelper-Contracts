@@ -1,10 +1,13 @@
 # DotNetHelper-Contracts
-## Description
-haven't got around to this yet
 
-## How to run
-### WINDOWS
-description here 
+A base common library that contains interfaces,enums,helper methods used across other DotNetHelper Libraries
 
-### LINUX
-description here 
+## How to use
+```csharp
+// code snippet
+```
+
+## Targeted .NET Frameworks
+    NET452
+    NETSTANDARD2.0
+

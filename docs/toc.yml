@@ -2,8 +2,6 @@
   href: index.md
 - name: Articles
   href: articles/
-  homepage: articles/docfx_getting_started.md
+  homepage: articles/gettingstarted.md
 - name: API Documentation
-  href: obj/api/
-- name: REST API
-  href: restapi/
+  href: api/$safeprojectname$.html
