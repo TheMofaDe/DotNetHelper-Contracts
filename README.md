@@ -34,3 +34,4 @@ For more information, please refer to the [Officials Docs](http://themofade.gith
 [azure-macOS]: https://dev.azure.com/Josephmcnealjr0013/DotNetHelper-IO/_apis/build/status/TheMofaDe.DotNetHelper-IO?branchName=master&jobName=macOS
 
 [appveyor-windows]: https://ci.appveyor.com/api/projects/status/s0pohwrx6clu0aif?svg=true
+ 
