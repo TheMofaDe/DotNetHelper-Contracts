@@ -36,3 +36,8 @@ jobs:
       ENABLED_PUBLISH_NUGET: $(ENABLED_PUBLISH_NUGET)
       ENABLED_PUBLISH_CHOCOLATEY: $(ENABLED_PUBLISH_CHOCOLATEY)
       ENABLED_PUBLISH_DOCKER: $(ENABLED_PUBLISH_DOCKER)
+
+  - bash: echo $(NUGET_API_URL)
+  - bash: echo $env:NUGET_API_URL
+  - bash: echo $NUGET_API_URL # variables are available in the script environment too
+
