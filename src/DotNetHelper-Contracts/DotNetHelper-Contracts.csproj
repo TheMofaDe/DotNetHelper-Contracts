@@ -3,7 +3,7 @@
   
 <PropertyGroup>
     <FileVersion>1.0.0.0</FileVersion>
-    <Description>A base common library that contains interfaces,enums,helper methods used across other DotNetHelper Libraries</Description>
+    <Description>A common library that contains interfaces,enums,helper methods used across other DotNetHelper Libraries</Description>
     <Copyright>Copyright © Joseph McNeal Jr 2017-2019</Copyright>
     <AssemblyTitle>DotNetHelper-Contracts</AssemblyTitle>
     <Version>$(FileVersion)</Version>
@@ -22,7 +22,6 @@
 
     
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RootNamespace>DotNetHelper_Contracts</RootNamespace>
     <ShouldCreateLogs>True</ShouldCreateLogs>

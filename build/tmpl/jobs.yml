@@ -36,3 +36,5 @@ jobs:
       ENABLED_PUBLISH_NUGET: $(ENABLED_PUBLISH_NUGET)
       ENABLED_PUBLISH_CHOCOLATEY: $(ENABLED_PUBLISH_CHOCOLATEY)
       ENABLED_PUBLISH_DOCKER: $(ENABLED_PUBLISH_DOCKER)
+  - powershell:  Write-Host "This works: $(NUGET_API_URL)"
+  - powershell:  Write-Host "This works: $env:NUGET_API_URL"
