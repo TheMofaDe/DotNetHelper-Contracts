@@ -29,6 +29,7 @@ items:
     content: 'public class ExceptionEqualityComparer : IEqualityComparer<Exception>'
     content.vb: >-
       Public Class ExceptionEqualityComparer
+
           Implements IEqualityComparer(Of Exception)
   inheritance:
   - System.Object

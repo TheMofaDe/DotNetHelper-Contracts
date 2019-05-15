@@ -30,6 +30,7 @@ items:
     content: 'public class EqualityComparerString : IEqualityComparer<string>'
     content.vb: >-
       Public Class EqualityComparerString
+
           Implements IEqualityComparer(Of String)
   inheritance:
   - System.Object

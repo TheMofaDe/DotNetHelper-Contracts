@@ -2,6 +2,6 @@
   href: index.md
 - name: Articles
   href: articles/
-  homepage: articles/gettingstarted.md
+  homepage: articles/sample.md
 - name: API Documentation
-  href: api/$safeprojectname$.html
+  href: api/DotNetHelper_Contracts.html

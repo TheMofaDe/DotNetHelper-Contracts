@@ -46,7 +46,9 @@ items:
     content: 'public class ProgressStream : Stream, IDisposable'
     content.vb: >-
       Public Class ProgressStream
+
           Inherits Stream
+
           Implements IDisposable
   inheritance:
   - System.Object

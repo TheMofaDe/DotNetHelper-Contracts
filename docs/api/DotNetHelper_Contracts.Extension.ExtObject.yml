@@ -618,6 +618,7 @@ items:
   syntax:
     content: >-
       public static T ToEnum<T>(this object o)
+
           where T : struct
     parameters:
     - id: o
@@ -666,6 +667,7 @@ items:
   syntax:
     content: >-
       public static T ToEnum<T>(this object o, bool throwEx, T returnValueOnError = default(T))
+
           where T : struct
     parameters:
     - id: o

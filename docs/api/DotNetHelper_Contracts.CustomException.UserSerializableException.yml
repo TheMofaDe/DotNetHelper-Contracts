@@ -39,7 +39,9 @@ items:
       <Serializable>
 
       Public NotInheritable Class UserSerializableException
+
           Inherits SerializableException
+
           Implements ISerializable, _Exception
   inheritance:
   - System.Object

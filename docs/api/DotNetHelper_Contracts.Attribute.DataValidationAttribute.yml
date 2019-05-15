@@ -46,7 +46,9 @@ items:
       <AttributeUsage(AttributeTargets.Class Or AttributeTargets.Property)>
 
       Public Class DataValidationAttribute
+
           Inherits Attribute
+
           Implements _Attribute
   seealso:
   - linkId: System.Attribute

@@ -41,7 +41,9 @@ items:
       <Serializable>
 
       Public Class SerializableException
+
           Inherits Exception
+
           Implements ISerializable, _Exception
   inheritance:
   - System.Object
